@@ -1,0 +1,7580 @@
+(function (cjs, an) {
+
+var p; // shortcut to reference prototypes
+var lib={};var ss={};var img={};
+lib.ssMetadata = [];
+
+
+(lib.AnMovieClip = function(){
+	this.actionFrames = [];
+	this.ignorePause = false;
+	this.gotoAndPlay = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndPlay.call(this,positionOrLabel);
+	}
+	this.play = function(){
+		cjs.MovieClip.prototype.play.call(this);
+	}
+	this.gotoAndStop = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndStop.call(this,positionOrLabel);
+	}
+	this.stop = function(){
+		cjs.MovieClip.prototype.stop.call(this);
+	}
+}).prototype = p = new cjs.MovieClip();
+// symbols:
+
+
+
+(lib.Bitmap1 = function() {
+	this.initialize(img.Bitmap1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,420,328);// helper functions:
+
+function mc_symbol_clone() {
+	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
+	clone.gotoAndStop(this.currentFrame);
+	clone.paused = this.paused;
+	clone.framerate = this.framerate;
+	return clone;
+}
+
+function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
+	var prototype = cjs.extend(symbol, cjs.MovieClip);
+	prototype.clone = mc_symbol_clone;
+	prototype.nominalBounds = nominalBounds;
+	prototype.frameBounds = frameBounds;
+	return prototype;
+	}
+
+
+(lib.mc_win_labels = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AhHD0QgZgUAAgmQAAgmAZgXQAZgVArAAQAqAAAYAVQAYAWAAAnQAABPhaAAQgrAAgZgVgAg/BGQgdhXgHhYQgFg9AAg+QAAgeAdgDQAdgDA2ABQA4gBAcADQANACAAAOIgRBNQgTBdgKCBQAAAPgKAHQgKAFggAEIgiACQgeAAgGgRg");
+	this.shape.setTransform(145.25,-4.25);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AAaDeQgQgBAAgNQAIiiAAhEQAAg4gVAAQgIAAgFAFQgJAJAAAwQAAB0AJBoQAAARgTABIg0ABIg8gBQgUgBgBgXQgJhjAAhmQABhhAGhSQABgdAlgDIA1gDIAnACQATACAAAPQAAAOAMAAQAJAAAcgTQAdgUAdABQAxAAAVAnQAVAoAABdQAACQgNBqQgEAVgRABIg5ABg");
+	this.shape_1.setTransform(114.5,-0.45);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AhCEmQgQgCgDgSQgIhEgBhXQAAiMAUhpQADgQAQgCIA4gBIA3ABQASACAAAOIgEB0QAABdAMBkIALBjQAAAMgOACIhJACgAhXjhQAAhFBagBQBcABAABFQAABBhcAAQhaAAAAhBg");
+	this.shape_2.setTransform(85.05,-7.6);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FFFFFF").s().p("AisBXQAAiBCegYQAjgGAAgMQAAgOgbAAQg6AAg0AtQgHAGgGAAQgGAAgEgEQgggeAAgyQAAgpAugaQAvgaBRAAQBaAAAoArQAlAnAABSIgDCbQAAArAGA7QgBATgRAEQgcAFiDAAQinAAgBiKgAgPAiQgNAMAAARQAAAPAKAKQAJAJAMAAQATAAAAgeIAAgQQAAgRgCgGQgDgFgIAAQgNAAgLALg");
+	this.shape_3.setTransform(55.45,-0.675);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#FFFFFF").s().p("AiaDtQgdgXAAgsQAAg5AuglQAIgHAAgFQAAgDgGgIQgngpAAhAQAAhEAugnQAugmBLAAIAwABQAOgBAOgSIAYgkQAGgJALAAQAOAAAeAcQAeAdAAAOQAAAHgHAFQgfAQAAARQAAADAPAcQAPAcAAAqQAAA9gpAjQgsAlhVAAQg/AAAAAXQAAANAUABQAKgBAwgOQAxgNAfAAQAsAAAaASQALAGAAATQAAAggMAoQgPArgQAAIgRgDQgagHghgBQgUAAgqAIQgpAHgfAAQg1AAgegYgAgag/QAAAgAdgBQAfABAAggQAAgfgfgBQgdABAAAfg");
+	this.shape_4.setTransform(18.525,-3.3);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FFFFFF").s().p("AAgELQgQgCAAgNQALguAAgqQAAgagXAAQgpAAAAAoQAAAhAFAsQAAALgNABIhLABIg8AAQgWgBgBgPQgEgpAAguQgBiRAphqQAyiCBogwIARgFQAGABAJAEQBhA0AwB1QAsBpAACVIgDBTQgCAXgXACIhGACgAgGhRQgbArAABCQAAAIAGgBIAagFIASgHQAKgFAAgMQAAgsgSgrQgDgGgEAAQgEAAgEAGg");
+	this.shape_5.setTransform(-22.3262,-5.05);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#FFFFFF").s().p("AiwDJIgCgqQAAgrAFgoQABgTARAAIA1APQAnALAAgQQAAgHgKgFQg3gggVgxQgYg5AAh2QAAgVAagCIA3gCIBFACQAPACAAAKQgDAjAAAbQAAAvAGAlQAGAsAMAAQAGAAABgHQALgeAAhDQAAglgGgvQAAgMAPgCIA5gCIAzACQAfAFAAAoQAADMg4BXQhJBzjFAAQgbAAgCgag");
+	this.shape_6.setTransform(-74.425,0.325);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#FFFFFF").s().p("AhLDcQgQgBgEgRQgPg+AAiMQAAiYAMguQADgNAKgEQATgFAwAAQAaAAANADQAKACABAOQABAKAGAAQAFAAAIgHQAZgWAKAAQAYAAAABdQAAA4gIAUQgFAQgLgBQgNgHgKgBQgSAAAAAtQAAAqAQBQIAPBRQAAAOgVACIg7ABg");
+	this.shape_7.setTransform(-104.825,-0.3);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#FFFFFF").s().p("AhIEIQgUgCgDgWQgDgWAAg2QAAh+AQhrQAAgSgRAAQgTAAgZAHQgZAHgGAAQgJAAAAgMIAGhFIAMhOQAEgMAOgEQA3gSBrAAQBvAAAsAVQAPAKgBAZQgCBMgKA3QgDAKgHAAQgDAAgVgIQgWgIgSAAQgOAAgDATIgDAeQAABVARBkIAQBiQAAAOgRADQgZADg6AAg");
+	this.shape_8.setTransform(-136.3469,-4.625);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#FFFFFF").s().p("AhHD0QgZgUAAgmQAAgmAZgXQAZgVArAAQAqAAAYAVQAYAWAAAnQAABPhaAAQgsAAgYgVgAg/BGQgdhXgHhYQgFg9AAg+QAAgeAegDQAcgDA2ABQA4gBAbADQAOACAAAOIgRBNQgTBdgJCBQgBAPgKAHQgKAFggAEIgiACQgfAAgFgRg");
+	this.shape_9.setTransform(154.05,-4.25);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#FFFFFF").s().p("AiCClQglg2AAhdQAAh9A7hBQA0g5BWAAQA8AAAjAeQAmAgAAA7QAABMgxAlQgdAXhBARQgkAKAAANQAAAQAeAAQBIAAA0goQAHgHAFAAQASAAAAA3QAAA/gxAmQguAlhDAAQhbAAgthBgAgThgQgNARAAAXQAAALAHAAQAHAAAKgFQAngWAAgUQAAgVgWAAQgPAAgNARg");
+	this.shape_10.setTransform(125.025,-0.175);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#FFFFFF").s().p("AAaDeQgRgBAAgNQAJiiAAhEQAAg4gUAAQgJAAgFAFQgKAJAAAwQAAB0AKBoQAAARgTABIgzABIg8gBQgVgBgCgXQgHhjAAhmQgBhhAHhSQACgdAjgDIA2gDIAnACQATACAAAPQAAAOAMAAQAIAAAcgTQAdgUAfABQAwAAAVAnQAWAoAABdQgBCQgOBqQgDAVgRABIg4ABg");
+	this.shape_11.setTransform(88.45,-0.45);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("#FFFFFF").s().p("AiACvQgyg9AAhyQAAhpAug9QAxg/BZAAQCtAAAADlQAAByg2A9QgxA3hQAAQhOAAgug3gAgdgMQAABdAdAAQAdAAAAhdQAAhcgdAAQgdAAAABcg");
+	this.shape_12.setTransform(50.375,-0.175);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.f("#FFFFFF").s().p("AivEHQgQgBgEgJQgSgkABiyQAAi/AWhdQAFgPALgBIBagDQCQAABEA6QBWBJgBC3QABB2gvAtQg1A0iVAAgAgYhxQgNAMAABkQAABsARASQAHAFAGAAQASAAANgXQAQgeABg6QgBhBgSgnQgQghgTAAQgHAAgEAFg");
+	this.shape_13.setTransform(9.45,-4.575);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.f("#FFFFFF").s().p("AhBEYQgRgBgCgSQgIhOAAhxQAAi4AWiUQACgQARgBIA9gCIA+ACQASABAAANQgOCRAABqQAAB8ARCcQAAANgNABIhJACg");
+	this.shape_14.setTransform(-36.15,-6.275);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.f("#FFFFFF").s().p("AhBEYQgSgBgBgSQgIhOAAhxQAAi4AViUQADgQARgBIA9gCIA+ACQARABAAANQgMCRAABqQAAB8AQCcQAAANgNABIhJACg");
+	this.shape_15.setTransform(-57.45,-6.275);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.f("#FFFFFF").s().p("AiCClQglg2AAhdQAAh9A7hBQA0g5BWAAQA8AAAjAeQAmAgAAA7QAABMgxAlQgdAXhBARQgkAKAAANQAAAQAeAAQBIAAA0goQAHgHAFAAQASAAAAA3QAAA/gxAmQguAlhDAAQhbAAgthBgAgThgQgNARAAAXQAAALAHAAQAHAAAKgFQAngWAAgUQAAgVgWAAQgPAAgNARg");
+	this.shape_16.setTransform(-86.025,-0.175);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.f("#FFFFFF").s().p("ABdEJQgugZgqgwQgFgFgDgBQgDABgGAFQgqAwglAZQgKAGgIAAQgIAAgMgGQiohfAAkQQAAhJALhPQACgNAPgBIBJgCIA6ACQARABAAAPQgKBdAABYQAABLATAoQAEAIAFAAQAFAAADgIQARgaAAhYQAAhTgLhmQAAgMAOgBIBHgCIBLACQAQABAAAPQgJBqAABLQAABNARAmQAFAIAEAAQAFAAAEgIQARgaAAhYQAAhRgIhoQAAgMAOgBIA3gBIBJABQAWABADAVQAJBBAAA+QAACNgvBmQgsBhhNAsQgKAGgJAAQgIAAgKgGg");
+	this.shape_17.setTransform(-133.525,-3.85);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-165.8,-36.1,331.70000000000005,72.2);
+
+
+(lib.mc_math_title = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#0099FF").s().p("AQvDaQgkg1AAhcQAAh8A6g/QAzg4BWAAQA6AAAjAeQAlAfAAA6QABBJgwAmQgeAXg/AQQgkAKAAANQAAAQAeAAQBHAAAzgoQAHgGAGAAQAQAAABA2QgBA+gvAmQguAjhDAAQhaAAgsg/gAScgnQgNAQABAXQgBAKAIgBQAGABAKgFQAogVAAgTQAAgWgWAAQgQABgNARgAv6EPQgLgBAAgLQgBgEAUhIQAShJABg8QAAgqgIgdQAAgEgEAAQgFAAgBAEQgfBgglBTQgGALgKAAQgKAAgFgLQgfg9ggh0QgDgGgFAAQgDAAgDAEQgFAiAAAzQgBA1AUBIIASBIQAAAJgNABIinAAQgKAAgCgMQgUhjAAh4QAAh5AWiUQABgPANAAICfAAQAUABAIAPQAWAoAdBeQABAHAGAAQAEAAADgGQAZhRAZgyQAIgRAQgBIBJgDQAhAAAnADQAUACADAOQAfB6AACLQAABogQBzQgCAPgOACQgjADhEAAQgvAAgggDgAAmEOQgQgBAAgPQAQh3AAhQQAAgvgFgPQgFgOgLAAQgaABAABUQgBB5AHBFQAAAPgTACIh9AAQgNgBgCgMQgHgcAAh0QAAjKAYioQAEgTANgBIBHgEQArAAAQAEQALABAAAMQAAADgNAoQgMAnAAAZQAAAQALABIAggQQAegPAeAAQA0AAAZAoQAcAuAABlQAACLgRBiQgDAQgPACg");
+	this.shape.setTransform(-28.2,-0.55);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF9900").s().p("APgEKQgUg1gCiQIAChMQAAgQgKAAIgJABQgIAAgCgNIgCgVQAAg3AIgwQADgQAMAAIAIABQAMAAAFgNQABgGAGgkQABgMAMgGQAZgNAygIQAlgGAVAAQANAAgEAOQgVA9AAARQAAAKAOAAIASgDQAJAAADAMQAEAZABAkQgBAngGAeQgDAJgHAAIgWgDQgNAAgCAUIAAAYQAABHAiB9IAEAOQAAAHgIAFQgWAPgvALQgtAKggAAQgOAAgDgJgAxmEKQgVg1gCiQIAChMQAAgQgKAAIgJABQgIAAgCgNIgCgVQABg3AIgwQADgQALAAIAIABQANAAAEgNQACgGAFgkQACgMAMgGQAZgNAygIQAlgGAUAAQAOAAgFAOQgVA9AAARQAAAKAOAAIATgDQAJAAADAMQAEAZAAAkQAAAngGAeQgCAJgIAAIgXgDQgMAAgDAUIAAAYQAABHAjB9IAEAOQgBAHgHAFQgWAPgwALQgsAKggAAQgOAAgDgJgAhHDYQgYgxAAiHQAAhSAOhoQAEgTAQgCIByAAQAQABAAAPQgHCMAABUQAAA3AUAAQAIAAAEgEQALgLAAguQAAiCgIhTQgCgTAVgCIBsAAQAUABACAWQAJBNAABeQABBYgIBzQgCAdgkADIhJABQgTgCAAgPQAAgNgLAAQgIAAghATQgfATgcAAQg5AAgVgvg");
+	this.shape_1.setTransform(47.2,0.975);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#00CC66").s().p("ACJEJIgfgaIgKgEIgJACIgnARQgiALgqAAQjRAAAAj2QAAkjDRAAQDNAAAAEjQAAA+gWBIIgCALIACAHIAMAcQAIASAAAUQAAAkgVAAQgJAAgIgIgAhEAQQAABlAoAAQANAAAAgIIgJgYQgIgYAAgXQAAgNAKAAQAGAAAJAJQAJAJACAAQAFAAAAgiQAAg7gFgdQgIgpgYAAQgoAAAACIgAPEDpQgrggAAg6QAAgoAOgYQAEgHAFAAQAGAAAEAEQAVAYAeASQAjAVAbAAQASAAAAgNQAAgNglgRQg+gdgXgWQglgjAAg6QAAhCAugmQAtgjBPAAQBNAAAsAYQANAHAAAQQAAA4gWA3QgEAJgIAAIgJgEQhAgwgtAAQgUAAAAANQAAALAnARQA/AaAbAVQAvAoAAA7QAABKgrAmQgpAlhIAAQhIAAgqgfgAzRB3QAAiACbgXQAjgGAAgMQAAgOgbAAQg5AAg0AtQgGAGgGAAQgFAAgFgEQgggeAAgwQAAgqAtgZQAvgZBQAAQBZAAAoAqQAkAmAABRIgCCZQAAAqAEA6QAAATgRADQgcAFiBAAQilAAAAiHgAw3BCQgMAMAAARQAAAPAJAJQAJAJANAAQASAAAAgeIAAgPQAAgRgCgFQgCgGgIAAQgOAAgLALg");
+	this.shape_2.setTransform(17.275,1.175);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#333333").s().p("AWIFrQgPgJgMgPQg5AfhOAAQhmAAhCgxQhCAxhdAAQhbAAg9gsQgfAbgxAFQgYACgfAAIglgBQgVgDgTgHQgoASgqAAQgtAAgigPQgfAagqAAQgpAAgfgYQgzARg8AAQhsABhHgzIgKAKQgcAZgoAEIg5ABQgsABgjgDIgDAAQgKgBgKgDQgMAEgNAAQgWADgugBQgrAAgcgBIgCgBIgCAAQgWgDgQgIQgbALgiAIQg3ANgrgBQglABgcgUIgLgJIgIADQgqAGiFAAQhaAAg6geQgcAagnADQgmAEhKgBQgyABgmgEIgEAAQgjgHgYgVQgcAZgnADIgBABQgfABg3AAQg3AAgkgBQglgBgcgZQgdgYgIglQgUhqAAiEQAAiAAWiaQAFgpAdgaQAdgbAogCQAdgBA/AAQAzAAAaABQAyADAgAgQAegdApgEQAsgDAlAAQAiAAAvADIACAAQAnAFAbAYQAcAXAKAkIABAEQA5gUBPAAQBUAAA7AeIAEgCQAFgZARgVQAQgVAXgMQAngVBAgKQAsgHAdAAQAQAAAOAFQAZgTAfgEQAggDAvABQA0AAAYADIACAAQAmAIAZAdQAYAeABAnQAsAEAlAVIAEACQARgZAXgUQBKhCB3AAQBcAABDAqQAnAYAcAlQANgHARgCIACAAIACAAQAggDAjABQAhgBAeADIABAAQAKABAMADIAXgEQAagDAeABQAlgBAfADQAtADAdAdIAHAHQAXgQAagMQA1gVA+AAQBcgBA7AxQBEgxBmABQAugBAuAKIANAEQAQgqAmgVQAqgYBHgKQAlgEAdgBQAqAAAeAeQAeAeAAArQAAAPgEARQARAVAHAaIABAGQAHAhAAAuQAAAugKArQgIApgkAXQAFA8AbBOIACAIQAEASAAAMQAAA2gwAiIAAAAQgmAahIAQQg2ALglAAQghAAgagQg");
+	this.shape_3.setTransform(0.025,0);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_math_title, new cjs.Rectangle(-173.9,-37.9,347.9,75.9), null);
+
+
+(lib.mc_but_replay = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#333333").s().p("AgUGKQg5gHgmgRQg0gUgkgaQgtgggcghQgigngWgqQgYgugKguQgKgxACgwQADgzAOgvQAOgvAYgrQAZgsAhgjQAjgkAqgaQArgaAwgOQAwgNAygCQAzgBAyAKQBXASBIA3IgDgWQgCgVANgPQANgQAUgCQAVgCAQAMQAQAOABAUIAPCIQABAQgGAQQgFAQgLAMQgLAKgNAFQgOAGgOAAIgIgBIiIgOQgUgCgNgPQgOgQADgVQACgUAQgNQAPgNAVACIAtAFIAEAAIgJgHQgdgWgjgPQgogQgqgHQgrgFgrAFQgoAHglAOQggAPgcAVQgfAYgYAfQgZAhgQAlQgQAngHAqQgDAoAEAkQAFAkAOAlQAQAiAXAgQAbAhAhAbQAgAYAmAQQAmAPAkAGQAkAEAlgEQAsgHApgPQAqgUAigZQAfgZAaggIgBACIAOgTIAKgOIAHgKQAGgJAGgFIAHgHQAOgNATAHQARAHAAAUIAAAJQACAJgEAKIABgCQgKAbgLAVQgJARgWAbQgbAigrAhQglAdgoAQQgaAMgTAGQgZAIgXADQgkAGgeAAQgRAAgRgCg");
+	this.shape.setTransform(2.1179,-1.0137,1,1,-165.0004);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF6600").s().p("AgdMdQgGAAgEgFQgEgFAAgGQAAgGAFgEQAEgEAGAAIAcAAIAeAAQAGAAAEAEQAFAEAAAGIAAAAQAAAGgEAFQgEAFgGAAIgfAAIgdAAgAhZMZQgfgDgdgFQgGgCgEgFQgDgFABgGIAAAAQABgGAFgDQAFgEAGABQAdAFAdADQAGAAAEAFQAEAFgBAGQAAAGgFAEQgEAEgGAAIgBAAgABRMVQgFgEAAgGIAAAAQgBgGAEgFQAEgFAGgBQAegDAdgFQAGgBAFAEQAFADABAGIAAAAQABAGgDAFQgEAFgGACQgeAFgfADIgBAAQgGAAgEgDgAjQMDQgegHgcgKQgGgDgDgFQgDgGADgFIAAgBQABgGAGgCQAGgDAGACQAbAKAcAHQAGACADAFQAEAGgCAGQgCAGgFADQgEACgDAAIgEgBgADJMBQgFgDgCgGIAAAAQgCgGADgGQAEgFAGgCQAcgHAbgKQAGgCAGADQAGACACAGQACAGgDAGQgDAFgFADQgdAKgeAHIgEABQgDAAgEgCgAlELbQgcgMgbgPQgFgDgCgGQgCgGADgFIABgBQACgFAGgCQAGgBAGADQAaAOAbAMQAFACADAGQACAGgDAFQgCAGgGACIgFABIgHgBgAE8LaQgGgCgCgGQgDgGADgFQACgGAFgDQAbgMAagOQAGgDAGABQAGACADAFIAAABQADAFgCAGQgCAGgFADQgbAPgcANIgGABIgGgBgAmvKgQgZgQgYgTQgFgEgBgGQgBgGAEgFQAEgFAGAAQAGgBAFADQAYASAYAQQAFAEABAGQABAGgDAFQgDAFgGACIgEAAQgEAAgEgDgAGoKhQgHgCgDgFQgDgFABgGQABgGAFgEQAYgQAYgSQAFgEAGABQAGABAEAFQAEAFgBAGQgBAGgFAEQgYATgZAQQgEADgEAAIgDAAgAoPJWIgkgiIgKgKQgEgFgBgGQABgGAEgEIAAAAQAFgFAGAAQAGAAAEAFIAKAKIAjAhQAEAEABAGQAAAGgEAFIgBAAQgEAEgGABIAAAAQgGAAgEgEgAIIJXQgGAAgEgFIAAAAQgEgEAAgGQAAgHAFgEIAggeIAKgKQAEgFAGAAQAGAAAFAFIAAAAQAEAEABAGQgBAGgEAFIgKAKIghAfQgEAEgGAAIgBAAgApcICQgGAAgEgFQgUgXgRgZQgEgFABgGQABgGAFgEIAAAAQAFgDAGABQAGAAAEAGQARAXATAXQAEAEgBAHQAAAGgEAEIgBAAQgEADgFAAIgCAAgAJSH+QgFgEAAgGQgBgGAEgFQAUgXARgYQAEgFAGgBQAGgBAFAEIAAAAQAFADABAHQABAGgEAFQgSAZgUAYQgEAEgGABIgCAAQgFAAgEgEgAqkGiQgGgCgDgFQgQgagOgbQgDgGACgFQACgGAGgDIABAAQAFgDAFACQAGACADAGQANAZAPAaQADAFgBAGQgBAFgFAEIgBAAQgDACgEAAIgEAAgAKbGeIAAgBQgGgDgBgFQgCgHAEgFQAPgZANgaQADgGAGgCQAFgCAGADIAAAAQAGADACAGQACAFgDAGQgOAbgPAbQgEAFgGABIgEABQgEAAgDgCgArcE3QgGgCgCgGQgLgcgJgdQgCgGADgGQADgFAGgCIAAAAQAGgCAFADQAFADACAGQAJAcALAbQACAFgCAGQgDAGgFACIgBAAIgFABIgGgBgALTEzIgBAAQgFgCgDgGQgCgFACgGQALgcAJgcQACgGAFgCQAFgDAGACIAAAAQAGABADAGQADAFgCAGQgJAdgLAdQgCAGgGACIgGABIgFgBgAsBDEQgGgDgBgGQgHgegEgeQgBgGADgFQAEgFAGgBIAAAAQAGgBAFAEQAFADABAHQAFAdAGAcQACAGgEAFQgDAFgGACIAAAAIgEAAQgEAAgDgCgAL4DCIAAAAQgGgCgDgFQgEgFACgGQAGgdAFgdQABgHAFgDQAEgEAGABIABAAQAGABAEAFQADAFgBAGQgEAfgHAdQgBAGgGAEQgDACgEAAIgEAAgAsVBMQgEgEgBgGQgDgfABgfQAAgFAEgFQAEgEAHAAQAGAAAEAEQAEAFAAAFQABAeACAeQABAGgFAFQgEAEgGABIgBAAQgFAAgFgEgAMLBLIAAAAQgGgBgEgEQgEgFABgGQABgdABgeQAAgFAEgFQAEgEAGAAIAAAAQAHAAAEAEQAEAFAAAFQABAfgCAeQgBAGgFAEQgEAEgFAAIgCAAgAsMgqQgHAAgEgFQgEgFAAgGQADgeAEgeQABgGAEgEQAFgEAHABQAGABAEAFQADAFgBAGQgEAdgCAdQAAAGgFAFQgEADgFAAIgBAAgAMCgwQgEgFAAgGQgCgegFgdQgBgGAEgFQAEgFAGgBQAGgBAFAEQAFADABAHQAEAeADAfQAAAHgEAEQgEAFgHAAIAAAAIgBAAQgFAAgFgDgAr+igIgBAAQgGgBgDgGQgDgFABgGQAGgeAJgdQACgGAFgDQAGgDAGACIAAAAQAGACADAFQADAGgCAGQgIAcgHAdQgBAFgGAEQgDACgEAAIgDAAgALzioQgFgDgCgGQgGgdgJgcQgCgGADgFQADgGAGgBQAGgCAFADQAGACACAGQAJAdAHAfQABAGgDAFQgEAFgGACIgDAAQgEAAgEgDgArekTIAAgBQgGgCgDgGQgCgFACgGQALgdAOgbQADgGAGgCQAGgCAFADIABAAQAFADACAGQACAFgDAGQgNAagLAcQgCAGgGACIgGABIgFAAgALRkZQgFgDgDgFQgLgcgNgaQgDgGACgGQACgGAFgDQAGgDAGADQAGABADAGQANAbAMAdQACAGgCAGQgDAFgFADIgGABIgGgBgAqqmAIgBgBQgGgDgBgGQgBgGADgFQAPgbASgYQAEgGAGAAQAGgCAFAEIABABQAEADABAGQABAGgDAFQgRAYgQAZQgDAFgGACIgEAAQgDAAgDgBgAKemEQgHgBgDgFQgPgZgSgYQgDgFABgGQABgHAFgDQAFgEAGABQAGABAEAFQASAZAQAaQADAFgBAGQgCAGgFAEQgEACgEAAIgDgBgApnnjQgFgEgBgGQAAgGAEgFQATgXAVgWQAFgFAGAAQAGAAAFAFQAEAEAAAGQAAAGgEAFQgVAVgSAWQgEAFgGAAIgBAAQgGAAgEgDgAJZnkQgGgBgEgEQgTgXgUgVQgFgFAAgGQABgGAEgEIAAAAQAFgFAGAAQAGAAAEAFQAWAWATAXQAEAFgBAGQAAAGgFAEQgEAEgFAAIgCAAgAoLo3QgGAAgEgFQgEgEAAgGQAAgHAFgEQAXgVAYgSQAFgEAGAAQAGABAEAFQAEAFgBAGQgBAGgFAEQgXASgWAUQgEAEgGAAIgBAAgAH/o8QgXgVgXgSQgFgEgBgGQgBgGAEgFQAEgFAGAAQAGgBAFADQAZATAXAVQAFAEAAAGQAAAHgEAEIAAABQgEAEgGAAIgBAAQgGAAgEgDgAmuqBQgGgBgEgFIAAAAQgDgGABgFQABgHAFgDQAagSAagOQAGgDAGABQAFACAEAGQADAFgCAGQgCAGgFADQgaAOgYARQgEACgEAAIgDAAgAGhqGQgZgQgagOQgGgEgCgFQgBgGADgGIAAAAQADgFAGgCQAGgCAFADQAbAPAaARQAFAEACAGQABAGgEAFIAAAAQgDAFgGACIgDAAQgEAAgEgDgAlIq9QgGgCgCgFIAAAAQgDgGADgGQACgGAFgCQAcgNAdgKQAGgDAGADQAGADACAGQACAGgDAFQgDAGgGACQgbAKgbAMIgGABIgGgBgAE5q/QgbgMgcgKQgGgCgDgGQgCgFABgGIABAAQACgGAGgDQAFgCAGACQAdAKAcANQAGACACAGQACAGgCAGIAAAAQgDAFgGACIgFABIgGgBgAjZrmQgFgDgCgGIAAAAQgCgGAEgGQADgFAGgCQAdgHAfgGQAGgBAFAEQAFADABAGQABAGgDAFQgEAFgGACQgdAFgdAHIgEABQgDAAgEgCgADJrmQgcgIgegEQgGgBgDgFQgEgGABgGQABgGAFgDQAFgEAHABQAeAFAeAIQAGABADAGQADAFgBAGIAAABQgCAFgGADQgDACgEAAIgEAAgABWr6QgegDgegBQgGAAgEgFQgEgFAAgGQAAgGAFgEQAEgEAHAAQAfABAdADQAHAAADAFQAFAFgBAGQgBAGgFAEQgEAEgFAAIgBAAgAhkr+QgEgEgBgFIAAgBQgBgGAEgFQAEgFAGAAQAegDAfgBQAGAAAFAEQAEAEABAGIAAABQAAAGgFAEQgEAFgGAAQgdABgdADIgCAAQgFAAgFgEg");
+	this.shape_1.setTransform(0,0.0244);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AhIMMQAAgGgEgFQgEgFgGAAQgdgDgdgFQgGgBgFADQgFAEgBAFIgdgGQACgGgDgFQgEgFgGgCQgcgHgbgKQgGgCgGADQgFACgCAGIAAAAIgdgLQADgGgCgGQgDgFgFgDQgbgMgagOQgGgDgGACQgFACgDAFIgagPQAEgFgCgGQgBgHgFgDQgYgQgYgSQgFgEgGABQgGABgEAFIgXgUQAEgEAAgGQgBgGgEgEIgjgiIgKgKQgEgEgGAAQgGAAgFAEIgTgWQAEgEABgGQAAgGgEgFQgTgWgRgYQgEgFgGgBQgGgBgFAEIgQgZQAFgDABgGQACgFgEgGQgPgZgNgaQgDgFgGgCQgFgCgFADIgNgbQAGgDACgFQACgGgCgGQgLgbgJgcQgBgFgGgDQgFgDgGACIgIgdQAGgCADgFQAEgFgCgGQgGgdgFgdQgBgGgFgDQgEgEgGABIgEgeQAHgBAEgFQAEgFgBgGQgCgdAAgfQAAgFgFgEQgEgEgGAAIABggQAGAAAEgEQAFgEABgGQACgdADgeQABgGgDgFQgEgEgGgBIAFgdQAGABAFgDQAFgEABgGQAHgdAIgcQACgGgDgFQgDgFgGgCIAKgdQAGACAFgCQAGgDACgGQALgbANgaQADgGgCgGQgCgFgFgDIAPgbQAFADAFgCQAGgBADgFQAQgZARgYQADgFgBgGQgBgGgEgEIASgYQAFAFAGgBQAGgBAEgFQASgVAVgWQAEgEAAgGQAAgGgEgFIADgDIATgTQAEAFAGAAQAHAAAEgEQAWgUAXgSQAFgEABgGQABgGgEgFIAYgSIAAAAQAEAGAGABQAGABAFgEQAZgQAZgPQAFgDACgGQACgFgDgGIAbgOQADAGAFACQAGACAGgCQAbgMAcgKQAFgCADgGQADgGgCgGIAcgIQACAFAFADQAFAEAGgCQAdgHAdgGQAGgBAEgFQADgFgBgGIAfgFQABAGAFAEQAEAEAHgBQAdgCAdgBQAGgBAFgEQAEgFAAgGIAPAAIAMAAQAAAGAEAFQAEAEAHABQAeABAdACQAGABAFgEQAEgEABgGIAdAEQgBAGAEAFQAEAFAGABQAdAFAcAHQAGACAGgDQAFgDACgGIAdAJQgCAGADAFQACAGAGACQAcAKAbAMQAGACAFgCQAGgCADgFIAbANQgDAFACAGQABAGAGADQAaAOAZARQAFADAGgBQAGgBAEgFIAYASQgDAFAAAGQABAGAFAEQAXASAXAUQAFAEAGAAQAGAAAEgFIAUATQgEAFAAAGQAAAGAEAEQAUAWATAWQAEAFAGAAQAHABAEgEIATAXQgFAEgBAGQgBAGAEAGQARAXAPAZQAEAGAGABQAGABAFgDIAOAaQgFADgCAGQgCAGADAFQANAbALAbQADAGAFACQAGADAGgDIAKAdQgGACgDAGQgCAFABAGQAJAcAGAdQACAGAFADQAFADAGgBIAGAfQgGABgEAFQgEAFABAGQAFAdACAeQAAAGAFAEQAEAEAGAAIABAeQgGABgEAEQgEAEAAAFQAAAegCAeQgBAGAEAEQAEAFAGAAIgDAfQgGgBgEAEQgFADgBAGQgFAegGAcQgBAGADAGQADAFAGABIgIAdQgFgCgGADQgFADgCAGQgJAcgLAcQgCAFACAGQADAGAFACIgMAbQgFgCgGACQgGACgDAFQgNAagPAaQgDAFABAGQACAGAFADIgRAZQgFgDgGABQgGABgDAEQgSAZgUAXQgEAFABAGQAAAGAFAEIgUAWQgEgEgGAAQgHAAgEAEIgKAKIggAfQgFAEAAAGQAAAGAEAFIgXATQgEgFgGAAQgGgBgFAEQgYASgYAQQgFADgBAHQgBAGADAFIgZAPQgDgFgGgCQgGgCgGADQgaAOgbANQgFACgCAGQgDAGADAGIgcALQgCgGgGgCQgGgDgFACQgcAKgcAHQgGACgDAFQgDAFABAGIAAAAIgdAHIAAAAQgBgGgFgEQgFgDgGABQgdAFgeADQgGABgEAEQgEAFABAHIAAAAIgfACQAAgGgFgEQgEgFgGAAIgeABIgbgBQgHAAgEAFQgFAEAAAGIgdgCg");
+	this.shape_2.setTransform(-0.0125,-0.05);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_but_replay, new cjs.Rectangle(-79.7,-79.7,159.5,159.5), null);
+
+
+(lib.mc_but_go_home = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#333333").s().p("ABFFNIAAi7QAAgFgDgDQgEgDgEAAIhzAAQgFAAgCADQgDADAAAFIAAC7IiaAAQgDgBgEgDQgCgDAAgDIAAk2QAAgFADgDIDdjUQADgEADAAQAEAAADAEIDeDVQADAEAAAEIAAE1QAAADgCADQgFADgDABgAk4AhQgNgBgKgJIgBgBQgJgLAAgNQAAgOALgLIABgBIE2knQAKgJANABQANgBALAJIE3EoQAMALAAAOQAAANgKALIgBABQgKAJgOABQgQACgLgLIAAABIkdkPIkcEPQgLAJgMAAIgFgBg");
+	this.shape.setTransform(0.8,-2.4,1,1,0,0,0,0.1,1.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	// Layer_1
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FF6600").s().p("AgdMdQgGAAgEgFQgEgFAAgGQAAgGAFgEQAEgEAGAAIAcAAIAeAAQAGAAAEAEQAFAEAAAGIAAAAQAAAGgEAFQgEAFgGAAIgfAAIgdAAgAhZMZQgfgDgdgFQgGgCgEgFQgDgFABgGIAAAAQABgGAFgDQAFgEAGABQAdAFAdADQAGAAAEAFQAEAFgBAGQAAAGgFAEQgEAEgGAAIgBAAgABRMVQgFgEAAgGIAAAAQgBgGAEgFQAEgFAGgBQAegDAdgFQAGgBAFAEQAFADABAGIAAAAQABAGgDAFQgEAFgGACQgeAFgfADIgBAAQgGAAgEgDgAjQMDQgegHgcgKQgGgDgDgFQgDgGADgFIAAgBQABgGAGgCQAGgDAGACQAbAKAcAHQAGACADAFQAEAGgCAGQgCAGgFADQgEACgDAAIgEgBgADJMBQgFgDgCgGIAAAAQgCgGADgGQAEgFAGgCQAcgHAbgKQAGgCAGADQAGACACAGQACAGgDAGQgDAFgFADQgdAKgeAHIgEABQgDAAgEgCgAlELbQgcgMgbgPQgFgDgCgGQgCgGADgFIABgBQACgFAGgCQAGgBAGADQAaAOAbAMQAFACADAGQACAGgDAFQgCAGgGACIgFABIgHgBgAE8LaQgGgCgCgGQgDgGADgFQACgGAFgDQAbgMAagOQAGgDAGABQAGACADAFIAAABQADAFgCAGQgCAGgFADQgbAPgcANIgGABIgGgBgAmvKgQgZgQgYgTQgFgEgBgGQgBgGAEgFQAEgFAGAAQAGgBAFADQAYASAYAQQAFAEABAGQABAGgDAFQgDAFgGACIgEAAQgEAAgEgDgAGoKhQgHgCgDgFQgDgFABgGQABgGAFgEQAYgQAYgSQAFgEAGABQAGABAEAFQAEAFgBAGQgBAGgFAEQgYATgZAQQgEADgEAAIgDAAgAoPJWIgkgiIgKgKQgEgFgBgGQABgGAEgEIAAAAQAFgFAGAAQAGAAAEAFIAKAKIAjAhQAEAEABAGQAAAGgEAFIgBAAQgEAEgGABIAAAAQgGAAgEgEgAIIJXQgGAAgEgFIAAAAQgEgEAAgGQAAgHAFgEIAggeIAKgKQAEgFAGAAQAGAAAFAFIAAAAQAEAEABAGQgBAGgEAFIgKAKIghAfQgEAEgGAAIgBAAgApcICQgGAAgEgFQgUgXgRgZQgEgFABgGQABgGAFgEIAAAAQAFgDAGABQAGAAAEAGQARAXATAXQAEAEgBAHQAAAGgEAEIgBAAQgEADgFAAIgCAAgAJSH+QgFgEAAgGQgBgGAEgFQAUgXARgYQAEgFAGgBQAGgBAFAEIAAAAQAFADABAHQABAGgEAFQgSAZgUAYQgEAEgGABIgCAAQgFAAgEgEgAqkGiQgGgCgDgFQgQgagOgbQgDgGACgFQACgGAGgDIABAAQAFgDAFACQAGACADAGQANAZAPAaQADAFgBAGQgBAFgFAEIgBAAQgDACgEAAIgEAAgAKbGeIAAgBQgGgDgBgFQgCgHAEgFQAPgZANgaQADgGAGgCQAFgCAGADIAAAAQAGADACAGQACAFgDAGQgOAbgPAbQgEAFgGABIgEABQgEAAgDgCgArcE3QgGgCgCgGQgLgcgJgdQgCgGADgGQADgFAGgCIAAAAQAGgCAFADQAFADACAGQAJAcALAbQACAFgCAGQgDAGgFACIgBAAIgFABIgGgBgALTEzIgBAAQgFgCgDgGQgCgFACgGQALgcAJgcQACgGAFgCQAFgDAGACIAAAAQAGABADAGQADAFgCAGQgJAdgLAdQgCAGgGACIgGABIgFgBgAsBDEQgGgDgBgGQgHgegEgeQgBgGADgFQAEgFAGgBIAAAAQAGgBAFAEQAFADABAHQAFAdAGAcQACAGgEAFQgDAFgGACIAAAAIgEAAQgEAAgDgCgAL4DCIAAAAQgGgCgDgFQgEgFACgGQAGgdAFgdQABgHAFgDQAEgEAGABIABAAQAGABAEAFQADAFgBAGQgEAfgHAdQgBAGgGAEQgDACgEAAIgEAAgAsVBMQgEgEgBgGQgDgfABgfQAAgFAEgFQAEgEAHAAQAGAAAEAEQAEAFAAAFQABAeACAeQABAGgFAFQgEAEgGABIgBAAQgFAAgFgEgAMLBLIAAAAQgGgBgEgEQgEgFABgGQABgdABgeQAAgFAEgFQAEgEAGAAIAAAAQAHAAAEAEQAEAFAAAFQABAfgCAeQgBAGgFAEQgEAEgFAAIgCAAgAsMgqQgHAAgEgFQgEgFAAgGQADgeAEgeQABgGAEgEQAFgEAHABQAGABAEAFQADAFgBAGQgEAdgCAdQAAAGgFAFQgEADgFAAIgBAAgAMCgwQgEgFAAgGQgCgegFgdQgBgGAEgFQAEgFAGgBQAGgBAFAEQAFADABAHQAEAeADAfQAAAHgEAEQgEAFgHAAIAAAAIgBAAQgFAAgFgDgAr+igIgBAAQgGgBgDgGQgDgFABgGQAGgeAJgdQACgGAFgDQAGgDAGACIAAAAQAGACADAFQADAGgCAGQgIAcgHAdQgBAFgGAEQgDACgEAAIgDAAgALzioQgFgDgCgGQgGgdgJgcQgCgGADgFQADgGAGgBQAGgCAFADQAGACACAGQAJAdAHAfQABAGgDAFQgEAFgGACIgDAAQgEAAgEgDgArekTIAAgBQgGgCgDgGQgCgFACgGQALgdAOgbQADgGAGgCQAGgCAFADIABAAQAFADACAGQACAFgDAGQgNAagLAcQgCAGgGACIgGABIgFAAgALRkZQgFgDgDgFQgLgcgNgaQgDgGACgGQACgGAFgDQAGgDAGADQAGABADAGQANAbAMAdQACAGgCAGQgDAFgFADIgGABIgGgBgAqqmAIgBgBQgGgDgBgGQgBgGADgFQAPgbASgYQAEgGAGAAQAGgCAFAEIABABQAEADABAGQABAGgDAFQgRAYgQAZQgDAFgGACIgEAAQgDAAgDgBgAKemEQgHgBgDgFQgPgZgSgYQgDgFABgGQABgHAFgDQAFgEAGABQAGABAEAFQASAZAQAaQADAFgBAGQgCAGgFAEQgEACgEAAIgDgBgApnnjQgFgEgBgGQAAgGAEgFQATgXAVgWQAFgFAGAAQAGAAAFAFQAEAEAAAGQAAAGgEAFQgVAVgSAWQgEAFgGAAIgBAAQgGAAgEgDgAJZnkQgGgBgEgEQgTgXgUgVQgFgFAAgGQABgGAEgEIAAAAQAFgFAGAAQAGAAAEAFQAWAWATAXQAEAFgBAGQAAAGgFAEQgEAEgFAAIgCAAgAoLo3QgGAAgEgFQgEgEAAgGQAAgHAFgEQAXgVAYgSQAFgEAGAAQAGABAEAFQAEAFgBAGQgBAGgFAEQgXASgWAUQgEAEgGAAIgBAAgAH/o8QgXgVgXgSQgFgEgBgGQgBgGAEgFQAEgFAGAAQAGgBAFADQAZATAXAVQAFAEAAAGQAAAHgEAEIAAABQgEAEgGAAIgBAAQgGAAgEgDgAmuqBQgGgBgEgFIAAAAQgDgGABgFQABgHAFgDQAagSAagOQAGgDAGABQAFACAEAGQADAFgCAGQgCAGgFADQgaAOgYARQgEACgEAAIgDAAgAGhqGQgZgQgagOQgGgEgCgFQgBgGADgGIAAAAQADgFAGgCQAGgCAFADQAbAPAaARQAFAEACAGQABAGgEAFIAAAAQgDAFgGACIgDAAQgEAAgEgDgAlIq9QgGgCgCgFIAAAAQgDgGADgGQACgGAFgCQAcgNAdgKQAGgDAGADQAGADACAGQACAGgDAFQgDAGgGACQgbAKgbAMIgGABIgGgBgAE5q/QgbgMgcgKQgGgCgDgGQgCgFABgGIABAAQACgGAGgDQAFgCAGACQAdAKAcANQAGACACAGQACAGgCAGIAAAAQgDAFgGACIgFABIgGgBgAjZrmQgFgDgCgGIAAAAQgCgGAEgGQADgFAGgCQAdgHAfgGQAGgBAFAEQAFADABAGQABAGgDAFQgEAFgGACQgdAFgdAHIgEABQgDAAgEgCgADJrmQgcgIgegEQgGgBgDgFQgEgGABgGQABgGAFgDQAFgEAHABQAeAFAeAIQAGABADAGQADAFgBAGIAAABQgCAFgGADQgDACgEAAIgEAAgABWr6QgegDgegBQgGAAgEgFQgEgFAAgGQAAgGAFgEQAEgEAHAAQAfABAdADQAHAAADAFQAFAFgBAGQgBAGgFAEQgEAEgFAAIgBAAgAhkr+QgEgEgBgFIAAgBQgBgGAEgFQAEgFAGAAQAegDAfgBQAGAAAFAEQAEAEABAGIAAABQAAAGgFAEQgEAFgGAAQgdABgdADIgCAAQgFAAgFgEg");
+	this.shape_1.setTransform(0,0.0244);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AhIMMQAAgGgEgFQgEgFgGAAQgdgDgdgFQgGgBgFADQgFAEgBAFIgdgGQACgGgDgFQgEgFgGgCQgcgHgbgKQgGgCgGADQgFACgCAGIAAAAIgdgLQADgGgCgGQgDgFgFgDQgbgMgagOQgGgDgGACQgFACgDAFIgagPQAEgFgCgGQgBgHgFgDQgYgQgYgSQgFgEgGABQgGABgEAFIgXgUQAEgEAAgGQgBgGgEgEIgjgiIgKgKQgEgEgGAAQgGAAgFAEIgTgWQAEgEABgGQAAgGgEgFQgTgWgRgYQgEgFgGgBQgGgBgFAEIgQgZQAFgDABgGQACgFgEgGQgPgZgNgaQgDgFgGgCQgFgCgFADIgNgbQAGgDACgFQACgGgCgGQgLgbgJgcQgBgFgGgDQgFgDgGACIgIgdQAGgCADgFQAEgFgCgGQgGgdgFgdQgBgGgFgDQgEgEgGABIgEgeQAHgBAEgFQAEgFgBgGQgCgdAAgfQAAgFgFgEQgEgEgGAAIABggQAGAAAEgEQAFgEABgGQACgdADgeQABgGgDgFQgEgEgGgBIAFgdQAGABAFgDQAFgEABgGQAHgdAIgcQACgGgDgFQgDgFgGgCIAKgdQAGACAFgCQAGgDACgGQALgbANgaQADgGgCgGQgCgFgFgDIAPgbQAFADAFgCQAGgBADgFQAQgZARgYQADgFgBgGQgBgGgEgEIASgYQAFAFAGgBQAGgBAEgFQASgVAVgWQAEgEAAgGQAAgGgEgFIADgDIATgTQAEAFAGAAQAHAAAEgEQAWgUAXgSQAFgEABgGQABgGgEgFIAYgSIAAAAQAEAGAGABQAGABAFgEQAZgQAZgPQAFgDACgGQACgFgDgGIAbgOQADAGAFACQAGACAGgCQAbgMAcgKQAFgCADgGQADgGgCgGIAcgIQACAFAFADQAFAEAGgCQAdgHAdgGQAGgBAEgFQADgFgBgGIAfgFQABAGAFAEQAEAEAHgBQAdgCAdgBQAGgBAFgEQAEgFAAgGIAPAAIAMAAQAAAGAEAFQAEAEAHABQAeABAdACQAGABAFgEQAEgEABgGIAdAEQgBAGAEAFQAEAFAGABQAdAFAcAHQAGACAGgDQAFgDACgGIAdAJQgCAGADAFQACAGAGACQAcAKAbAMQAGACAFgCQAGgCADgFIAbANQgDAFACAGQABAGAGADQAaAOAZARQAFADAGgBQAGgBAEgFIAYASQgDAFAAAGQABAGAFAEQAXASAXAUQAFAEAGAAQAGAAAEgFIAUATQgEAFAAAGQAAAGAEAEQAUAWATAWQAEAFAGAAQAHABAEgEIATAXQgFAEgBAGQgBAGAEAGQARAXAPAZQAEAGAGABQAGABAFgDIAOAaQgFADgCAGQgCAGADAFQANAbALAbQADAGAFACQAGADAGgDIAKAdQgGACgDAGQgCAFABAGQAJAcAGAdQACAGAFADQAFADAGgBIAGAfQgGABgEAFQgEAFABAGQAFAdACAeQAAAGAFAEQAEAEAGAAIABAeQgGABgEAEQgEAEAAAFQAAAegCAeQgBAGAEAEQAEAFAGAAIgDAfQgGgBgEAEQgFADgBAGQgFAegGAcQgBAGADAGQADAFAGABIgIAdQgFgCgGADQgFADgCAGQgJAcgLAcQgCAFACAGQADAGAFACIgMAbQgFgCgGACQgGACgDAFQgNAagPAaQgDAFABAGQACAGAFADIgRAZQgFgDgGABQgGABgDAEQgSAZgUAXQgEAFABAGQAAAGAFAEIgUAWQgEgEgGAAQgHAAgEAEIgKAKIggAfQgFAEAAAGQAAAGAEAFIgXATQgEgFgGAAQgGgBgFAEQgYASgYAQQgFADgBAHQgBAGADAFIgZAPQgDgFgGgCQgGgCgGADQgaAOgbANQgFACgCAGQgDAGADAGIgcALQgCgGgGgCQgGgDgFACQgcAKgcAHQgGACgDAFQgDAFABAGIAAAAIgdAHIAAAAQgBgGgFgEQgFgDgGABQgdAFgeADQgGABgEAEQgEAFABAHIAAAAIgfACQAAgGgFgEQgEgFgGAAIgeABIgbgBQgHAAgEAFQgFAEAAAGIgdgCg");
+	this.shape_2.setTransform(-0.0125,-0.05);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_but_go_home, new cjs.Rectangle(-79.7,-79.7,159.5,159.5), null);
+
+
+(lib.mc_menu_buttons_background = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AgUF8QhNgEhEgiQhGgigyg6Qgxg4gYhHQgZhGAEhJQAEhNAjhFQAhhGA6gxQA4gyBHgXQBHgZBIAEQBNAEBEAhQBHAjAyA6QAxA3AXBHQAZBHgEBJQgEBNgiBFQgjBGg5AzQg4AwhHAYQg8AUg/AAIgUAAg");
+	this.shape.setTransform(0,0.0192);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_menu_buttons_background, new cjs.Rectangle(-38,-38,76,76.1), null);
+
+
+(lib.mc_menu_buttons_back = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AjvDwQhkhkAAiMQAAiLBkhkQBkhkCLAAQCMAABkBkQBkBkAACLQAACMhkBkQhkBkiMAAQiLAAhkhkg");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_menu_buttons_back, new cjs.Rectangle(-34,-34,68,68), null);
+
+
+(lib.mc_empty = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("rgba(255,255,255,0.008)").s().p("AhCBDQgbgcAAgnQAAgmAbgcQAcgbAmAAQAnAAAcAbQAbAcAAAmQAAAngbAcQgcAbgnAAQgmAAgcgbg");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_empty, new cjs.Rectangle(-9.4,-9.4,18.9,18.9), null);
+
+
+(lib.mc_coin = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,0,0);
+
+
+(lib.mc_clock = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// _ÎÓÈ_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#000000").s().p("AiIEZQgzh8g1jLQhEkJgTg8QguiTAUhlQAciNCdhbQAeA4A+BhQAxBUAJA6QAXCWA1C5QAeBqBLDmQCVHOAwETQlZjHiXl0g");
+	this.shape.setTransform(-63.4004,12.0937,0.02,0.02);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#000000").s().p("ADvDbQj2g4h6gbQjWguiXgNQicgOh8hMQiNhYhviuQMrgpTaI8Qh+AWiQAAQjrAAkbg7g");
+	this.shape_1.setTransform(-84.8812,-7.1593,0.02,0.02);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#000000").s().p("ApRIqQg7gUgYgfQgSgYAFg5QALhEADgfQAEgZAjgbQGCkpD6ijQFnjsFMiLQizF7lHEhQkPDxmhDVQgNAHgTAAQgYAAgigLg");
+	this.shape_2.setTransform(-83.7065,7.0873,0.02,0.02);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#000000").s().p("AsUIgQhOhBgvgfQGAl1HTkCQGpjsInirQgCALgLB1QgGA9gTANQq0HyouF3QhEAuhSAcQhSAchQAEIgCAAQgmAAg+gvg");
+	this.shape_3.setTransform(-57.5556,-6.5333,0.02,0.02);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#000000").s().p("ADaJcQhphLiijHQiNitiajiQhpicikkIQgYglAPhRQAOhRAggSQAlgVBJAMQAiAGBcAaQAYAHAaAeQALANAfArQIELWDSExQAlA0AqBVIBICOIgfABQjWAAimh1g");
+	this.shape_4.setTransform(-79.6321,-13.3407,0.02,0.02);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#000000").s().p("Ao2O9Qg4gMgbgcQgqgrAFiFQAAgdASghQAQggAYgWQEbkIEdmDQCejZFDn0QATgdA+gvQCQhtApghQgFAvgPDDQgGBegXAlQnJLomNJYQgnA6hNA3Qg5AnhYAtQgSAJgaAAQgUAAgZgFg");
+	this.shape_5.setTransform(-78.3762,11.7325,0.02,0.02);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#000000").s().p("AsLLEQglgIgqg/QguhNgWgiQgGgJAGgWQAFgWALgIQD7jEHemoQG0lyFcixQAcgOBNAKQCsAXAyAEIsEKvQmbFukjD9QgwAphBAZQgzASgoAAQgQAAgPgDg");
+	this.shape_6.setTransform(-61.5428,-12.7294,0.02,0.02);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#000000").s().p("AgKCUIl7kLQjcidibh1QgggYgbg8Qgbg8AMgPQAqgxAygiQA7goAwgBQBXgCBPASQBbATA6AqIEcDLQClB3BwBaQE1D1C2D3QAjAwAeBYIAxCTIhuBZg");
+	this.shape_7.setTransform(-59.2114,8.4393,0.02,0.02);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#000000").s().p("AktTEQhdg3hKhuQg9hbgmhzQglhygFhvQgeqUAapXQAFhvBWh9QBRh0CBhjQCBhiCGgwQCOg0BtAVQA8AMA9ArQA/AtAXAyQA8CHBDC9QAkBmA2CfQgZHqhWFhQhgGMjBFBQiKDmjKAIIgNAAQhaAAhUgyg");
+	this.shape_8.setTransform(-70.6883,14.268,0.02,0.02);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#000000").s().p("AmpQDQikjUgllUQgol4BbmdQBKlQCvmhQBYjQEEhKQDhg+CNBIQCTBMAlDYQCsP7kONzQghBshrCUQiFCqhBBiQl2hui7jyg");
+	this.shape_9.setTransform(-70.509,-18.2494,0.02,0.02);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#000000").s().p("AjsKwQo3huoCnRIB0irQA5hWAvgoQBAg2B/hQQCMhYA2grQFKkCGbgNQFBgKHHCRQA3ARBBAlQAbAPBXA3QFDDPg0GuQgTCfhyBrQhfBYimA3QmcCJl3AAQi7AAiygig");
+	this.shape_10.setTransform(-87.3893,-1.6191,0.02,0.02);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#000000").s().p("AjiMXQjSgTjFhUQjEhViXiIQidiMhWiuQhXiwAsiQQAriRCoheQE+iwF7hqQF7hqE9ABQECgTDiCIQCwBrC6DgQBLBaASB/QAQB4glB9QgkB9hQBjQhUBnhwAwQmPCqlgBfQiTAoicAAQg5AAg7gGg");
+	this.shape_11.setTransform(-54.2164,0.0576,0.02,0.02);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("#000000").s().p("EgrfBM9Qh8g0grhuQgth2AthwQAjhWBjhkQA2g2B3hnQB1hmA3g4QUt04aCrvQA8gbBbg1ICzhoQBzuaEizgQBNlOCyrVQCoqtBUlyQBamIBUoOICKueQAjjkAghbQA8imCJhoQCcAsBPCIQA6BkAbCuQAqEXAmFcQAYDaAnGcQAdE2A/JrQAyIeALGEQASKLABNTQAAD0gFTrQgBChhmCBQhFBXi0CIQnqF0tVHkIq1GGQmQDlkaC0QlnDlncEBQkFCNpVExQiSBLjBA7QiQAsjUAuQhBAOg8AAQhaAAhOggg");
+	this.shape_12.setTransform(-74.4762,-3.3257,0.02,0.02);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.f("#FFFFFF").s().p("AgJDFQgPAAgOgDQgOgCgOgFQgXgHgVgOQgVgNgRgSQgRgTgMgVQgNgWgFgYQgGgUABgWQAAgUAGgXQAFgVAKgVIAAAAQAKgVANgSQAOgTAQgPIAAAAQARgQATgKIAAAAQAUgLAVgFIgBABQAWgFAWABIAAAAQAYACAcAKQAXAJAcAPIgBAAQAcAPATAPIAAAAQAWASAOAVQALASAGAWQAEAUABAYQABAYgFAYQgFAZgKAVQgKAVgQASQgPARgUAPQgcAUgiAKQgfAJgfAAIgGAAg");
+	this.shape_13.setTransform(-69.5755,-2.1106);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.f("#F2522C").s().p("AgFEDQgZAAgZgEIAAAAQgZgFgXgIQgqgQgigdQgigegVgnIAAAAQgVgngGgsQgGgtAJgqQAJgrAZgnQAYgnAjgdQAjgfApgRIAAABQAsgSAsgBIAKABIgBAAIALADIgBgBIAWAFIAWAHQAXAIAXANIAAAAQAiASAdAZQAcAZAUAeQAVAgAMAjQALAkABAmIAAAAQABAXgEAXQgDAXgIAVQgJAWgMATIAAAAQgMAUgRAQQgaAZgkASQghAQgoAIQgkAIgiAAIAAAAgAi9glQgGAWAAAVQgBAWAGAUQAGAXAMAWQAMAWARASQARASAVANQAVAOAXAIQAOAEAOADQAOACAPABQAiABAigKQAigLAcgUQAUgOAPgRQAQgTAKgUQALgVAEgZQAFgYgBgYQAAgYgFgVQgGgWgLgRQgNgVgXgTIAAAAQgTgOgcgQIABAAQgcgPgXgIQgcgKgYgCIAAAAQgWgCgWAFIABAAQgVAFgUALIAAAAQgTAKgRAQIAAAAQgQAPgOASQgNATgKAUIAAAAQgKAVgFAWg");
+	this.shape_14.setTransform(-70.0951,-1.9751);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_clock, new cjs.Rectangle(-96.5,-27.8,52.9,51.7), null);
+
+
+(lib.mc_chars = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.Bitmap1();
+	this.instance.setTransform(-170.1,-132.85,0.81,0.81);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_chars, new cjs.Rectangle(-170.1,-132.8,340.2,265.70000000000005), null);
+
+
+(lib.mc_but_showAnswer = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AggBgQgIAAgBgIQgHgbABg9QgBhDAGgTQACgGAEgCQAIgCAUAAIARABQAEABABAGQABAFADAAQACAAADgDQALgKAEAAQAKAAAAApQAAAYgDAJQgCAHgFAAQgFgEgFAAQgIAAAAATQAAASAHAkIAHAjQAAAGgJABIgZABg");
+	this.shape.setTransform(86,0.625);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("Ag4BJQgRgZAAgoQAAg3AagcQAXgZAlABQAaAAAQAMQAQAPAAAZQAAAigVAQQgNAKgcAHQgPAEAAAGQAAAHAMAAQAgAAAWgSQADgCADAAQAHgBABAYQgBAcgVAQQgUAQgdABQgoAAgTgcgAgIgqQgFAIAAAKQAAAFACAAQADAAAFgCQAQgKAAgJQABgJgKAAQgHAAgFAHg");
+	this.shape_1.setTransform(72.9,0.65);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AAqBhQgWgQgUgaQgBgCgCgBQgDAAgCAEQgHAJgNANQgOAOgKAFIgEABIgDgBQg9gtAAh7QAAgKABgGQACgIAHgBIAdgBIAgABQAGAAAAAGQgDAaAAAdQAAAcAEAQQAAABAAABQABAAAAABQABAAAAAAQABABAAAAQABAAAAgBQABAAAAAAQAAgBABAAQAAgBAAgBQAHgVAAgvIAAgfQAAgFAFAAQALgCAQgBQARABAKACQAFABAAADQgDAjAAAXQAAAcAGAOQAAABAAABQABAAAAABQAAAAABAAQAAABABAAQAAAAABgBQAAAAABAAQAAgBABAAQAAgBAAgBQAGgQAAgfQAAgXgCgdQAAgFAFgBIAcgCIAeACQAHABACAJIABAPQAABDgZAwQgSAigaATQgCABgDAAg");
+	this.shape_2.setTransform(52.975,0.8);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgxBXQgUgPAAgZQAAgSAGgKQACgEADAAQAAAAABAAQABAAAAABQABAAAAAAQABAAAAABQAJAKAOAJQAPAJAMAAQAHAAAAgGQAAgFgPgIQgcgNgKgKQgRgPAAgaQAAgdAVgRQAUgPAiAAQAjAAATALQAGADAAAHQAAAZgKAXQgCAFgDAAIgEgBQgdgWgUAAQgHAAAAAGQAAAEAQAIQAcAMALAKQAWAQAAAbQAAAggUARQgSAQggABQgfAAgSgOg");
+	this.shape_3.setTransform(33.575,0.65);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#FFFFFF").s().p("AALBhQgHAAAAgGQAEhHAAgdQAAgYgJAAQgDAAgDACQgEAEAAAVQAAAyAEAtQAAAIgIAAIgXABIgagBQgJAAAAgKQgEgsAAgrQAAgrADgkQABgNAPgBIAYgBIARABQAIAAAAAHQAAAGAFAAQAEAAAMgIQANgJANAAQAVAAAJARQAKASAAApQAAA+gHAvQgBAJgIAAIgYABg");
+	this.shape_4.setTransform(18.075,0.525);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FFFFFF").s().p("AAOB1QgHAAAAgHQAFgTAAgTQAAgMgKABQgSAAAAARQAAAOACAUQAAAEgFABIghABIgaAAQgKgBgBgHQgBgSAAgTQgBhAASguQAWg5AugVIAGgCQADAAAEACQAqAXAWAzQATAtAABCIgBAlQgBAJgKABIgfABgAgCgiQgMASAAAcQAAABAAABQAAABAAAAQABABAAAAQABAAAAAAIAMgDIAHgDQAFgCAAgFQAAgTgIgSQgBgBAAgBQAAAAgBgBQAAAAAAAAQgBAAAAAAQgBAAAAAAQAAAAAAAAQgBABAAAAQgBABAAABg");
+	this.shape_5.setTransform(-0.0757,-1.5);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#FFFFFF").s().p("AAqBhQgWgQgUgaQgBgCgCgBQgDAAgCAEQgHAJgNANQgOAOgKAFIgEABIgDgBQg9gtAAh7QAAgKABgGQACgIAHgBIAdgBIAgABQAGAAAAAGQgDAaAAAdQAAAcAEAQQAAABAAABQABAAAAABQABAAAAAAQABABAAAAQABAAAAgBQABAAAAAAQAAgBABAAQAAgBAAgBQAHgVAAgvIAAgfQAAgFAFAAQALgCAQgBQARABAKACQAFABAAADQgDAjAAAXQAAAcAGAOQAAABAAABQABAAAAABQAAAAABAAQAAABABAAQAAAAABgBQAAAAABAAQAAgBABAAQAAgBAAgBQAGgQAAgfQAAgXgCgdQAAgFAFgBIAcgCIAeACQAHABACAJIABAPQAABDgZAwQgSAigaATQgCABgDAAg");
+	this.shape_6.setTransform(-27.175,0.8);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#FFFFFF").s().p("Ag3BMQgWgaAAgyQAAgtAUgbQAVgbAnAAQBLAAAABjQAAAygXAaQgWAZgiAAQgiAAgUgZgAgMgFQAAApAMAAQANAAAAgpQAAgogNAAQgMAAAAAog");
+	this.shape_7.setTransform(-47.625,0.65);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#FFFFFF").s().p("AhHB6QgFgBgCgEQgDgOAAgyQAAhaALhLQABgIAHgBIAfgBIAbABQAEABAAAFIgFATQgGARABAMQAAAHAEAAIAOgHQANgGAOAAQAXgBALATQANATgBAtQABA+gJAsQgBAHgGAAIgWAAIghgBQgHAAAAgHQAHg0AAgkQAAgVgDgGQgBgGgGAAQgLAAABAlQgBA1ADAgQAAAGgJABIgaABg");
+	this.shape_8.setTransform(-64.3,-1.95);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#FFFFFF").s().p("Ag/BmQgXgRABggQAAgbANgMIAFgBQACAAACACQAMARASAKQARALAPAAQAMgBAAgIQAAgFgEgDQgFgDgOgFQgggKgRgQQgUgSAAgdQAAggAVgUQAXgVAnAAQAuAAAeAWQAEAEAAADQAAAJgIAQQgIAPgHALQgBAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAIgEgBQgcgXgTAAQgJAAAAAIQAAAKAWAIQAnANAPATQAQARABAeQgBAggVAVQgYAWgqAAQgnAAgXgRg");
+	this.shape_9.setTransform(-82.2,-1.2);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#9966CC").s().p("AzDF3QiCAAAAiCIAAnpQAAiCCCAAMAmHAAAQCCAAAACCIAAHpQAACCiCAAg");
+	this.shape_10.setTransform(0.005,0,0.9999,1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_but_showAnswer, new cjs.Rectangle(-135,-37.5,270,75), null);
+
+
+(lib.mc_but_rect = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("rgba(255,255,255,0.2)").s().p("EhBmAOwQiKAAhihiQhihhAAiLIAAzDQAAiLBihiQBihhCKAAMCDMAAAQCLAABiBhQBiBiAACLIAATDQAACLhiBhQhiBiiLAAg");
+	this.shape.setTransform(0.019,-0.0071,0.5295,0.5297);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FE7547").s().p("EhBmAOwQiKAAhihiQhihhAAiLIAAzDQAAiLBihiQBihhCKAAMCDMAAAQCLAABiBhQBiBiAACLIAATDQAACLhiBhQhiBiiLAAg");
+	this.shape_1.setTransform(0.019,-0.0071,0.5295,0.5297);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape}]},1).to({state:[]},1).to({state:[{t:this.shape_1}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-240,-50,480,100);
+
+
+(lib.mc_but_change_question = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AALBhQgHAAAAgGQAEhHAAgdQAAgYgJAAQgDAAgDACQgEAEAAAVQAAAyAEAtQAAAIgIAAIgXABIgagBQgJAAAAgKQgEgsAAgrQAAgrADgkQABgNAPgBIAYgBIARABQAIAAAAAHQAAAGAFAAQAEAAAMgIQANgJANAAQAVAAAJARQAKASAAApQAAA+gHAvQgBAJgIAAIgYABg");
+	this.shape.setTransform(84.525,0.525);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("Ag3BMQgWgaAAgyQAAgtAUgbQAVgbAnAAQBLAAAABjQAAAygXAaQgWAZgiAAQgiAAgUgZgAgMgFQAAApAMAAQANAAAAgpQAAgogNAAQgMAAAAAog");
+	this.shape_1.setTransform(67.875,0.65);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgcCAQgIAAgBgIQgDgeAAgmQAAg9AIguQACgHAHAAIAXgBIAYABQAIAAAAAGIgBAzQAAAoAFAsIAFAsQAAAFgGAAIggABgAgmhiQAAgeAnAAQAoAAAAAeQAAAcgoAAQgnAAAAgcg");
+	this.shape_2.setTransform(55.425,-2.575);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FFFFFF").s().p("AgdB2QgJgXgBhAIABgiQAAgGgFAAIgDAAQgEAAgBgGIgBgJQAAgZAEgVQABgHAFAAIAEAAQAGAAACgFIACgTQABgFAGgDQALgGAUgDQARgDAJAAQAHAAgDAGQgJAbABAIQAAAEAFAAIAIgBQAFAAABAFQACALAAARQAAARgDANQgBAEgEAAIgKgBQgFAAgBAIIAAALQAAAfAPA4IACAGQAAADgEADQgJAGgWAFQgSAEgOAAQgGAAgCgEg");
+	this.shape_3.setTransform(45.15,-1.125);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgxBXQgUgPAAgZQAAgSAGgKQACgEADAAQAAAAABAAQABAAAAABQABAAAAAAQABAAAAABQAJAKAOAJQAPAJAMAAQAHAAAAgGQAAgFgPgIQgcgNgKgKQgRgPAAgaQAAgdAVgRQAUgPAiAAQAjAAATALQAGADAAAHQAAAZgKAXQgCAFgDAAIgEgBQgdgWgUAAQgHAAAAAGQAAAEAQAIQAcAMALAKQAWAQAAAbQAAAggUARQgSAQggABQgfAAgSgOg");
+	this.shape_4.setTransform(32.675,0.65);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FFFFFF").s().p("Ag4BJQgQgZAAgoQAAg3AagcQAWgZAlABQAaAAAPAMQARAPAAAZQAAAigVAQQgNAKgcAHQgQAEAAAGQABAHANAAQAfAAAXgSQACgCACAAQAJgBgBAYQABAcgWAQQgUAQgeABQgmAAgUgcgAgIgqQgGAIAAAKQAAAFAEAAQADAAAEgCQAQgKAAgJQABgJgKAAQgHAAgFAHg");
+	this.shape_5.setTransform(17.95,0.65);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#FFFFFF").s().p("AhDBNQgKgVAAg8QAAgkAGgvQABgIAIgBIAagBIAZABQAHABAAAGQgDA/AAAkQAAAZAIAAQADAAACgDQAFgEAAgUQAAg6gDglQgBgIAJgBIAVgBIAbABQAJAAABAKQAEAjAAAqQAAAmgDAzQgBANgQABIgUABIgNgBQgIAAAAgHQAAgGgFAAQgEAAgNAJQgOAIgNAAQgZAAgKgVg");
+	this.shape_6.setTransform(1.725,0.75);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#FFFFFF").s().p("ABKB2IgNgMIgFgCIgEACIgRAHQgPAFgTAAQhcAAAAhuQAAiABcAAQBbAAAACAQAAAcgJAgIgBAFIAAADIAGAMQAEAIAAAJQAAAQgKAAQgEAAgEgDgAgQAHQAAAtARAAQAGAAAAgDIgEgLQgDgLAAgKQAAgGADAAQADAAAEAEIAFAEQADAAAAgPQAAgagDgMQgEgTgKAAQgRAAAAA8g");
+	this.shape_7.setTransform(-16.525,-1.025);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#FFFFFF").s().p("AhCBYQgKghAAg+QAAg/ALgPQAGgKANgDQAKgDAXAAQBaAAAABJQAAAwgVAdQgRAZgSAAQgHAAgIgMQgIgLgCAAQgDAAAAAFQAAALADALIADAKQAAAFgHABQgjAIgMAAQgHAAgEgOgAgJgGQAAAaAHAAQAMAAAAgzQAAgWgKAAQgJAAAAAvg");
+	this.shape_8.setTransform(-39.275,0.775);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#FFFFFF").s().p("AgcCAQgIAAgBgIQgDgeAAgmQAAg9AIguQACgHAHAAIAXgBIAYABQAIAAAAAGIgBAzQAAAoAFAsIAFAsQAAAFgGAAIggABgAgmhiQAAgeAnAAQAoAAAAAeQAAAcgoAAQgnAAAAgcg");
+	this.shape_9.setTransform(-51.975,-2.575);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#FFFFFF").s().p("AhKB7QgHgBgBgIQgCgZAAg6QAAhWAIg7QABgIAIAAIAaAAIAcAAQAIAAAAAGQgLBMAAAoQAAAHAEgBQAJABAEgUQAFgTABgeQABgGAHAAIAagBIAfABQAHABAAAGQAAAWgLAXQgIARgKALQgDADAAACQAAACADADQARAPAHAPQALAXAAAmQAAAGgBABQgCACgFABIgaAAIgcAAQgGgBgCgBQgCgCAAgFQgCgfgGgUQgFgSgIgBQgGAAAAAQQAAAKAFAXIAFAXQAAAGgGABIgfABg");
+	this.shape_10.setTransform(-65.475,-2);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#FFFFFF").s().p("Ag+BmQgYgRAAggQABgbAOgMIADgBQADAAACACQAMARASAKQARALAPAAQANgBgBgIQAAgFgEgDQgGgDgOgFQgggKgQgQQgUgSAAgdQAAggAVgUQAYgVAmAAQAvAAAdAWQAEAEAAADQAAAJgIAQQgHAPgJALQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAIgFgBQgbgXgTAAQgJAAAAAIQAAAKAWAIQAmANARATQAPARAAAeQAAAggVAVQgXAWgrAAQgnAAgWgRg");
+	this.shape_11.setTransform(-83.85,-1.2);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("#FF6633").s().p("AzDF3QiCAAAAiCIAAnpQAAiCCCAAMAmHAAAQCCAAAACCIAAHpQAACCiCAAg");
+	this.shape_12.setTransform(0.005,0,0.9999,1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_but_change_question, new cjs.Rectangle(-135,-37.5,270,75), null);
+
+
+(lib.mc_winners = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.mcScore = new lib.mc_coin();
+	this.mcScore.name = "mcScore";
+	this.mcScore.setTransform(0,-336.8);
+
+	this.winLabel = new lib.mc_win_labels();
+	this.winLabel.name = "winLabel";
+	this.winLabel.setTransform(4.3,-164.35,1,1,0,0,0,0.1,-0.1);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AiVDcIAXgIQAcgLAXgOQBLguAGhCQgfAAgjgOQhHgdgShGQgUhSA0g4QAxg0BKAFQBKAEAoA3QAsA8gLBnQgLBqhbBEQhGA0hQAAQgYAAgagFg");
+	this.shape.setTransform(-2.3912,-256.9787,0.869,0.869);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AiVDcIAXgIQAcgLAXgOQBLguAFhCQgeAAgkgOQhGgdgShGQgUhSA0g4QAxg0BJAFQBKAEApA3QAsA8gLBnQgLBqhbBEQhFA0hRAAQgYAAgagFg");
+	this.shape_1.setTransform(29.4553,-256.9787,0.869,0.869);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#1C69B0").s().p("AqDC6IAAqIIUHAAIAAKIIqEEVg");
+	this.shape_2.setTransform(13.3307,-249.589,0.869,0.869);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#CE3A89").s().p("EgpeALFIGRsSImRsSMBS9AAAImRMSIGRMSQ08Cb0uAAQ0wAA0jibg");
+	this.shape_3.setTransform(12.8249,-174.1813,0.994,0.994);
+
+	this.butReplay = new lib.mc_but_replay();
+	this.butReplay.name = "butReplay";
+	this.butReplay.setTransform(353,102.45,1,1,0,0,0,0.2,0.1);
+
+	this.butHomeMenu = new lib.mc_but_go_home();
+	this.butHomeMenu.name = "butHomeMenu";
+	this.butHomeMenu.setTransform(-349.3,102.45,1,1,0,0,0,-0.1,0.1);
+
+	this.instance = new lib.Bitmap1();
+	this.instance.setTransform(-252.6,-63.05,1.2029,1.2029);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#333333").s().p("EBG2A6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEBE/A6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEBDHA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEBBOA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEA/XA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEA9fA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEA7mA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEA5vA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEA33A6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEA1+A6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEA0HA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAyPA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEAwWA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAufA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAsnA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEAquA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAo3A6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAm/A6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEAlGA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAjPA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAhXA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEAfeA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAdnA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAbvA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEAZ2A6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAX/A6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAWHA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEAUOA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEASXA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAQfA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEAOmA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAMvA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAK3A6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEAI+A6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAHHA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEAFPA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEADWA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEABfA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgAYA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA6AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgCRA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgEIA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgGAA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgH5A6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgJwA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgLoA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgNhA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgPYA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgRQA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgTJA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgVAA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgW4A6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgYxA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgapA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgcgA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgeZA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEggRA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgiIA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgkBA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgl5A6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgnwA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgppA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgrhA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgtYA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgvRA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEgxJA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEgzAA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEg05A6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEg2xA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEg4oA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEg6hA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEg8YA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEg+QA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEhAJA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEhCAA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEhD4A6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAgBAAgEhFxA6oQAAAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABABAAQgBABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEhHoA6oQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQAAAAAAgBQAAAAAAgBQAAAAgBgBQABAAAAgBQAAAAAAgBQAAAAAAAAQABgBAAAAQAAgBABAAQAAAAABAAQAAgBABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAQAAAAAAAAgEhIlA6mQgegDgdgHQAAAAgBAAQAAgBAAAAQgBAAAAAAQAAgBgBAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAIAAAAIACgDQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABABQAcAGAdADQABAAAAAAQABABAAAAQABAAAAAAQAAABABAAIABAEIAAAAQAAAAAAABQAAAAgBABQAAAAAAAAQAAABgBAAIgDABIgBAAgEBIuA6kQAAgBgBAAQAAAAAAgBQgBAAAAgBQAAAAAAAAQAAgBAAgBQAAAAAAAAQAAgBAAAAQABgBAAAAQAAgBABAAQAAAAAAgBQABAAAAAAQABAAAAAAQAegEAdgIQAAAAABAAQAAAAABAAQAAAAABAAQAAAAABABIACACIAAABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABgBAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAAAgBABQgcAIgfAEIgBAAIgDgBgEhKZA6IQgcgMgagQQAAAAAAgBQgBAAAAAAQAAgBAAAAQgBgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBABAAIAAAAIADgCQAAAAABAAQAAAAABAAQAAAAABAAQAAAAABABQAZAPAbAMQAAAAABABQAAAAABAAQAAABAAAAQABABAAAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAgBABIAAAAQAAAAAAABQAAAAgBAAQAAABAAAAQgBAAAAABIgCAAIgCgBgEBKiA6DQgBAAAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQAAgBABAAQAAgBAAAAQAAgBAAAAQAAgBABAAQAAAAAAgBQABAAAAAAQAagNAZgQQAAgBABAAQAAAAABAAQAAAAAAAAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAIAAAAQAAABAAAAQAAAAAAABQABAAAAABQAAAAAAABQgBAAAAABQAAAAAAAAQgBABAAAAQAAAAgBABQgYARgbANIgDAAIgBAAgEhMAA5HIgWgVIgVgWQAAAAAAgBQgBAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAABAAQAAgBAAAAQAAgBABAAIAAAAIADgBQABAAAAAAQABAAAAAAQABAAAAABQAAAAABAAIAUAWIAWAVQAAAAAAAAQABABAAAAQAAABAAAAQAAAAABABIgBADIgBABQAAAAgBAAQAAABAAAAQgBAAAAAAQgBAAAAAAIgBAAIgDgBgEBMFA5BQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAAAgBgBQAAAAAAgBQgBAAAAAAQAAgBAAAAQAAgBAAgBQAAAAAAAAQAAgBAAAAQABgBAAAAQAAgBAAAAIAPgNQAOgPANgQQABAAAAAAQAAgBABAAQAAAAABAAQAAAAAAAAQABAAAAAAQABAAAAAAQABAAAAAAQABABAAAAIAAAAQABAAAAABQAAAAAAAAQABABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABgBAAQAAABAAAAQgNAQgQAPIgNAOIgEABIAAAAgEhNLA3uQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAgBgBAAQgQgagMgbQgBgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAAAABgBQAAAAAAgBQABAAAAAAQABgBAAAAIAAAAQABAAAAAAQABAAAAAAQAAAAABAAQAAAAABAAQAAAAABAAQAAABAAAAQABAAAAABQAAAAABABQALAaARAaQAAAAAAAAQAAABABAAQAAABAAAAQAAABgBAAQAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABIgCAAIgBAAgEBNPA3kIAAAAQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQAQgaALgaQAAgBAAAAQAAgBABAAQAAAAABgBQAAAAABAAIADAAIAAAAQABAAAAAAQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAQAAABABAAQAAABgBAAQAAABAAAAQgLAcgQAaQgBAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAIgBAAIgCAAgEhN9A2BQAAAAgBgBQAAAAAAAAQgBgBAAAAQAAgBAAAAQgIgdgDggQAAAAAAgBQAAAAAAgBQAAAAABgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAAAABAAQAAAAAAAAIABAAIADABQABAAAAABQAAAAAAAAQABABAAAAQAAABAAAAQADAfAHAdQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAIgDADIAAAAIgCAAIgCgBgEBN9A12IAAAAIgDgCQgBAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAHgcACgeQAAgBAAAAQAAgBABAAQAAAAAAgBQAAAAABAAIADgCIABAAQAAAAAAAAQABABAAAAQABAAAAAAQAAABABAAQAAAAAAABQABAAAAABQAAAAAAABQAAAAAAABQgCAfgHAcQAAABAAAAQgBABAAAAQAAABAAAAQgBAAAAAAIgDABIgBAAgEhOKA0HQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAz+QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAyPQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAyGQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAwXQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAwOQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAufQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAuWQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAsnQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAseQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAqvQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAqmQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAo3QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAouQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAm/QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAm2QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAlHQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAk+QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAjPQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAjGQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAhXQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAhOQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAffQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAfWQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAdnQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAdeQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAbvQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAbmQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAZ3QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAZuQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAX/QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAX2QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAWHQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAV+QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAUPQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAUGQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKASXQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFASOQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAQfQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAQWQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAOnQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAOeQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAMvQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAMmQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAK3QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAKuQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAI/QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAI2QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAHHQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAG+QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKAFPQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFAFGQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKADXQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFADOQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKABfQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFABWQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgAYQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgAhQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgCQQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgCZQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgEIQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgERQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgGAQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgGJQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgH4QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgIBQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgJwQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgJ5QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgLoQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgLxQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgNgQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgNpQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgPYQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgPhQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgRQQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgRZQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgTIQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgTRQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgVAQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgVJQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgW4QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgXBQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgYwQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgY5QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgaoQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgaxQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgcgQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgcpQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgeYQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgehQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKggQQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFggZQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgiIQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgiRQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgkAQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgkJQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgl4QgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgmBQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgnwQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgn5QgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgpoQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgpxQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgrgQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgrpQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgtYQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgthQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgvQQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgvZQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgxIQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgxRQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOKgzAQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQABgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABABQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABIAAA8QAAAAAAABQAAAAAAABQgBAAAAAAQAAABgBAAQAAABAAAAQgBAAAAAAQgBABAAAAQAAAAgBAAQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAAAAAgBgEBOFgzJQgBgBAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBIAAg8QAAAAAAgBQAAAAAAgBQABAAAAAAQAAgBABAAQAAgBAAAAQABAAAAAAQABgBAAAAQAAAAABAAQABAAAAAAQAAAAABABQAAAAABAAQAAAAAAABQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQgBABAAAAQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgBAAAAAAQAAAAgBAAQAAAAgBgBQAAAAAAAAgEhOGg02IAAAAQAAAAgBAAQAAgBgBAAQAAAAgBAAQAAgBAAAAQgBAAAAgBQAAAAAAgBQAAAAAAgBQgBAAABgBQACgeAHgdQAAAAABgBQAAAAAAgBQAAAAABAAQAAgBABAAQAAAAAAAAQABgBAAAAQABAAAAAAQABAAAAAAIAAAAIADADQABAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQgHAcgCAdQgBABAAAAQAAABAAAAQAAAAgBABQAAAAAAAAIgEACIAAAAgEBOCg1AQAAAAAAAAQgBgBAAAAQAAgBAAAAQAAgBgBAAQgDgfgIgdQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAABgBIACgCIABAAQAAAAABAAQAAAAABAAQAAAAABAAQAAAAABABQAAAAAAAAQABAAAAABQAAAAAAABQABAAAAAAQAIAeADAgQABAAAAABQAAAAgBABQAAAAAAAAQAAABgBAAQAAABAAAAQgBAAAAABQAAAAgBAAQAAAAgBAAIgBAAIgDgBgEhNrg2qIAAAAQgBAAAAAAQgBAAAAgBQAAAAgBAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAMgdAQgaQAAAAAAgBQABAAAAAAQAAAAABgBQAAAAABAAQAAAAABAAQAAAAABAAQAAAAABAAQAAAAABABIAAAAIACACQAAABAAAAQAAABAAAAQAAABAAAAQAAABgBAAQgPAagMAcQAAAAAAABQAAAAgBAAQAAABgBAAQAAAAgBAAIgBABIgCgBgEBNkg2zQAAgBgBAAQAAAAAAgBQgBAAAAAAQAAgBAAAAQgNgbgRgZQAAAAAAgBQAAAAgBgBQAAAAAAgBQAAAAAAgBIADgDIAAAAQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABAAQARAaANAcQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQAAABgBAAQAAABAAAAQgBAAAAABQgBAAAAAAIAAABIgCAAIgCAAgEhMtg4RQgBAAAAAAQAAgBAAAAQgBAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAABgBQAAAAAAAAIAYgaIATgSQABgBAAAAQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAQAAABABAAQAAAAABAAQAAABAAAAQABAAAAABQAAAAAAABQAAAAAAABQABAAAAAAQgBABAAAAQAAABAAAAQAAABgBAAQAAABAAAAIgTASIgXAZQgBAAAAABQAAAAgBAAQAAAAgBABQAAAAgBAAIAAAAIgDgCgEBMjg4XQAAAAgBAAQAAgBgBAAQAAAAgBAAQAAgBAAAAIgQgRIgagXQAAgBAAAAQgBgBAAAAQAAAAAAgBQAAAAAAgBQgBAAABgBQAAAAAAgBQAAAAAAgBQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAAAQABAAAAAAQABAAAAAAQABAAAAAAQAAAAABAAQAAABABAAIAZAYIARASQABAAAAAAQAAABAAAAQAAABAAAAQABABgBAAQAAABAAAAQAAAAAAABQAAAAgBABQAAAAAAAAIgDACIgBAAgEhLRg5fQgBAAAAAAQAAAAgBgBQAAAAgBAAQAAgBAAAAIAAAAQgBgBAAAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQABAAAAgBQAAAAAAAAQABgBAAAAQAagRAcgMQAAAAAAgBQABAAAAAAQABAAAAAAQABAAAAAAQABABAAAAQABAAAAABQAAAAABAAQAAABAAAAQAAABAAAAQAAABABAAQAAABgBAAQAAABAAAAQAAAAAAABQAAAAgBABQAAAAgBAAQAAABgBAAQgaAMgZARIgDAAIgBAAgEBLHg5lQgagQgcgLQAAAAgBAAQAAgBgBAAQAAAAAAgBQAAAAgBgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQABAAAAgBQAAAAAAAAQABgBAAAAQABAAAAAAQAAAAABgBQABAAAAAAQABAAAAAAQABABAAAAQAcALAaAQQABABAAAAQABAAAAABQAAAAAAABQABAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABgBAAIAAABIgDACIgBAAIgCgBgEhJmg6RQAAAAAAAAQgBAAAAgBQAAAAAAgBQgBAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBABAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAAAABgBQAegIAfgDQABAAAAAAQABAAAAAAQAAABABAAQAAAAABAAIACADIAAABQAAAAgBABQAAAAAAABQAAAAAAABQAAAAgBABQAAAAAAAAQgBABAAAAQgBAAAAAAQAAAAgBAAQgfADgdAIIgBAAIgDgBgEBJYg6SQgcgHgegDQAAAAgBAAQAAAAgBAAQAAAAgBgBQAAAAAAAAIgCgEIAAAAQABgBAAAAQAAgBAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQABAAAAgBQAAAAABAAQAAAAABAAQAfADAdAHQAAAAABAAQAAABAAAAQABAAAAAAQAAABABAAIAAAEIAAAAQAAAAAAABQAAAAgBABQAAAAAAAAQgBABAAAAIgCABIgCAAgEBGmg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEBEug6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEBC3g6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEBA+g6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEA/Gg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEA9Pg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEA7Wg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEA5eg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEA3ng6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEA1ug6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAz2g6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAx/g6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAwGg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAuOg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAsXg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAqeg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAomg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAmvg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAk2g6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAi+g6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAhHg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAfOg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAdWg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAbfg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAZmg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAXug6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAV3g6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAT/g6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEASGg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAQPg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAOXg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAMeg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAKng6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAIvg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEAG2g6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEAE/g6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEADHg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEABOg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgAog6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgCgg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEgEZg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgGQg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgIIg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEgKBg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgL4g6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgNwg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEgPpg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgRgg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgTYg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEgVRg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgXIg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgZAg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEga5g6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgcwg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgeog6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEgghg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgiYg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgkQg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEgmJg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgoAg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgp4g6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEgrxg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgtog6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgvgg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEgxZg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEgzQg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEg1Ig6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEg3Bg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEg44g6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEg6wg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEg8pg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEg+gg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEhAYg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEhCRg6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEhEIg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBgBAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAgEhGAg6dQgBAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAABABQgBAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAgBAAgEhH5g6dQAAAAAAAAQgBAAAAgBQgBAAAAAAQgBAAAAgBQAAAAgBgBQAAAAAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQABAAAAgBQAAAAABAAQAAgBABAAQAAAAABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAAAQABAAAAABQABAAAAAAQAAABABAAQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAABQAAAAAAAAQgBABAAAAQAAABgBAAQAAAAgBAAQAAABgBAAQAAAAAAAAg");
+	this.shape_4.setTransform(-0.0135,0.0076,1,1.0007);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FFFFFF").s().p("EBH4A6jQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg6AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg8AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg8AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg8AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg8AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg8AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg8AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg8AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAIg7AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgxAAQgBAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg9AAQAAAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABAAAAIgzAAQAAAAAAgBQAAAAAAgBQAAAAAAAAQgBgBAAAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQAAAAAAAAIg8AAQgBAAAAAAQgBAAAAABQgBAAAAAAQgBAAAAABQAAAAgBABQAAAAAAAAQAAABAAAAQAAABgBAAIgLAAQgTAAgTgBIgBgEQgBAAAAgBQAAAAgBAAQAAAAgBgBQAAAAgBAAQgdgDgcgGQgBgBAAAAQgBAAAAAAQgBAAAAABQgBAAAAAAIgCADQgYgHgYgJQABgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAAAgBgBQAAAAAAgBQgBAAAAAAQgBgBAAAAQgbgMgZgPQgBgBAAAAQgBAAAAAAQgBAAAAAAQgBAAAAAAIgDACQgVgOgTgRIABgDQgBgBAAAAQAAAAAAgBQAAAAgBgBQAAAAAAAAIgWgVIgUgWQgBAAAAAAQAAgBgBAAQAAAAgBAAQAAAAgBAAIgDABQgQgTgOgUQABgBAAAAQAAAAABgBQAAAAAAgBQAAAAAAgBQABAAAAgBQAAAAAAgBQgBAAAAgBQAAAAAAAAQgRgagLgaQgBgBAAAAQAAgBgBAAQAAAAAAgBQgBAAAAAAQgBAAAAAAQgBAAAAAAQAAAAgBAAQAAAAgBAAQgJgXgHgXIADgDQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQgHgdgDgfQAAAAAAgBQAAAAgBgBQAAAAAAAAQAAgBgBAAIgDgBQgCgTAAgUIAAgMQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgxQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgyQABAAAAAAQAAAAABgBQAAAAABAAQAAAAAAgBQABAAAAgBQAAAAABAAQAAgBAAAAQAAgBAAAAIAAg8QAAgBAAAAQAAgBAAAAQgBgBAAAAQAAAAgBgBQAAAAAAAAQgBgBAAAAQgBAAAAAAQAAAAgBAAIAAgQIABgiIAEgCQAAAAAAAAQABgBAAAAQAAAAAAgBQAAAAABgBQACgdAHgcQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBgBAAIgDgDQAHgYAJgXIADAAQABAAAAAAQABAAAAgBQABAAAAAAQAAgBAAAAQAMgcAPgaQABAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBIgCgCQANgVARgUQAAABABAAQAAAAABABQAAAAAAAAQABAAAAAAQABAAAAAAQABgBAAAAQABAAAAAAQAAgBABAAIAXgZIATgSQAAAAAAgBQABAAAAgBQAAAAAAgBQAAAAABgBQAAAAgBAAQAAgBAAAAQAAgBAAAAQAAgBgBAAQATgRAVgNIAAAAQAAAAAAABQABAAAAAAQABABAAAAQAAAAABAAQABAAAAAAQAAAAABAAQAAAAABAAQAAAAABAAQAZgRAagMQABAAAAgBQABAAAAAAQABgBAAAAQAAgBAAAAQAAAAAAgBQABAAAAgBQgBAAAAgBQAAAAAAgBQAXgKAYgGQAAAAABAAQAAABAAAAQAAABABAAQAAAAAAAAQABABAAAAQABAAAAAAQABAAAAAAQABAAAAAAQAdgIAfgDQABAAAAAAQAAAAABAAQAAAAABgBQAAAAAAAAQABgBAAAAQAAgBAAAAQAAgBAAAAQABgBAAAAIAAgBIAkgBQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA8AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIAxAAQABAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAABAAIA7AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA9AAQAAAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBAAAAIAzAAQAAAAAAABQAAAAAAABQAAAAAAAAQABABAAAAQAAABABAAQAAAAABAAQAAABABAAQAAAAAAAAIA8AAQABAAAAAAQABAAAAgBQABAAAAAAQABAAAAgBQAAAAABgBQAAAAAAAAQAAgBAAAAQAAgBABAAIASAAIAfABIACAEQAAAAAAAAQABABAAAAQABAAAAAAQABAAAAAAQAeADAcAHQABAAAAAAQABAAAAAAQABAAAAgBQABAAAAAAQAAAAABgBQAAAAAAAAQABgBAAAAQAAgBAAAAIAAAAQAZAGAXAJQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQABABAAAAQAAABAAAAQABAAAAABQABAAAAAAQAcALAaAQQAAAAAAAAQABABAAAAQABAAAAAAQABAAAAAAIADgCQAVANAUAQQgBABAAAAQAAABAAAAQAAABAAAAQgBABABAAQAAABAAAAQAAABAAAAQAAAAABABQAAAAAAABIAaAXIAQARQAAAAAAABQABAAAAAAQABAAAAABQABAAAAAAQABAAAAAAQABAAAAgBQABAAAAAAQAAAAABgBQARAUAOAUIgDADQAAABAAAAQAAABAAAAQABABAAAAQAAABAAAAQARAZANAbQAAAAAAABQAAAAABAAQAAABAAAAQABAAAAABIAEAAQAKAWAGAYIgCACQgBABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAIAdADAfQABAAAAABQAAAAAAABQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQABAAAAAAQABAAAAAAQACAVAAAWIAAAGQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAxQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAyQgBAAAAAAQAAAAgBABQAAAAgBAAQAAAAAAABQgBAAAAABQAAAAgBAAQAAABAAAAQAAABAAAAIAAA8QAAABAAAAQAAABAAAAQABABAAAAQAAAAABABQAAAAAAAAQABABAAAAQABAAAAAAQAAAAABAAIAAAWIgBAcIgDACQgBAAAAAAQAAABAAAAQgBAAAAABQAAAAAAABQgCAegHAcQAAABAAAAQAAABAAAAQAAABAAAAQAAABABAAIADACQgGAYgJAYIgDAAQgBAAAAAAQgBABAAAAQgBAAAAABQAAAAAAABQgLAagQAaQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQABABAAAAQAAAAABABIAAAAQgNAUgQAUQAAAAgBgBQAAAAgBAAQAAAAgBAAQAAAAgBAAQAAAAAAAAQgBAAAAAAQgBAAAAABQAAAAgBAAQgNAQgOAPIgPANQAAAAAAABQAAAAgBABQAAAAAAABQAAAAAAAAQAAABAAABQAAAAAAABQAAAAABAAQAAABAAAAQgSARgUAOIAAAAQgBAAAAgBQAAAAgBAAQAAgBgBAAQAAAAgBAAQAAAAgBAAQAAAAAAAAQgBAAAAAAQgBAAAAABQgZAQgaANQAAAAgBAAQAAABAAAAQgBAAAAABQAAAAAAABQAAAAAAABQgBAAAAABQABAAAAABQAAAAAAABQgWAKgYAHIgCgCQgBgBAAAAQgBAAAAAAQgBAAAAAAQgBAAAAAAQgdAIgeAEQAAAAgBAAQAAAAgBAAQAAABAAAAQgBAAAAABQAAAAgBABQAAAAAAABQAAAAAAAAQAAABAAABQgZACgZAAg");
+	this.shape_5.setTransform(-0.0135,0.0076,1,1.0007);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.instance},{t:this.butHomeMenu},{t:this.butReplay},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.winLabel},{t:this.mcScore}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_winners, new cjs.Rectangle(-501,-376,1002,752), null);
+
+
+(lib.mcStart = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.butC = new lib.mc_but_rect();
+	this.butC.name = "butC";
+	this.butC.setTransform(0,51.05);
+	new cjs.ButtonHelper(this.butC, 0, 1, 2, false, new lib.mc_but_rect(), 3);
+
+	this.butB = new lib.mc_but_rect();
+	this.butB.name = "butB";
+	this.butB.setTransform(0,-56.95);
+	new cjs.ButtonHelper(this.butB, 0, 1, 2, false, new lib.mc_but_rect(), 3);
+
+	this.butA = new lib.mc_but_rect();
+	this.butA.name = "butA";
+	this.butA.setTransform(0,-166.15);
+	new cjs.ButtonHelper(this.butA, 0, 1, 2, false, new lib.mc_but_rect(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.butA},{t:this.butB},{t:this.butC}]}).wait(1));
+
+	// Layer_2
+	this.instance = new lib.mc_math_title();
+	this.instance.setTransform(0.1,-302.45);
+
+	this.instance_1 = new lib.mc_chars();
+	this.instance_1.setTransform(0.1,240.85);
+	this.instance_1.compositeOperation = "multiply";
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("Ag6CJQgXgCgUgPQgMgJgHgNQgHgNgEgOQgEgPAAgQQAAgPACgOQAFgdAPgZQAPgYAWgTQAXgSAbgLQAagMAegFQAVgDAagBQAagBAeAFIgEBPQg4gIgoAMQgnAMgXAbQgRAVgCAQQgDAPAHAHQAHAGAPgFQAPgEASgUQAPgPANgQIAUgdIBLABQACASgBAWIgBAtIgBAqIgBAiIg2ADIAAgKIABgOIAAgNIAAgKQAAgWgGgDQgFgDgMATQgLASgSAPQgTAQgVAHQgRAGgSAAIgKAAg");
+	this.shape.setTransform(80.3021,50.8425);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AhpBrIgGgtIgEg1IgCg2IABgzQACgXAEgOIBnADIgCAIIgEAOIgEAOIgDALIAlgQQAUgIASgBQARgCAPAGQAPAHAKASQADAIACANIABAdQAAAPgDAOQgDAOgFAJIhYgOQAHgSgDgMQgDgMgIgFQgHgFgJADQgKACgHANQgGAJgDAMIgDAYIgBAZIAAAfIAAAfIAAAZIhBADg");
+	this.shape_1.setTransform(51.375,51.05);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AgMCxQgVgBgTgNIgQgNIgMgPIgIgQIgGgOQgGgQgDgWIgFguIgCgzIABg1IADgyIAGgrIBnAEIgIAoIgGArIgFAnIgDAeQAOgKANgDQAOgDAOABQANABAMAGQALAGAKAIQATASAGAXQAGAYgFAXQgEAXgOAWQgOAWgTAPIgOAJIgRAHQgNAFgPAAIgKAAgAALAKQgHABgFAFIgMAKQgEAFgCAHIgDANIAAAPIACANQAEAWAMAEQAKADANgJQAKgGAHgJQAHgJADgLQADgLgCgMQgBgMgIgKQgGgHgHgCIgHgBIgHABg");
+	this.shape_2.setTransform(25.4636,47.5972);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FFFFFF").s().p("AACCRQgggEgcgTIgLgKIgLgLQgLgNgGgOQgNgcgBggQgCgeAKgfQAFgPAIgPQAIgPAMgMQAMgOAPgJQAPgIARgFIAQgEIARgBQANAAANAEQAOADAMAIQANAHAJALQAKAKAEANQAEASgEASIgFAQIgBACIgBACIgCADIgCADIgBADQgIAMgJAJIgSAOQgSAMgTAFQgUAFgWAAIgCAAIgBAAQgCAMAEAKQADAKAHAGQAGAHAIACQAJADAIgEQAIgEAGgKQAHgKADgTIBAANQACAfgOAWQgNAVgXALQgYAMgaAAIgMgBgAAVhNQgNABgLAJQgGAEgEAGIgHANIgFANIgCAOIAOgBIAOgEIAQgIQAIgGAHgJQAEgGACgGQABgGgCgEQgBgFgEgDQgEgCgFAAIgCAAg");
+	this.shape_3.setTransform(0.0205,50.8081);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#FFFFFF").s().p("AgiC2QgYgIgWgRQgVgQgQgZIA3g4IALAMIARAQQATAPAPAEQAOAFANgEQAMgEAJgKQAKgKAGgPQAGgPACgSQADgSAAgSQgUAOgYAKQgZAKgaADIgLABIgNgBIgMgCIgMgDIgNgFIgNgHIgNgIIgFgGIgGgGIgJgMIgDgIIgDgIIgCgIIgBgIIgBgJIAAgIIABgIIABgHIACgIIADgHIACgGIAEgHIADgGIAEgGQAXgfAegQQAegQAigGQAhgGAjADQAjADAiAHIgNBaQgPgHgVgCQgUgDgWAAQgWABgUAEQgTAEgPAIQgMAGgIAJQgIAJgBAIQAAAIAHAGQAIAGASACQAMABANgDIAWgGQAXgIAPgKIAMgIIAIgHQAGgFAGgBQAHgBAHABQAGACAFAEQAGAEADAHQAGAMAEASQADARAAATQABATgCAVIgFAlIgDALIgDAJQgKAdgRASQgSATgWAJQgWAKgYABIgDAAQgWAAgWgIg");
+	this.shape_4.setTransform(-27.9583,53.8735);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FFFFFF").s().p("AgUChQgUgIgNgUQgNgUgGghQgFgcgCgiIgBhDIAChAIACg1IBgAAIgFAoIgEAwIgEA1IgDAwIgBAaIAAAXQABALAEAIQAEAIAJADQAIADAOgDQAOgEAVgLIADBDQgeALgaACIgMAAQgRAAgQgGg");
+	this.shape_5.setTransform(-53.125,48.3798);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#FFFFFF").s().p("AiVCpIAAggIACgpIAFguIAJgwIAMguQAGgWAIgTQAIgSAMgPQALgPAPgLQAPgLATgHQASgHATAAQAZgBAYALQAXAKASAZQANARAJAWQAJAXAHAaQAGAZADAbQADAcAAAaQABAbgDAZQgCAagFAUIhMgCIAEgQIAGgVIAEgXIABgTIhCAHQggADgjgCIgJBLgAgKhSQgNAJgJAXQgHAQgDAVIgIA0QAfACAfgCIBCgHIgGgqQgEgUgHgTQgIgSgMgLQgMgLgNgBIgDAAQgNAAgKAIg");
+	this.shape_6.setTransform(-79.5208,47.3239);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#FFFFFF").s().p("AiBCFIAIhBQADgiAAgjQAAgjgCgiQgCgjgGgeIBegCIAAAHIAAAKIAAAJIAAAIQAJgJALgHQAMgHAMgFQANgEANgCQAOgCANACQAMACAMAHQAMAHAJALQAGAIAEALIAGAXIADAZIABAXIgBAiIgCAqIABArQAAAVAEAPIhlgBQgCgLABgTIAEgoIAGgoIAGggIACgOIABgNQABgVgGgKQgGgJgJgCQgJgBgLAGQgLAGgJALQgKALgFAQQgGAPAAAQIACAfIADAnIAAAmQAAASgCAKg");
+	this.shape_7.setTransform(90.175,-57.325);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#FFFFFF").s().p("AgwB7QgQgIgMgOQgMgOgIgQQgJgRgEgSQgEgTABgRQABggAJgYQAJgYAPgRQAPgSAVgJQAUgJAVgBQAVgBAVAIQAVAIARARQAUAZAJAgQAIAggEAgQgEAggSAcQgRAdgfAQQgVALgXAAQgYAAgWgMgAgIg3QgHADgFAHQgFAIgEAKIgEAVIgBAUQABANAFAJQAEAJAHAFQAGAEAJAAQAHAAAIgFQAKgGAHgKQAHgLACgMQADgMgBgNQgBgNgGgKIgEgGQgHgJgKgEQgFgBgEAAQgFAAgHADg");
+	this.shape_8.setTransform(62.8362,-56.6806);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#FFFFFF").s().p("AggB/IgHghIgFgnIgCgpIABgjQABgQACgKIBZABIgDAeIgDAlIgEAqIgDAmIgCAeIgBAOIg3AFQgEgIgEgPgAgIhNQgGgDgFgFQgFgFgDgHQgDgHAAgIQAAgPALgLQALgLAOAAQAOAAALALQALALAAAPQAAAIgDAHQgDAHgFAFQgFAFgHADQgHADgGAAQgHAAgHgDg");
+	this.shape_9.setTransform(43.8,-57.725);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#FFFFFF").s().p("AABC0QgPgGgOgQQgMgNgHgRQgHgQgFgTIgIgmIgFgnIgHABIgLABIgLAAIgGABIgBhCIAGAAIAJAAIAJAAIAIAAIgCgPIgBgXIAAgbIgBgcIgBgYIABgSIBsAKIgHAgIgFAeIgEAcIgDAeIASAAIAXgBIAVgBIARgCIABBBIgNAAIgVAAIgaAAIgYABIAAAOIAAAQIACARIACARQABALAGAHQAGAIAHgBQAHgBAGgMQAGgMACgdIA7ADQABAagGAWQgGAXgKASQgLASgOAMQgOALgQAEIgMABQgKAAgKgDg");
+	this.shape_10.setTransform(25.5321,-60.7819);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#FFFFFF").s().p("AgcCDQgZgHgWgPQgKgJgJgKQgIgKgHgMQgHgLgFgNQgEgNgCgPQgCgUAEgVQAFgVAKgSQALgTARgPQAQgPAVgJQAQgHASgDQARgDASABIAOADIAVAHQALAFANAIQAMAIAJALQAJAMAFAPQAFAQgDAUIhCAEQgHgTgLgJQgKgKgNgCQgRgEgNAHQgMAIgIANQgHANgDAQQgCAPADAOQAEARALALQAMAKAOABQANABAPgKQAOgLAJgYIBSATQgCAVgJATQgKASgOANQgPAOgSAJQgSAIgVABIgSABQgPAAgQgEg");
+	this.shape_11.setTransform(-1.2946,-56.0523);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("#FFFFFF").s().p("Ag6CJQgXgCgUgPQgMgJgHgNQgHgNgEgOQgEgPAAgQQAAgPACgOQAFgdAPgZQAPgYAWgTQAXgSAbgLQAagMAegFQAVgDAagBQAagBAeAFIgEBPQg4gIgoAMQgnAMgXAbQgRAVgCAQQgDAPAHAHQAHAGAPgFQAPgEASgUQAPgPANgQIAUgdIBLABQACASgBAWIgBAtIgBAqIgBAiIg2ADIAAgKIABgOIAAgNIAAgKQAAgWgGgDQgFgDgMATQgLASgSAPQgTAQgVAHQgRAGgSAAIgKAAg");
+	this.shape_12.setTransform(-31.0979,-56.8575);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.f("#FFFFFF").s().p("AhpBrIgGgtIgEg1IgCg2IABgzQACgXAEgPIBnAFIgCAHIgEAOIgEAPIgDAKIAlgQQAUgIASgBQARgCAPAGQAPAGAKATQADAIACAOIABAcQAAAPgDAOQgDANgFALIhYgQQAHgQgDgMQgDgNgIgFQgHgFgJADQgKACgHANQgGAJgDANIgDAXIgBAZIAAAfIAAAfIAAAaIhBABg");
+	this.shape_13.setTransform(-60.025,-56.65);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.f("#FFFFFF").s().p("AhcBTIgCgQIgCgRIgJAAIgNAAIgOABIgJAAIgBgyIApAAIgDgSIgCgTIgCgUIgCgmQABgSAEgRQAEgQAKgNQAJgNAQgIQAKgFAKgCIAUgCIAVABIAUADIAjAGIAmAHIAhAGIAWAEIgXBUIhrgYQgWgFgMAGQgLAGgEAPQgEAOACATIAGAoIABACIAAABIAhAAIAogBIAqgDIAjgDIgCAyIghADIgmACIglABIgfgBIAHAkIAIAmIAHAkIAHAeIhaAEg");
+	this.shape_14.setTransform(-89.025,-58.575);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.f("#FFFFFF").s().p("AAECmQgTgEgTgMQgTgMgQgRIAlgmQAFAJAHAFIANAHIAMAEIALgBQAIgDACgGQACgGgJgFIgNgGIgMgFQgXgHgWgNQgWgMgSgUQgQgSgIgVQgIgWACgXQACgWALgVQALgWAWgPQAMgJAPgHQAPgGARgDQAQgCAQABQAQACAQAHQAPAGAOALQAPALAKAQQALARAFAXQAGAXgDAfIhPAIQgBgNgFgNQgEgNgHgKQgIgJgJgFQgJgFgMAEQgJACgHAFQgGAFgDAHQgDAHABAJQABAJAGAIQAKAMAUALIAmASQATAKARAOIAMAPIAHARQAEAIAAAJIgBARIgDAIIgDAIIgEAHIgEAGQgRATgTAHQgMAEgNAAIgOgBg");
+	this.shape_15.setTransform(138.8079,-165.2419);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.f("#FFFFFF").s().p("AACCRQgggEgcgTIgLgKIgLgLQgLgNgGgOQgNgcgBggQgCgeAKgfQAFgPAIgPQAIgPAMgMQAMgOAPgJQAPgIARgFIAQgEIARgBQANAAANAEQAOADAMAIQANAHAJALQAKAKAEANQAEASgEASIgFAQIgBACIgBACIgCADIgCADIgBADQgIAMgJAJIgSAOQgSAMgTAFQgUAFgWAAIgCAAIgBAAQgCAMAEAKQADAKAHAGQAGAHAIACQAJADAIgEQAIgEAGgKQAHgKADgTIBAANQACAfgOAWQgNAVgXALQgYAMgaAAIgMgBgAAVhNQgNABgLAJQgGAEgEAGIgHANIgFANIgCAOIAOgBIAOgEIAQgIQAIgGAHgJQAEgGACgGQABgGgCgEQgBgFgEgDQgEgCgFAAIgCAAg");
+	this.shape_16.setTransform(112.0205,-165.6919);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.f("#FFFFFF").s().p("AgiC2QgYgIgWgRQgVgQgQgZIA3g4IALAMIARAQQATAPAPAEQAOAFANgEQAMgEAJgKQAKgKAGgPQAGgPACgSQADgSAAgSQgUAOgYAKQgZAKgaADIgLABIgNgBIgMgCIgMgDIgNgFIgNgHIgNgIIgFgGIgGgGIgJgMIgDgIIgDgIIgCgIIgBgIIgBgJIAAgIIABgIIABgHIACgIIADgHIACgGIAEgHIADgGIAEgGQAXgfAegQQAegQAigGQAhgGAjADQAjADAiAHIgNBaQgPgHgVgCQgUgDgWAAQgWABgUAEQgTAEgPAIQgMAGgIAJQgIAJgBAIQAAAIAHAGQAIAGASACQAMABANgDIAWgGQAXgIAPgKIAMgIIAIgHQAGgFAGgBQAHgBAHABQAGACAFAEQAGAEADAHQAGAMAEASQADARAAATQABATgCAVIgFAlIgDALIgDAJQgKAdgRASQgSATgWAJQgWAKgYABIgDAAQgWAAgWgIg");
+	this.shape_17.setTransform(84.0917,-162.6265);
+
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.f("#FFFFFF").s().p("Ag6CJQgXgCgUgPQgMgJgHgNQgHgNgEgOQgEgPAAgQQAAgPACgOQAFgdAPgZQAPgYAWgTQAXgSAbgLQAagMAegFQAVgDAagBQAagBAeAFIgEBPQg4gIgoAMQgnAMgXAbQgRAVgCAQQgDAPAHAHQAHAGAPgFQAPgEASgUQAPgPANgQIAUgdIBLABQACASgBAWIgBAtIgBAqIgBAiIg2ADIAAgKIABgOIAAgNIAAgKQAAgWgGgDQgFgDgMATQgLASgSAPQgTAQgVAHQgRAGgSAAIgKAAg");
+	this.shape_18.setTransform(53.6021,-165.6575);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.f("#FFFFFF").s().p("AABC0QgPgGgOgQQgMgNgHgRQgHgQgFgTIgIgmIgFgnIgHABIgLABIgLAAIgGABIgBhCIAGAAIAJAAIAJAAIAIAAIgCgPIgBgXIAAgbIgBgcIgBgYIABgSIBsAKIgHAgIgFAeIgEAcIgDAeIASAAIAXgBIAVgBIARgCIABBBIgNAAIgVAAIgaAAIgYABIAAAOIAAAQIACARIACARQABALAGAHQAGAIAHgBQAHgBAGgMQAGgMACgdIA7ADQABAagGAWQgGAXgKASQgLASgOAMQgOALgQAEIgMABQgKAAgKgDg");
+	this.shape_19.setTransform(26.2321,-169.5819);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.f("#FFFFFF").s().p("AiBCFIAIhBQADgiAAgjQAAgjgCgiQgCgjgGgeIBegCIAAAHIAAAKIAAAJIAAAIQAJgJALgHQAMgHAMgFQANgEANgCQAOgCANACQAMACAMAHQAMAHAJALQAGAIAEALIAGAXIADAZIABAXIgBAiIgCAqIABArQAAAVAEAPIhlgBQgCgLABgTIAEgoIAGgoIAGggIACgOIABgNQABgVgGgKQgGgJgJgCQgJgBgLAGQgLAGgJALQgKALgFAQQgGAPAAAQIACAfIADAnIAAAmQAAASgCAKg");
+	this.shape_20.setTransform(-0.925,-166.125);
+
+	this.shape_21 = new cjs.Shape();
+	this.shape_21.graphics.f("#FFFFFF").s().p("AACCRQgggEgcgTIgLgKIgLgLQgLgNgGgOQgNgcgBggQgCgeAKgfQAFgPAIgPQAIgPAMgMQAMgOAPgJQAPgIARgFIAQgEIARgBQANAAANAEQAOADAMAIQANAHAJALQAKAKAEANQAEASgEASIgFAQIgBACIgBACIgCADIgCADIgBADQgIAMgJAJIgSAOQgSAMgTAFQgUAFgWAAIgCAAIgBAAQgCAMAEAKQADAKAHAGQAGAHAIACQAJADAIgEQAIgEAGgKQAHgKADgTIBAANQACAfgOAWQgNAVgXALQgYAMgaAAIgMgBgAAVhNQgNABgLAJQgGAEgEAGIgHANIgFANIgCAOIAOgBIAOgEIAQgIQAIgGAHgJQAEgGACgGQABgGgCgEQgBgFgEgDQgEgCgFAAIgCAAg");
+	this.shape_21.setTransform(-27.9295,-165.6919);
+
+	this.shape_22 = new cjs.Shape();
+	this.shape_22.graphics.f("#FFFFFF").s().p("AgcCDQgZgHgWgPQgKgJgJgKQgIgKgHgMQgHgLgFgNQgEgNgCgPQgCgUAEgVQAFgVAKgSQALgTARgPQAQgPAVgJQAQgHASgDQARgDASABIAOADIAVAHQALAFANAIQAMAIAJALQAJAMAFAPQAFAQgDAUIhCAEQgHgTgLgJQgKgKgNgCQgRgEgNAHQgMAIgIANQgHANgDAQQgCAPADAOQAEARALALQAMAKAOABQANABAPgKQAOgLAJgYIBSATQgCAVgJATQgKASgOANQgPAOgSAJQgSAIgVABIgSABQgPAAgQgEg");
+	this.shape_22.setTransform(-55.1446,-164.8523);
+
+	this.shape_23 = new cjs.Shape();
+	this.shape_23.graphics.f("#FFFFFF").s().p("AhpBqIgGgsIgEg1IgCg3IABgyQACgXAEgPIBnAFIgCAHIgEAOIgEAPIgDAKIAlgRQAUgHASgCQARgBAPAHQAPAFAKATQADAIACAOIABAcQAAAPgDAOQgDANgFALIhYgQQAHgQgDgMQgDgNgIgFQgHgFgJADQgKACgHANQgGAJgDANIgDAXIgBAZIAAAfIAAAfIAAAaIhBABg");
+	this.shape_23.setTransform(-83.625,-165.45);
+
+	this.shape_24 = new cjs.Shape();
+	this.shape_24.graphics.f("#FFFFFF").s().p("AACCRQgggEgcgTIgLgKIgLgLQgLgNgGgOQgNgcgBggQgCgeAKgfQAFgPAIgPQAIgPAMgMQAMgOAPgJQAPgIARgFIAQgEIARgBQANAAANAEQAOADAMAIQANAHAJALQAKAKAEANQAEASgEASIgFAQIgBACIgBACIgCADIgCADIgBADQgIAMgJAJIgSAOQgSAMgTAFQgUAFgWAAIgCAAIgBAAQgCAMAEAKQADAKAHAGQAGAHAIACQAJADAIgEQAIgEAGgKQAHgKADgTIBAANQACAfgOAWQgNAVgXALQgYAMgaAAIgMgBgAAVhNQgNABgLAJQgGAEgEAGIgHANIgFANIgCAOIAOgBIAOgEIAQgIQAIgGAHgJQAEgGACgGQABgGgCgEQgBgFgEgDQgEgCgFAAIgCAAg");
+	this.shape_24.setTransform(-109.5295,-165.6919);
+
+	this.shape_25 = new cjs.Shape();
+	this.shape_25.graphics.f("#FFFFFF").s().p("AiACHQgFgdgDghIgChBIABg/IADg2IADgnQAAgHADgFQADgEAFgDIAKgFIAMgDQAigIAkgBQAigCAlAKQAQAEAOAIQAPAHAMAMQAMALAJAOQAKAOAFARQAGAXgEAZQgFAagPATQgKAPgPAMQgOAMgRAJQgSAJgSAGIglAJIgZAEIgRAAIgBAAIgBAUIAAAcIAAAbIAAAUIg8AKQgIgVgFgdgAgkhyIgBAWIgCAdIgDAeIgCAdIATgBIAXgDIAXgGQAMgDAKgGQAJgGAGgIQAGgIAAgMQABgSgKgNQgJgMgPgGQgPgHgRgCIgOgBQgLAAgKACg");
+	this.shape_25.setTransform(-137.7579,-168.0348);
+
+	this.shape_26 = new cjs.Shape();
+	this.shape_26.graphics.f("#9A58AF").s().p("EhBmAOwQiKAAhihiQhihhAAiLIAAzDQAAiLBihiQBihhCKAAMCDMAAAQCLAABiBhQBiBiAACLIAATDQAACLhiBhQhiBiiLAAg");
+	this.shape_26.setTransform(0.019,51.5429,0.5295,0.5297);
+
+	this.shape_27 = new cjs.Shape();
+	this.shape_27.graphics.f("#3DC5DF").s().p("EhBmAOwQiKAAhihiQhihhAAiLIAAzDQAAiLBihiQBihhCKAAMCDMAAAQCLAABiBhQBiBiAACLIAATDQAACLhiBhQhiBiiLAAg");
+	this.shape_27.setTransform(0.019,-57.3071,0.5295,0.5297);
+
+	this.shape_28 = new cjs.Shape();
+	this.shape_28.graphics.f("#FE7547").s().p("EhBmAOwQiKAAhihiQhihhAAiLIAAzDQAAiLBihiQBihhCKAAMCDMAAAQCLAABiBhQBiBiAACLIAATDQAACLhiBhQhiBiiLAAg");
+	this.shape_28.setTransform(0.019,-166.1571,0.5295,0.5297);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	// Layer_1
+	this.shape_29 = new cjs.Shape();
+	this.shape_29.graphics.f("#FFFFFF").s().p("EhP/A8AMAAAh3/MCf/AAAMAAAB3/g");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_29).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcStart, new cjs.Rectangle(-512,-384,1024,768), null);
+
+
+(lib.emoji = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Object
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#FFFFFF").s().p("AANBrQgIAAAAgHQAEhOAAggQAAgbgKAAQgEAAgCADQgEAEAAAXQAAA3AEAzQAAAHgKABIgYABIgdgBQgKgBgBgLQgDgwAAgvQAAgvADgoQAAgOASgCIAZgBIATABQAKABgBAHQAAAHAHAAQADAAAOgJQANgKAPABQAXAAAKATQALASAAAtQgBBFgGA0QgBAJgJABIgbABg");
+	this.shape.setTransform(60.2,135.3);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgfCNQgIgBgCgIQgEghAAgqQAAhDAKgyQABgIAIgBIAagBIAbABQAIABAAAHIgBA3QAAAtAFAwIAGAwQAAAGgHAAIgjABgAgqhsQAAghArAAQAtAAAAAhQAAAfgtAAQgrAAAAgfg");
+	this.shape_1.setTransform(46.075,131.875);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AhSAqQAAg+BMgLQAQgDAAgGQAAgHgNAAQgbAAgZAWQgEADgCAAQgBAAgBAAQAAAAgBgBQAAAAgBAAQAAgBgBAAQgPgPAAgYQgBgUAWgMQAXgMAnAAQAqAAAUAUQASATAAAnIgBBLQAAAUACAdQAAAJgJABQgNADg+AAQhRAAAAhCgAgHAQQgGAGAAAIQAAAHAFAFQAFAEAFAAQAJAAAAgOIAAgIQAAgIgBgDQgBgCgFAAQgFAAgGAFg");
+	this.shape_2.setTransform(31.8,135.225);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FFFFFF").s().p("AhJByQgPgLAAgVQAAgcAXgRQADgEAAgDQAAgBgCgDQgUgVABgdQgBghAXgTQAWgTAkAAIAWAAQAIABAGgKIAMgRQADgDAFAAQAHAAAOANQAOANABAIQgBADgDACQgPAIAAAIQAAACAIANQAGAOABATQgBAdgTASQgWASgpAAQgdAAAAALQAAAFAJABQAFAAAXgHQAXgGAQgBQAUAAANAJQAFADABAJQAAAQgHASQgGAWgIAAIgIgCQgNgEgQABQgJAAgVADQgTADgPABQgaAAgNgMgAgMgeQAAAPANAAQAPAAAAgPQAAgPgPAAQgNAAAAAPg");
+	this.shape_3.setTransform(14.1,133.95);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#FFFFFF").s().p("AAPCBQgHgBAAgGQAFgWAAgVQAAgMgLAAQgTAAAAATQAAAQACAVQAAAFgGABIgkABIgdgBQgLAAAAgHQgCgUAAgWQgBhGAUgzQAYg/AygWIAIgDQADAAAEADQAvAZAXA4QAVAyAABIIgBAoQgBAKgLACIgiABgAgCgmQgNAUAAAgQAAABAAAAQAAABAAAAQABABAAAAQABAAAAAAIANgDIAIgDQAFgCAAgGQAAgVgJgUQAAgBAAAAQgBgBAAAAQgBgBAAAAQAAAAgBAAQgBAAgCADg");
+	this.shape_4.setTransform(-5.5756,133.075);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FFFFFF").s().p("AhUBhIgBgUQAAgVACgUQABgIAIgBIAaAHQASAGAAgIQAAgDgEgDQgbgPgKgXQgMgbAAg6QAAgJANgBIAbgBIAgABQAIABAAAFIgBAdQAAAXACASQADAVAFAAQABAAABAAQAAAAABgBQAAAAAAgBQABgBAAAAQAFgPAAghQAAgRgDgWQAAgGAIgBIAbgBIAYABQAPACAAATQAABigbAqQgjA3heAAQgNAAgBgMg");
+	this.shape_5.setTransform(-30.6,135.7);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#FFFFFF").s().p("AgkBqQgHgBgCgIQgHgeAAhDQAAhJAFgWQACgGAFgCQAJgCAXgBQAMABAGABQAFABAAAGQABAFADABQACAAAEgEQAMgLAFAAQALAAAAAtQAAAbgDAKQgDAHgFABQgGgEgFAAQgJgBAAAVQAAAUAIAnIAHAnQAAAHgKABIgcABg");
+	this.shape_6.setTransform(-45.175,135.4);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#FFFFFF").s().p("AgiB/QgKgBgBgLQgCgKAAgaQAAg9AIgyQAAgKgIABQgKAAgLADIgPAEQgFAAAAgGIADgiIAGgmQACgFAGgCQAbgJAzAAQA1AAAWALQAHAEgBAMQgBAlgFAaQgBAGgDAAIgMgFQgKgDgJAAQgHAAgBAJIgCAPQAAAoAIAwIAIAvQAAAHgIABQgMABgcABg");
+	this.shape_7.setTransform(-60.3483,133.3);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#EC0C8A").s().p("AtbEsQh8AAhYhYQhYhYAAh8QAAh7BYhYQBYhYB8AAIa3AAQB8AABYBYQBYBYAAB7QAAB8hYBYQhYBYh8AAg");
+	this.shape_8.setTransform(0,134);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#333333").s().p("AgwCoQgRgPAAgZQAAgbARgPQARgPAdAAQAdAAAQAPQARAPAAAbQAAA1g+AAQgdAAgRgNgAgrAwQgUg7gFg9QgDgpAAgrQAAgVAUgBQAUgCAlAAQAmAAATACQAJABAAAJIgMA1QgNBAgGBYQgBALgGAEQgHAEgWACIgXABQgVAAgEgLg");
+	this.shape_9.setTransform(-108.675,-114.925);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#333333").s().p("AhOCIQgegWAAgpQAAgcAJgQQADgGAEAAQAEAAADAEQAPAQAUANQAZAOATAAQALAAAAgJQAAgJgZgMQgqgUgQgPQgbgYAAgoQAAguAhgaQAfgZA2AAQA2AAAeAQQAJAFAAAMQAAAmgPAnQgDAGgFAAIgHgCQgsgigfAAQgNAAAAAJQAAAIAaALQAsASASAQQAhAaAAAqQAAAzgeAbQgdAZgxAAQgyAAgdgVg");
+	this.shape_10.setTransform(-127.775,-112.125);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#333333").s().p("AhoCKQgPg0AAhiQAAhiAQgYQAKgPAUgFQARgEAjAAQCNAAAABxQAABMghAuQgaAmgdAAQgLAAgMgSQgMgRgDAAQgGAAAAAHQAAASAFARIAFAQQAAAHgMADQg2ALgTAAQgLAAgGgVgAgOgKQAAApAKAAQATAAAAhPQAAgkgPAAQgOAAAABKg");
+	this.shape_11.setTransform(-151.425,-111.925);
+
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("#333333").s().p("AhXB4QgjgqAAhOQAAhIAggpQAhgrA9AAQB3AAAACcQAABOglAqQgiAlg2AAQg2AAgfglgAgUgIQAAA/AUAAQAUAAAAg/QAAg/gUAAQgUAAAAA/g");
+	this.shape_12.setTransform(-177.275,-112.125);
+
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.f("#333333").s().p("AiPAxQAAhiAkhCQAohHBDAAQBEAAAoBHQAkBCAABiQAACKiPAAQiQAAAAiKgAgZAZQAAAvAZAAQAaAAAAgvQAAgwgIgdQgHgbgLAAQgZABAABng");
+	this.shape_13.setTransform(-205.075,-115.125);
+
+	this.shape_14 = new cjs.Shape();
+	this.shape_14.graphics.f("#FFFFFF").s().p("AhIBGQgdggABgoQABgpAfgdQAegcApAAQApAAAdAgQAdAfgBAoQgBApgeAdQgeAcgpAAQgpAAgegfg");
+	this.shape_14.setTransform(-96.5012,-93.0616,0.17,0.17);
+
+	this.shape_15 = new cjs.Shape();
+	this.shape_15.graphics.f("#FFFFFF").s().p("AkbHRQgggagFgqQgEgrAagfQBHhVBliOQBmiPA1hiQAXgzAVg0QAghbAPhBIACgHIABgBQAKgkAggVQAggWAmAGQApAHAZAiQAZAigGApQgDAQgGAWIgLAmQgNAugTA1QgSAygXA1QgPAigpBHQgXAoghAyIg9BXQhWB5gqA3IhDBUQgfAkgwAAQgkAAgbgWg");
+	this.shape_15.setTransform(-88.0685,-104.4828,0.17,0.17);
+
+	this.shape_16 = new cjs.Shape();
+	this.shape_16.graphics.f("#FFFFFF").s().p("AmkI2QgkgWgKgpQgIgiARgkIgDAGIBMinQAthdBBhjQA4hXBOheQA+hKBYhfQCui5BzhgQAhgcAnAAQArACAcAfQAcAdgBArQgBAtgfAaQhLA/hWBWQg7A7hdBjQg+BCgiAoQgvA7gvBAQgpA8gTAfIg6BlQgYAvgdBAIgZA3IgTApQgMAXgZANQgWAMgbAAQgeAAgXgOg");
+	this.shape_16.setTransform(-223.4591,-136.4286,0.17,0.17);
+
+	this.shape_17 = new cjs.Shape();
+	this.shape_17.graphics.f("#E8E382").s().p("AlVIWQhJgNhFgdQhGgdg8gqQiBhbg1iEQgbhDgGhNQgFhIAPhKQAPhFAfg+QAgg/AvgxQAwgxBAgkQA8giBHgVQBigcCUgKIB8gHQBOgEAugEICHgPQBSgJA2gBQCfgCBnA7QBiA5BLB+QAjA7AUA6QAWBAADA8QAFBrg6BkQgvBRhfBSIAJAGIAJAHIABABIACABIACACIABAAIAEADIAdATIAdARQAZAPAZANIAZANIAGAFQADADAAADQAAADgEAEIgHAFIgUAHIgQAEIgSADIgRACIgzACIgFAAIgTgCIgGAAIgSgCIiPgnQgnAUgqAUQiwBSi7AbQhVAMhTAAQhqAAhogUg");
+	this.shape_17.setTransform(-159.9232,-110.775);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	// Layer_1
+	this.instance = new lib.mc_chars();
+	this.instance.setTransform(-0.1,-32,1.0091,1.0091,0,0,0,-0.1,0.1);
+	this.instance.compositeOperation = "multiply";
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// Layer_2
+	this.shape_18 = new cjs.Shape();
+	this.shape_18.graphics.f().s("#FFFFFF").ss(2,1,1).p("EhDlgl/MCHLAAAQBvAABPBOQBPBPAABvMAAABDnQAABvhPBOQhPBPhvAAMiHLAAAQhvAAhPhPQhPhOAAhvMAAAhDnQAAhvBPhPQBPhOBvAAg");
+	this.shape_18.setTransform(-0.0012,-0.0151,0.74,0.7401);
+
+	this.shape_19 = new cjs.Shape();
+	this.shape_19.graphics.f("#FFFFFF").s().p("EhDlAmAQhvAAhPhPQhPhOAAhvMAAAhDnQAAhvBPhPQBPhOBvAAMCHLAAAQBvAABPBOQBPBPAABvMAAABDnQAABvhPBOQhPBPhvAAg");
+	this.shape_19.setTransform(-0.0012,-0.0151,0.74,0.7401);
+
+	this.shape_20 = new cjs.Shape();
+	this.shape_20.graphics.f("#E0E0E0").s().p("EhDlAmAQhvAAhPhPQhPhOAAhvMAAAhDnQAAhvBPhPQBPhOBvAAMCHLAAAQBvAABPBOQBPBPAABvMAAABDnQAABvhPBOQhPBPhvAAg");
+	this.shape_20.setTransform(-0.0012,5.9849,0.74,0.7401);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_20},{t:this.shape_19},{t:this.shape_18}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.emoji, new cjs.Rectangle(-341,-181,682,367), null);
+
+
+(lib.mc_but_sound = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#333333").s().p("AAbCXIgCgBIiFhTIhFAAQgKAAgFgHQgIgHABgJIAAhXQgBgJAIgGIAAgBQAFgHAKAAIBFAAICFhTIACAAQAEgDAFAAQAHAAAEAEIABAAQAFACACAEIABABIABADIgBgBQACAEABAGIAAEDQgBAGgCAFIAAABIgBABIgHAHIgBABIgCABIABgBQgFACgFAAQgFAAgEgCgAhPgeIAAA+IBdA6IAAizgAiZAVIAcAAIAAgpIgcAAgACHBvQgKgGAAgJQgCgLAFgHQANgRAGgUIACgBQAFgTAAgVQAAgUgFgSIgCgCQgGgUgNgRQgFgHACgLQAAgJAKgGIAAABQAFgFAJAAIACAAQAKACAEAHQARAWAIAbIACACQAIAaAAAcQAAAbgJAaQABABAAAAQAAAAAAABQAAAAAAAAQAAABgBAAQgIAbgSAXIgBABQgCADgDACIgBABIgDABIAAgBQgEACgFAAQgHAAgEgEgABYBOIgBAAIgBgBQgIgFgBgKQgDgJAHgIQAHgKACgLQAEgMABgMQgBgKgDgKIgBgCQgCgLgHgKIgBgBQgGgIADgJQABgJAIgFQAIgHAKACQAIACAGAJIABABQAIAOAHAQIABACQAFARABATQgBAUgFASIAAACQgIARgKAPIABAAQgBADgGADIgBABIgCABIAAgBQgFACgEAAQgFAAgGgDg");
+	this.shape.setTransform(0.05,0);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#333333").s().p("AiIC3IgSgSQgDgDAAgEQAAgEADgDIFMlMIAFgDQACgBADABIABABQABAAAAAAQAAAAABAAQAAAAAAABQABAAAAABIASATQADADAAAEQAAAEgDADIlMFLQgDADgEAAQgEAAgDgDgAALCgIgBgBIgyggIAAABQgDgCgBgDIgBgFIAAgBIADgFIATgSQACgCAEgBIAGABIAMAIIAAgbQAAgEADgDIAZgaIAFgDIABAAIAFABIAEAEIAAgBQACADAAADIAABeQAAAGgCAFIAAABIgBABIgHAHIgBABIgCABIABgBQgFACgGAAQgGAAgGgEgAB6B6QgJgGgBgJQgCgLAGgHQANgRAGgUIABgBQAGgTAAgVQAAgPgEgPQgEgPgGgOIgBgFIAAgBIADgFIATgTIAFgDIABAAIAFABQADABACADQALAUAGAWQAGAWAAAXQAAAdgIAbIgCADQgJAZgQAWIgBABQgCADgEACIgBABIgCABIAAgBQgFACgEAAQgHAAgFgEgABLBZIgBAAIgBgBQgHgFgCgKQgCgJAGgIQAHgKADgLQAEgMAAgMQAAgIgCgHQAAgBAAAAQAAgBAAAAQAAgBAAAAQAAgBAAAAIABgBQAAgBAAgBQAAAAABgBQAAAAAAgBQABAAAAAAIAVgVQACgCAEgBQADgBADACIABABIAEAFIgBAAQAIAUAAAVQAAAUgFASIgBACQgHARgKAPIABAAQgCADgFADIgBABIgCABIAAgBQgFACgEAAQgGAAgGgDgAhsBWIgNgIIhEAAQgLAAgFgHQgHgHAAgJIAAhXQAAgJAHgGIAAgBQAFgHALAAIBEAAICFhTIACAAQAEgDAFAAQAHAAAFAEIABAAQAEACADAEIABABIABADIgBgBQACAEAAAGIAAA4QAAAEgDADIgZAaIgFADIgGgBIABABIgFgEQgCgDAAgDIAAgqIhcA7IAAA+IAMAIQADABABADIABAGIgDAFIgTASIgFADIgDAAIgEgBgAimAgIAdAAIAAgpIgdAAg");
+	this.shape_1.setTransform(0.7,2.2,1,1,0,0,0,0,2.8);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).to({state:[{t:this.shape_1}]},1).wait(1));
+
+	// Layer_3
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("rgba(255,255,255,0.769)").s().p("Ag+AkQgFgHACgHQABgHAFgEQAGgEAGAAQAHABAEAHQADAGgBAHQgCAGgFAFQgFAEgFAAQgHAAgEgHgAgFASQgMgDgBgKQgCgKALgMQAMgNAZgIQATgGAKAEQAKADAAAJQgBALgLAKQgLAMgSAIQgOAGgKAAIgHgBg");
+	this.shape_2.setTransform(-14.9187,-25.3012);
+
+	this.instance = new lib.mc_menu_buttons_back();
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.shape_2}]}).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-34,-34,68,68);
+
+
+(lib.mc_but_home = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#333333").s().p("AAkCuIAAhiQAAgBAAAAQAAgBgBAAQAAgBAAAAQAAgBgBAAIgEgCIg7AAQgBAAAAABQgBAAgBAAQAAAAAAAAQgBABAAAAQgBAAAAABQAAAAAAABQgBAAAAABQAAAAAAABIAABiIhQAAIgEgCIgBgEIAAiiQAAAAAAgBQAAAAABgBQAAAAAAgBQAAAAABAAIBzhvQABAAAAAAQABgBAAAAQABAAAAAAQAAgBAAAAQABAAAAABQABAAAAAAQABAAAAABQAAAAABAAIBzBwQABAAAAAAQAAABAAAAQABABAAAAQAAABAAAAIAAChIgBAEIgEACgAiiARQgHAAgFgFIgBAAQgFgHAAgGQAAgHAGgFIABgBIChiaQAGgEAGgBQAHABAFAEICjCbQAGAFAAAHQAAAGgFAHIgBAAQgFAFgHAAQgIABgGgFIAAAAIiViNIiUCNQgFAFgHAAIgCgBg");
+	this.shape.setTransform(0,-1.75,1,1,0,0,0,0,0.6);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	// Layer_3
+	this.instance = new lib.mc_menu_buttons_background();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mc_but_home, new cjs.Rectangle(-38,-38,76,76.1), null);
+
+
+(lib.mcFS = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
+	// icons
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#333333").s().p("AA/CZIAYgZIABgDIgBgFIhChBIAigiIBBBCQABAAAAAAQABABAAAAQABAAAAAAQABABABAAQAAAAABgBQAAAAAAAAQABAAAAgBQABAAAAAAIAZgXIAMBlgAiYBAIAXAXQACACACAAQABAAAAgBQABAAAAAAQABAAAAgBQABAAABAAIBBhCIAiAiIhCBBQAAABAAAAQgBAAAAABQAAABAAAAQgBABAAABQAAAAABABQAAAAAAABQAAAAABAAQAAABAAAAIAYAZIhlAMgAAVg3IBChCIABgEIgBgDIgYgYIBmgMIgMBmIgZgZQAAAAgBAAQAAgBgBAAQAAAAAAAAQgBgBAAAAQgBAAgBABQAAAAgBAAQAAAAgBABQAAAAgBAAIhBBBgAh4hXQgBAAgBAAQAAgBgBAAQAAAAgBAAQAAgBgBAAQgCAAgCACIgXAZIgMhmIBlAMIgYAYQAAAAAAAAQgBABAAAAQAAABAAAAQgBABAAAAQAAABABAAQAAABAAAAQAAABABAAQAAABAAAAIBCBCIgiAhg");
+	this.shape.setTransform(-0.15,-0.05,1,1,0,0,0,-0.2,0);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#333333").s().p("ABNBvQgCgCgDAAQAAAAgBAAQAAAAgBAAQAAABgBAAQAAAAgBABIgXAXIgNhmIBmANIgXAXQgBABAAAAQAAABgBAAQAAABAAAAQAAABAAAAQAAADACACIBBBBIgiAigAivCOIBBhBQACgCAAgDQAAAAAAgBQAAAAAAgBQgBAAAAgBQAAAAgBgBIgXgXIBngNIgOBmIgXgXQgCgCgDAAQAAAAgBAAQAAAAgBAAQAAABgBAAQgBAAAAABIhBBBgAAtiFIAXAXQABABAAAAQABAAAAABQABAAAAAAQABAAAAAAQADAAACgCIBBhBIAiAiIhBBBQgBAAAAABQAAABgBAAQAAABAAAAQAAABAAAAQAAADACACIAXAXIhmAOgAiFgsIAXgXQACgCAAgDQAAAAAAgBQAAAAAAgBQgBAAAAgBQAAgBgBAAIhBhBIAigiIBBBBQAAABABAAQABAAAAABQABAAAAAAQABAAAAAAQADAAACgCIAXgXIAOBng");
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).to({state:[{t:this.shape_1}]},1).wait(1));
+
+	// FlashAICB
+	this.instance = new lib.mc_menu_buttons_background();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-38,-38,76,76.1);
+
+
+(lib.gameC = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		(function (e)
+		{
+			if (typeof exports === "object" && typeof module !== "undefined")
+			{
+				module.exports = e()
+			}
+			else if (typeof define === "function" && define.amd)
+			{
+				define([], e)
+			}
+			else
+			{
+				var t;
+				if (typeof window !== "undefined")
+				{
+					t = window
+				}
+				else if (typeof global !== "undefined")
+				{
+					t = global
+				}
+				else if (typeof self !== "undefined")
+				{
+					t = self
+				}
+				else
+				{
+					t = this
+				}
+				t.algebra = e()
+			}
+		})(function ()
+		{
+			var e, t, r;
+			return function n(e, t, r)
+			{
+				function i(o, a)
+				{
+					if (!t[o])
+					{
+						if (!e[o])
+						{
+							var u = typeof require == "function" && require;
+							if (!a && u) return u(o, !0);
+							if (s) return s(o, !0);
+							var f = new Error("Cannot find module '" + o + "'");
+							throw f.code = "MODULE_NOT_FOUND", f
+						}
+						var l = t[o] = {
+							exports:
+							{}
+						};
+						e[o][0].call(l.exports, function (t)
+						{
+							var r = e[o][1][t];
+							return i(r ? r : t)
+						}, l, l.exports, n, e, t, r)
+					}
+					return t[o].exports
+				}
+				var s = typeof require == "function" && require;
+				for (var o = 0; o < r.length; o++) i(r[o]);
+				return i
+			}(
+			{
+				1: [
+					function (e, t, r)
+					{
+						var n = e("./src/fractions");
+						var i = e("./src/expressions").Expression;
+						var s = e("./src/equations");
+						var o = e("./src/parser");
+						var a = function (e)
+						{
+							var t = new o;
+							var r = t.parse(e);
+							return r
+						};
+						var u = function (e)
+						{
+							if (e instanceof n || e instanceof i || e instanceof s)
+							{
+								return e.toTex()
+							}
+							else if (e instanceof Array)
+							{
+								return e.map(function (e)
+								{
+									if (e instanceof n)
+									{
+										return e.toTex()
+									}
+									else
+									{
+										return e.toString()
+									}
+								}).join()
+							}
+							else
+							{
+								return e.toString()
+							}
+						};
+						t.exports = {
+							Fraction: n,
+							Expression: i,
+							Equation: s,
+							parse: a,
+							toTex: u
+						}
+					},
+					{
+						"./src/equations": 2,
+						"./src/expressions": 3,
+						"./src/fractions": 4,
+						"./src/parser": 7
+					}
+				],
+				2: [
+					function (e, t, r)
+					{
+						var n = e("./expressions").Expression;
+						var i = e("./expressions").Variable;
+						var s = e("./expressions").Term;
+						var o = e("./fractions");
+						var a = e("./helper").isInt;
+						var u = function (e, t)
+						{
+							if (e instanceof n)
+							{
+								this.lhs = e;
+								if (t instanceof n)
+								{
+									this.rhs = t
+								}
+								else if (t instanceof o || a(t))
+								{
+									this.rhs = new n(t)
+								}
+								else
+								{
+									throw new TypeError("Invalid Argument (" + t.toString() + "): Right-hand side must be of type Expression, Fraction or Integer.")
+								}
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Left-hand side must be of type Expression.")
+							}
+						};
+						u.prototype.solveFor = function (e)
+						{
+							if (!this.lhs._hasVariable(e) && !this.rhs._hasVariable(e))
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Variable does not exist in the equation.")
+							}
+							if (this._isLinear() || this._variableCanBeIsolated(e))
+							{
+								var t = new s(new i(e));
+								var r = new n;
+								var a = new n;
+								for (var u = 0; u < this.rhs.terms.length; u++)
+								{
+									var f = this.rhs.terms[u];
+									if (f.canBeCombinedWith(t))
+									{
+										r = r.subtract(f)
+									}
+									else
+									{
+										a = a.add(f)
+									}
+								}
+								for (var u = 0; u < this.lhs.terms.length; u++)
+								{
+									var f = this.lhs.terms[u];
+									if (f.canBeCombinedWith(t))
+									{
+										r = r.add(f)
+									}
+									else
+									{
+										a = a.subtract(f)
+									}
+								}
+								a = a.subtract(this.lhs.constant());
+								a = a.add(this.rhs.constant());
+								if (r.terms.length === 0)
+								{
+									if (r.constant().equalTo(a.constant()))
+									{
+										return new o(1, 1)
+									}
+									else
+									{
+										throw new EvalError("No Solution")
+									}
+								}
+								a = a.divide(r.terms[0].coefficient());
+								if (a.terms.length === 0)
+								{
+									return a.constant().reduce()
+								}
+								a._sort();
+								return a
+							}
+							else
+							{
+								var r = this.lhs.copy();
+								r = r.subtract(this.rhs);
+								if (r.terms.length === 0)
+								{
+									if (r.constant().valueOf() === 0)
+									{
+										return [new o(1, 1)]
+									}
+									else
+									{
+										throw new EvalError("No Solution")
+									}
+								}
+								else if (this._isQuadratic(e))
+								{
+									var l = r._quadraticCoefficients();
+									var c = l.a;
+									var p = l.b;
+									var h = l.c;
+									var v = p.pow(2).subtract(c.multiply(h).multiply(4));
+									if (v.valueOf() >= 0)
+									{
+										if (v.valueOf() === 0)
+										{
+											return [p.multiply(-1).divide(c.multiply(2)).reduce()]
+										}
+										else
+										{
+											var m;
+											if (v._squareRootIsRational())
+											{
+												m = v.pow(.5);
+												var d = p.multiply(-1).subtract(m).divide(c.multiply(2));
+												var y = p.multiply(-1).add(m).divide(c.multiply(2));
+												return [d.reduce(), y.reduce()]
+											}
+											else
+											{
+												m = Math.sqrt(v.valueOf());
+												c = c.valueOf();
+												p = p.valueOf();
+												var d = (-p - m) / (2 * c);
+												var y = (-p + m) / (2 * c);
+												return [d, y]
+											}
+										}
+									}
+									else
+									{
+										return []
+									}
+								}
+								else if (this._isCubic(e))
+								{
+									var l = r._cubicCoefficients();
+									var c = l.a;
+									var p = l.b;
+									var h = l.c;
+									var g = l.d;
+									var b = c.multiply(p).multiply(h).multiply(g).multiply(18);
+									b = b.subtract(p.pow(3).multiply(g).multiply(4));
+									b = b.add(p.pow(2).multiply(h.pow(2)));
+									b = b.subtract(c.multiply(h.pow(3)).multiply(4));
+									b = b.subtract(c.pow(2).multiply(g.pow(2)).multiply(27));
+									var w = p.pow(2).subtract(c.multiply(h).multiply(3));
+									if (b.valueOf() === 0)
+									{
+										if (w.valueOf() === 0)
+										{
+											var d = p.multiply(-1).divide(c.multiply(3));
+											return [d.reduce()]
+										}
+										else
+										{
+											var d = c.multiply(p).multiply(h).multiply(4);
+											d = d.subtract(c.pow(2).multiply(g).multiply(9));
+											d = d.subtract(p.pow(3));
+											d = d.divide(c.multiply(w));
+											var y = c.multiply(g).multiply(9).subtract(p.multiply(h)).divide(w.multiply(2));
+											return [d.reduce(), y.reduce()]
+										}
+									}
+									else
+									{
+										var _ = (3 * (h / c) - Math.pow(p, 2) / Math.pow(c, 2)) / 3;
+										var T = 2 * Math.pow(p, 3) / Math.pow(c, 3);
+										T = T - 9 * p * h / Math.pow(c, 2);
+										T = T + 27 * g / c;
+										T = T / 27;
+										var E = Math.pow(T, 2) / 4 + Math.pow(_, 3) / 27;
+										if (E > 0)
+										{
+											var x = -(T / 2) + Math.sqrt(E);
+											var S = Math.cbrt(x);
+											var I = -(T / 2) - Math.sqrt(E);
+											var M = Math.cbrt(I);
+											var d = S + M - p / (3 * c);
+											if (d < 0)
+											{
+												var R = Math.floor(d);
+												if (d - R < 1e-15) d = R
+											}
+											else if (d > 0)
+											{
+												var R = Math.ceil(d);
+												if (R - d < 1e-15) d = R
+											}
+											return [d]
+										}
+										else
+										{
+											var u = Math.sqrt(Math.pow(T, 2) / 4 - E);
+											var A = Math.cbrt(u);
+											var O = Math.acos(-(T / (2 * u)));
+											var D = -A;
+											var k = Math.cos(O / 3);
+											var P = Math.sqrt(3) * Math.sin(O / 3);
+											var V = -(p / (3 * c));
+											var d = 2 * A * Math.cos(O / 3) - p / (3 * c);
+											var y = D * (k + P) + V;
+											var C = D * (k - P) + V;
+											if (d < 0)
+											{
+												var R = Math.floor(d);
+												if (d - R < 1e-15) d = R
+											}
+											else if (d > 0)
+											{
+												var R = Math.ceil(d);
+												if (R - d < 1e-15) d = R
+											}
+											if (y < 0)
+											{
+												var F = Math.floor(y);
+												if (y - F < 1e-15) y = F
+											}
+											else if (y > 0)
+											{
+												var F = Math.ceil(y);
+												if (F - y < 1e-15) y = F
+											}
+											if (d < 0)
+											{
+												var q = Math.floor(C);
+												if (C - q < 1e-15) C = q
+											}
+											else if (C > 0)
+											{
+												var q = Math.ceil(C);
+												if (q - C < 1e-15) C = q
+											}
+											var N = [d, y, C];
+											N.sort(function (e, t)
+											{
+												return e - t
+											});
+											return [N[0], N[1], N[2]]
+										}
+									}
+								}
+							}
+						};
+						u.prototype.eval = function (e)
+						{
+							return new u(this.lhs.eval(e), this.rhs.eval(e))
+						};
+						u.prototype.toString = function ()
+						{
+							return this.lhs.toString() + " = " + this.rhs.toString()
+						};
+						u.prototype.toTex = function ()
+						{
+							return this.lhs.toTex() + " = " + this.rhs.toTex()
+						};
+						u.prototype._maxDegree = function ()
+						{
+							var e = this.lhs._maxDegree();
+							var t = this.rhs._maxDegree();
+							return Math.max(e, t)
+						};
+						u.prototype._maxDegreeOfVariable = function (e)
+						{
+							return Math.max(this.lhs._maxDegreeOfVariable(e), this.rhs._maxDegreeOfVariable(e))
+						};
+						u.prototype._variableCanBeIsolated = function (e)
+						{
+							return this._maxDegreeOfVariable(e) === 1 && this._noCrossProductsWithVariable(e)
+						};
+						u.prototype._noCrossProductsWithVariable = function (e)
+						{
+							return this.lhs._noCrossProductsWithVariable(e) && this.rhs._noCrossProductsWithVariable(e)
+						};
+						u.prototype._noCrossProducts = function ()
+						{
+							return this.lhs._noCrossProducts() && this.rhs._noCrossProducts()
+						};
+						u.prototype._onlyHasVariable = function (e)
+						{
+							return this.lhs._onlyHasVariable(e) && this.rhs._onlyHasVariable(e)
+						};
+						u.prototype._isLinear = function ()
+						{
+							return this._maxDegree() === 1 && this._noCrossProducts()
+						};
+						u.prototype._isQuadratic = function (e)
+						{
+							return this._maxDegree() === 2 && this._onlyHasVariable(e)
+						};
+						u.prototype._isCubic = function (e)
+						{
+							return this._maxDegree() === 3 && this._onlyHasVariable(e)
+						};
+						t.exports = u
+					},
+					{
+						"./expressions": 3,
+						"./fractions": 4,
+						"./helper": 5
+					}
+				],
+				3: [
+					function (e, t, r)
+					{
+						var n = e("./fractions");
+						var i = e("./helper").isInt;
+						var s = e("./helper").GREEK_LETTERS;
+						var o = function (e)
+						{
+							this.constants = [];
+							if (typeof e === "string")
+							{
+								var t = new a(e);
+								var r = new Term(t);
+								this.terms = [r]
+							}
+							else if (i(e))
+							{
+								this.constants = [new n(e, 1)];
+								this.terms = []
+							}
+							else if (e instanceof n)
+							{
+								this.constants = [e];
+								this.terms = []
+							}
+							else if (e instanceof Term)
+							{
+								this.terms = [e]
+							}
+							else if (typeof e === "undefined")
+							{
+								this.terms = []
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Argument must be of type String, Integer, Fraction or Term.")
+							}
+						};
+						o.prototype.constant = function ()
+						{
+							return this.constants.reduce(function (e, t)
+							{
+								return e.add(t)
+							}, new n(0, 1))
+						};
+						o.prototype.simplify = function ()
+						{
+							var e = this.copy();
+							e.terms = e.terms.map(function (e)
+							{
+								return e.simplify()
+							});
+							e._sort();
+							e._combineLikeTerms();
+							e._moveTermsWithDegreeZeroToConstants();
+							e._removeTermsWithCoefficientZero();
+							e.constants = e.constant().valueOf() === 0 ? [] : [e.constant()];
+							return e
+						};
+						o.prototype.copy = function ()
+						{
+							var e = new o;
+							e.constants = this.constants.map(function (e)
+							{
+								return e.copy()
+							});
+							e.terms = this.terms.map(function (e)
+							{
+								return e.copy()
+							});
+							return e
+						};
+						o.prototype.add = function (e, t)
+						{
+							var r = this.copy();
+							if (typeof e === "string" || e instanceof Term || i(e) || e instanceof n)
+							{
+								var s = new o(e);
+								return r.add(s, t)
+							}
+							else if (e instanceof o)
+							{
+								var a = e.copy().terms;
+								r.terms = r.terms.concat(a);
+								r.constants = r.constants.concat(e.constants);
+								r._sort()
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Summand must be of type String, Expression, Term, Fraction or Integer.")
+							}
+							return t || t === undefined ? r.simplify() : r
+						};
+						o.prototype.subtract = function (e, t)
+						{
+							var r = e instanceof o ? e.multiply(-1) : new o(e).multiply(-1);
+							return this.add(r, t)
+						};
+						o.prototype.multiply = function (e, t)
+						{
+							var r = this.copy();
+							if (typeof e === "string" || e instanceof Term || i(e) || e instanceof n)
+							{
+								var s = new o(e);
+								return r.multiply(s, t)
+							}
+							else if (e instanceof o)
+							{
+								var a = e.copy();
+								var u = [];
+								for (var f = 0; f < r.terms.length; f++)
+								{
+									var l = r.terms[f];
+									for (var c = 0; c < a.terms.length; c++)
+									{
+										var p = a.terms[c];
+										u.push(l.multiply(p, t))
+									}
+									for (var c = 0; c < a.constants.length; c++)
+									{
+										u.push(l.multiply(a.constants[c], t))
+									}
+								}
+								for (var f = 0; f < a.terms.length; f++)
+								{
+									var p = a.terms[f];
+									for (var c = 0; c < r.constants.length; c++)
+									{
+										u.push(p.multiply(r.constants[c], t))
+									}
+								}
+								var h = [];
+								for (var f = 0; f < r.constants.length; f++)
+								{
+									var v = r.constants[f];
+									for (var c = 0; c < a.constants.length; c++)
+									{
+										var m = a.constants[c];
+										var d = new Term;
+										d = d.multiply(m, false);
+										d = d.multiply(v, false);
+										u.push(d)
+									}
+								}
+								r.constants = h;
+								r.terms = u;
+								r._sort()
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Multiplicand must be of type String, Expression, Term, Fraction or Integer.")
+							}
+							return t || t === undefined ? r.simplify() : r
+						};
+						o.prototype.divide = function (e, t)
+						{
+							if (e instanceof n || i(e))
+							{
+								if (e.valueOf() === 0)
+								{
+									throw new EvalError("Divide By Zero")
+								}
+								var r = this.copy();
+								for (var s = 0; s < r.terms.length; s++)
+								{
+									var o = r.terms[s];
+									for (var a = 0; a < o.coefficients.length; a++)
+									{
+										o.coefficients[a] = o.coefficients[a].divide(e, t)
+									}
+								}
+								r.constants = r.constants.map(function (r)
+								{
+									return r.divide(e, t)
+								});
+								return r
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Divisor must be of type Fraction or Integer.")
+							}
+						};
+						o.prototype.pow = function (e, t)
+						{
+							if (i(e))
+							{
+								var r = this.copy();
+								if (e === 0)
+								{
+									return (new o).add(1)
+								}
+								else
+								{
+									for (var n = 1; n < e; n++)
+									{
+										r = r.multiply(this, t)
+									}
+									r._sort()
+								}
+								return t || t === undefined ? r.simplify() : r
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Exponent must be of type Integer.")
+							}
+						};
+						o.prototype.eval = function (e, t)
+						{
+							var r = new o;
+							r.constants = t ? [this.constant()] : this.constants.slice();
+							r = this.terms.reduce(function (r, n)
+							{
+								return r.add(n.eval(e, t), t)
+							}, r);
+							return r
+						};
+						o.prototype.summation = function (e, t, r, n)
+						{
+							var i = this.copy();
+							var s = new o;
+							for (var a = t; a < r + 1; a++)
+							{
+								var u = {};
+								u[e] = a;
+								s = s.add(i.eval(u, n), n)
+							}
+							return s
+						};
+						o.prototype.toString = function ()
+						{
+							var e = "";
+							for (var t = 0; t < this.terms.length; t++)
+							{
+								var r = this.terms[t];
+								e += (r.coefficients[0].valueOf() < 0 ? " - " : " + ") + r.toString()
+							}
+							for (var t = 0; t < this.constants.length; t++)
+							{
+								var n = this.constants[t];
+								e += (n.valueOf() < 0 ? " - " : " + ") + n.abs().toString()
+							}
+							if (e.substring(0, 3) === " - ")
+							{
+								return "-" + e.substring(3, e.length)
+							}
+							else if (e.substring(0, 3) === " + ")
+							{
+								return e.substring(3, e.length)
+							}
+							else
+							{
+								return "0"
+							}
+						};
+						o.prototype.toTex = function (e)
+						{
+							var t = "";
+							for (var r = 0; r < this.terms.length; r++)
+							{
+								var n = this.terms[r];
+								t += (n.coefficients[0].valueOf() < 0 ? " - " : " + ") + n.toTex(e)
+							}
+							for (var r = 0; r < this.constants.length; r++)
+							{
+								var i = this.constants[r];
+								t += (i.valueOf() < 0 ? " - " : " + ") + i.abs().toTex()
+							}
+							if (t.substring(0, 3) === " - ")
+							{
+								return "-" + t.substring(3, t.length)
+							}
+							else if (t.substring(0, 3) === " + ")
+							{
+								return t.substring(3, t.length)
+							}
+							else
+							{
+								return "0"
+							}
+						};
+						o.prototype._removeTermsWithCoefficientZero = function ()
+						{
+							this.terms = this.terms.filter(function (e)
+							{
+								return e.coefficient().reduce().numer !== 0
+							});
+							return this
+						};
+						o.prototype._combineLikeTerms = function ()
+						{
+							function e(e, t)
+							{
+								for (var r = 0; r < t.length; r++)
+								{
+									if (e.canBeCombinedWith(t[r]))
+									{
+										return true
+									}
+								}
+								return false
+							}
+							var t = [];
+							var r = [];
+							for (var n = 0; n < this.terms.length; n++)
+							{
+								var i = this.terms[n];
+								if (e(i, r))
+								{
+									continue
+								}
+								else
+								{
+									for (var s = n + 1; s < this.terms.length; s++)
+									{
+										var o = this.terms[s];
+										if (i.canBeCombinedWith(o))
+										{
+											i = i.add(o)
+										}
+									}
+									t.push(i);
+									r.push(i)
+								}
+							}
+							this.terms = t;
+							return this
+						};
+						o.prototype._moveTermsWithDegreeZeroToConstants = function ()
+						{
+							var e = [];
+							var t = new n(0, 1);
+							for (var r = 0; r < this.terms.length; r++)
+							{
+								var i = this.terms[r];
+								if (i.variables.length === 0)
+								{
+									t = t.add(i.coefficient())
+								}
+								else
+								{
+									e.push(i)
+								}
+							}
+							this.constants.push(t);
+							this.terms = e;
+							return this
+						};
+						o.prototype._sort = function ()
+						{
+							function e(e, t)
+							{
+								var r = e.maxDegree();
+								var n = t.maxDegree();
+								if (r === n)
+								{
+									var i = e.variables.length;
+									var s = t.variables.length;
+									return s - i
+								}
+								else
+								{
+									return n - r
+								}
+							}
+							this.terms = this.terms.sort(e);
+							return this
+						};
+						o.prototype._hasVariable = function (e)
+						{
+							for (var t = 0; t < this.terms.length; t++)
+							{
+								if (this.terms[t].hasVariable(e))
+								{
+									return true
+								}
+							}
+							return false
+						};
+						o.prototype._onlyHasVariable = function (e)
+						{
+							for (var t = 0; t < this.terms.length; t++)
+							{
+								if (!this.terms[t].onlyHasVariable(e))
+								{
+									return false
+								}
+							}
+							return true
+						};
+						o.prototype._noCrossProductsWithVariable = function (e)
+						{
+							for (var t = 0; t < this.terms.length; t++)
+							{
+								var r = this.terms[t];
+								if (r.hasVariable(e) && !r.onlyHasVariable(e))
+								{
+									return false
+								}
+							}
+							return true
+						};
+						o.prototype._noCrossProducts = function ()
+						{
+							for (var e = 0; e < this.terms.length; e++)
+							{
+								var t = this.terms[e];
+								if (t.variables.length > 1)
+								{
+									return false
+								}
+							}
+							return true
+						};
+						o.prototype._maxDegree = function ()
+						{
+							return this.terms.reduce(function (e, t)
+							{
+								return Math.max(e, t.maxDegree())
+							}, 1)
+						};
+						o.prototype._maxDegreeOfVariable = function (e)
+						{
+							return this.terms.reduce(function (t, r)
+							{
+								return Math.max(t, r.maxDegreeOfVariable(e))
+							}, 1)
+						};
+						o.prototype._quadraticCoefficients = function ()
+						{
+							var e;
+							var t = new n(0, 1);
+							for (var r = 0; r < this.terms.length; r++)
+							{
+								var i = this.terms[r];
+								e = i.maxDegree() === 2 ? i.coefficient().copy() : e;
+								t = i.maxDegree() === 1 ? i.coefficient().copy() : t
+							}
+							var s = this.constant();
+							return {
+								a: e,
+								b: t,
+								c: s
+							}
+						};
+						o.prototype._cubicCoefficients = function ()
+						{
+							var e;
+							var t = new n(0, 1);
+							var r = new n(0, 1);
+							for (var i = 0; i < this.terms.length; i++)
+							{
+								var s = this.terms[i];
+								e = s.maxDegree() === 3 ? s.coefficient().copy() : e;
+								t = s.maxDegree() === 2 ? s.coefficient().copy() : t;
+								r = s.maxDegree() === 1 ? s.coefficient().copy() : r
+							}
+							var o = this.constant();
+							return {
+								a: e,
+								b: t,
+								c: r,
+								d: o
+							}
+						};
+						Term = function (e)
+						{
+							if (e instanceof a)
+							{
+								this.variables = [e.copy()]
+							}
+							else if (typeof e === "undefined")
+							{
+								this.variables = []
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Term initializer must be of type Variable.")
+							}
+							this.coefficients = [new n(1, 1)]
+						};
+						Term.prototype.coefficient = function ()
+						{
+							return this.coefficients.reduce(function (e, t)
+							{
+								return e.multiply(t)
+							}, new n(1, 1))
+						};
+						Term.prototype.simplify = function ()
+						{
+							var e = this.copy();
+							e.coefficients = [this.coefficient()];
+							e.combineVars();
+							return e.sort()
+						};
+						Term.prototype.combineVars = function ()
+						{
+							var e = {};
+							for (var t = 0; t < this.variables.length; t++)
+							{
+								var r = this.variables[t];
+								if (r.variable in e)
+								{
+									e[r.variable] += r.degree
+								}
+								else
+								{
+									e[r.variable] = r.degree
+								}
+							}
+							var n = [];
+							for (var i in e)
+							{
+								var s = new a(i);
+								s.degree = e[i];
+								n.push(s)
+							}
+							this.variables = n;
+							return this
+						};
+						Term.prototype.copy = function ()
+						{
+							var e = new Term;
+							e.coefficients = this.coefficients.map(function (e)
+							{
+								return e.copy()
+							});
+							e.variables = this.variables.map(function (e)
+							{
+								return e.copy()
+							});
+							return e
+						};
+						Term.prototype.add = function (e)
+						{
+							if (e instanceof Term && this.canBeCombinedWith(e))
+							{
+								var t = this.copy();
+								t.coefficients = [t.coefficient().add(e.coefficient())];
+								return t
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Summand must be of type String, Expression, Term, Fraction or Integer.")
+							}
+						};
+						Term.prototype.subtract = function (e)
+						{
+							if (e instanceof Term && this.canBeCombinedWith(e))
+							{
+								var t = this.copy();
+								t.coefficients = [t.coefficient().subtract(e.coefficient())];
+								return t
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Subtrahend must be of type String, Expression, Term, Fraction or Integer.")
+							}
+						};
+						Term.prototype.multiply = function (e, t)
+						{
+							var r = this.copy();
+							if (e instanceof Term)
+							{
+								r.variables = r.variables.concat(e.variables);
+								r.coefficients = e.coefficients.concat(r.coefficients)
+							}
+							else if (i(e) || e instanceof n)
+							{
+								var s = i(e) ? new n(e, 1) : e;
+								if (r.variables.length === 0)
+								{
+									r.coefficients.push(s)
+								}
+								else
+								{
+									r.coefficients.unshift(s)
+								}
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Multiplicand must be of type String, Expression, Term, Fraction or Integer.")
+							}
+							return t || t === undefined ? r.simplify() : r
+						};
+						Term.prototype.divide = function (e, t)
+						{
+							if (i(e) || e instanceof n)
+							{
+								var r = this.copy();
+								r.coefficients = r.coefficients.map(function (r)
+								{
+									return r.divide(e, t)
+								});
+								return r
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Argument must be of type Fraction or Integer.")
+							}
+						};
+						Term.prototype.eval = function (e, t)
+						{
+							var r = this.copy();
+							var s = Object.keys(e);
+							var a = r.coefficients.reduce(function (e, r)
+							{
+								return e.multiply(r, t)
+							}, new o(1));
+							for (var u = 0; u < r.variables.length; u++)
+							{
+								var f = r.variables[u];
+								var l;
+								if (f.variable in e)
+								{
+									var c = e[f.variable];
+									if (c instanceof n || c instanceof o)
+									{
+										l = c.pow(f.degree)
+									}
+									else if (i(c))
+									{
+										l = Math.pow(c, f.degree)
+									}
+									else
+									{
+										throw new TypeError("Invalid Argument (" + c + "): Can only evaluate Expressions or Fractions.")
+									}
+								}
+								else
+								{
+									l = new o(f.variable).pow(f.degree)
+								}
+								a = a.multiply(l, t)
+							}
+							return a
+						};
+						Term.prototype.hasVariable = function (e)
+						{
+							for (var t = 0; t < this.variables.length; t++)
+							{
+								if (this.variables[t].variable === e)
+								{
+									return true
+								}
+							}
+							return false
+						};
+						Term.prototype.maxDegree = function ()
+						{
+							return this.variables.reduce(function (e, t)
+							{
+								return Math.max(e, t.degree)
+							}, 1)
+						};
+						Term.prototype.maxDegreeOfVariable = function (e)
+						{
+							return this.variables.reduce(function (t, r)
+							{
+								return r.variable === e ? Math.max(t, r.degree) : t
+							}, 1)
+						};
+						Term.prototype.canBeCombinedWith = function (e)
+						{
+							var t = this.variables;
+							var r = e.variables;
+							if (t.length != r.length)
+							{
+								return false
+							}
+							var n = 0;
+							for (var i = 0; i < t.length; i++)
+							{
+								for (var s = 0; s < r.length; s++)
+								{
+									if (t[i].variable === r[s].variable && t[i].degree === r[s].degree)
+									{
+										n += 1
+									}
+								}
+							}
+							return n === t.length
+						};
+						Term.prototype.onlyHasVariable = function (e)
+						{
+							for (var t = 0; t < this.variables.length; t++)
+							{
+								if (this.variables[t].variable != e)
+								{
+									return false
+								}
+							}
+							return true
+						};
+						Term.prototype.sort = function ()
+						{
+							function e(e, t)
+							{
+								return t.degree - e.degree
+							}
+							this.variables = this.variables.sort(e);
+							return this
+						};
+						Term.prototype.toString = function ()
+						{
+							var e = "";
+							for (var t = 0; t < this.coefficients.length; t++)
+							{
+								var r = this.coefficients[t];
+								if (r.abs().numer !== 1 || r.abs().denom !== 1)
+								{
+									e += " * " + r.toString()
+								}
+							}
+							e = this.variables.reduce(function (e, t)
+							{
+								return e.concat(t.toString())
+							}, e);
+							e = e.substring(0, 3) === " * " ? e.substring(3, e.length) : e;
+							e = e.substring(0, 1) === "-" ? e.substring(1, e.length) : e;
+							return e
+						};
+						Term.prototype.toTex = function (e)
+						{
+							var e = e === undefined ?
+							{} : e;
+							e.multiplication = !("multiplication" in e) ? "cdot" : e.multiplication;
+							var t = " \\" + e.multiplication + " ";
+							var r = "";
+							for (var n = 0; n < this.coefficients.length; n++)
+							{
+								var i = this.coefficients[n];
+								if (i.abs().numer !== 1 || i.abs().denom !== 1)
+								{
+									r += t + i.toTex()
+								}
+							}
+							r = this.variables.reduce(function (e, t)
+							{
+								return e.concat(t.toTex())
+							}, r);
+							r = r.substring(0, t.length) === t ? r.substring(t.length, r.length) : r;
+							r = r.substring(0, 1) === "-" ? r.substring(1, r.length) : r;
+							r = r.substring(0, 7) === "\\frac{-" ? "\\frac{" + r.substring(7, r.length) : r;
+							return r
+						};
+						var a = function (e)
+						{
+							if (typeof e === "string")
+							{
+								this.variable = e;
+								this.degree = 1
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Variable initalizer must be of type String.")
+							}
+						};
+						a.prototype.copy = function ()
+						{
+							var e = new a(this.variable);
+							e.degree = this.degree;
+							return e
+						};
+						a.prototype.toString = function ()
+						{
+							var e = this.degree;
+							var t = this.variable;
+							if (e === 0)
+							{
+								return ""
+							}
+							else if (e === 1)
+							{
+								return t
+							}
+							else
+							{
+								return t + "^" + e
+							}
+						};
+						a.prototype.toTex = function ()
+						{
+							var e = this.degree;
+							var t = this.variable;
+							if (s.indexOf(t) > -1)
+							{
+								t = "\\" + t
+							}
+							if (e === 0)
+							{
+								return ""
+							}
+							else if (e === 1)
+							{
+								return t
+							}
+							else
+							{
+								return t + "^{" + e + "}"
+							}
+						};
+						t.exports = {
+							Expression: o,
+							Term: Term,
+							Variable: a
+						}
+					},
+					{
+						"./fractions": 4,
+						"./helper": 5
+					}
+				],
+				4: [
+					function (e, t, r)
+					{
+						var n = e("./helper").isInt;
+						var i = e("./helper").gcd;
+						var s = e("./helper").lcm;
+						var o = function (e, t)
+						{
+							if (t === 0)
+							{
+								throw new EvalError("Divide By Zero")
+							}
+							else if (n(e) && n(t))
+							{
+								this.numer = e;
+								this.denom = t
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "," + t.toString() + "): Divisor and dividend must be of type Integer.")
+							}
+						};
+						o.prototype.copy = function ()
+						{
+							return new o(this.numer, this.denom)
+						};
+						o.prototype.reduce = function ()
+						{
+							var e = this.copy();
+							var t = i(e.numer, e.denom);
+							e.numer = e.numer / t;
+							e.denom = e.denom / t;
+							if (Math.sign(e.denom) == -1 && Math.sign(e.numer) == 1)
+							{
+								e.numer *= -1;
+								e.denom *= -1
+							}
+							return e
+						};
+						o.prototype.equalTo = function (e)
+						{
+							if (e instanceof o)
+							{
+								var t = this.reduce();
+								var r = e.reduce();
+								return t.numer === r.numer && t.denom === r.denom
+							}
+							else
+							{
+								return false
+							}
+						};
+						o.prototype.add = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							var r, i;
+							if (e instanceof o)
+							{
+								r = e.numer;
+								i = e.denom
+							}
+							else if (n(e))
+							{
+								r = e;
+								i = 1
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Summand must be of type Fraction or Integer.")
+							}
+							var a = this.copy();
+							if (this.denom == i)
+							{
+								a.numer += r
+							}
+							else
+							{
+								var u = s(a.denom, i);
+								var f = u / a.denom;
+								var l = u / i;
+								a.numer *= f;
+								a.denom *= f;
+								r *= l;
+								a.numer += r
+							}
+							return t ? a.reduce() : a
+						};
+						o.prototype.subtract = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							var r = this.copy();
+							if (e instanceof o)
+							{
+								return r.add(new o(-e.numer, e.denom), t)
+							}
+							else if (n(e))
+							{
+								return r.add(new o(-e, 1), t)
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Subtrahend must be of type Fraction or Integer.")
+							}
+						};
+						o.prototype.multiply = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							var r, i;
+							if (e instanceof o)
+							{
+								r = e.numer;
+								i = e.denom
+							}
+							else if (n(e) && e)
+							{
+								r = e;
+								i = 1
+							}
+							else if (e === 0)
+							{
+								r = 0;
+								i = 1
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Multiplicand must be of type Fraction or Integer.")
+							}
+							var s = this.copy();
+							s.numer *= r;
+							s.denom *= i;
+							return t ? s.reduce() : s
+						};
+						o.prototype.divide = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							if (e.valueOf() === 0)
+							{
+								throw new EvalError("Divide By Zero")
+							}
+							var r = this.copy();
+							if (e instanceof o)
+							{
+								return r.multiply(new o(e.denom, e.numer), t)
+							}
+							else if (n(e))
+							{
+								return r.multiply(new o(1, e), t)
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Divisor must be of type Fraction or Integer.")
+							}
+						};
+						o.prototype.pow = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							var r = this.copy();
+							r.numer = Math.pow(r.numer, e);
+							r.denom = Math.pow(r.denom, e);
+							return t ? r.reduce() : r
+						};
+						o.prototype.abs = function ()
+						{
+							var e = this.copy();
+							e.numer = Math.abs(e.numer);
+							e.denom = Math.abs(e.denom);
+							return e
+						};
+						o.prototype.valueOf = function ()
+						{
+							return this.numer / this.denom
+						};
+						o.prototype.toString = function ()
+						{
+							if (this.numer === 0)
+							{
+								return "0"
+							}
+							else if (this.denom === 1)
+							{
+								return this.numer.toString()
+							}
+							else if (this.denom === -1)
+							{
+								return (-this.numer).toString()
+							}
+							else
+							{
+								return this.numer + "/" + this.denom
+							}
+						};
+						o.prototype.toTex = function ()
+						{
+							if (this.numer === 0)
+							{
+								return "0"
+							}
+							else if (this.denom === 1)
+							{
+								return this.numer.toString()
+							}
+							else if (this.denom === -1)
+							{
+								return (-this.numer).toString()
+							}
+							else
+							{
+								return "\\frac{" + this.numer + "}{" + this.denom + "}"
+							}
+						};
+						o.prototype._squareRootIsRational = function ()
+						{
+							if (this.valueOf() === 0)
+							{
+								return true
+							}
+							var e = Math.sqrt(this.numer);
+							var t = Math.sqrt(this.denom);
+							return n(e) && n(t)
+						};
+						o.prototype._cubeRootIsRational = function ()
+						{
+							if (this.valueOf() === 0)
+							{
+								return true
+							}
+							var e = Math.cbrt(this.numer);
+							var t = Math.cbrt(this.denom);
+							return n(e) && n(t)
+						};
+						t.exports = o
+					},
+					{
+						"./helper": 5
+					}
+				],
+				5: [
+					function (e, t, r)
+					{
+						function n(e, t)
+						{
+							while (t)
+							{
+								var r = e;
+								e = t;
+								t = r % t
+							}
+							return e
+						}
+						function i(e, t)
+						{
+							return e * t / n(e, t)
+						}
+						function s(e)
+						{
+							return typeof e == "number" && e % 1 === 0
+						}
+						function o(e, t)
+						{
+							t = typeof t === "undefined" ? 2 : t;
+							var r = Math.pow(10, t);
+							return Math.round(parseFloat(e) * r) / r
+						}
+						var a = ["alpha", "beta", "gamma", "Gamma", "delta", "Delta", "epsilon", "varepsilon", "zeta", "eta", "theta", "vartheta", "Theta", "iota", "kappa", "lambda", "Lambda", "mu", "nu", "xi", "Xi", "pi", "Pi", "rho", "varrho", "sigma", "Sigma", "tau", "upsilon", "Upsilon", "phi", "varphi", "Phi", "chi", "psi", "Psi", "omega", "Omega"];
+						r.gcd = n;
+						r.lcm = i;
+						r.isInt = s;
+						r.round = o;
+						r.GREEK_LETTERS = a
+					},
+					{}
+				],
+				6: [
+					function (e, t, r)
+					{
+						"use strict";
+						var n = function ()
+						{
+							this.pos = 0;
+							this.buf = null;
+							this.buflen = 0;
+							this.optable = {
+								"+": "PLUS",
+								"-": "MINUS",
+								"*": "MULTIPLY",
+								"/": "DIVIDE",
+								"^": "POWER",
+								"(": "L_PAREN",
+								")": "R_PAREN",
+								"=": "EQUALS"
+							}
+						};
+						n.prototype.input = function (e)
+						{
+							this.pos = 0;
+							this.buf = e;
+							this.buflen = e.length
+						};
+						n.prototype.token = function ()
+						{
+							this._skipnontokens();
+							if (this.pos >= this.buflen)
+							{
+								return null
+							}
+							var e = this.buf.charAt(this.pos);
+							var t = this.optable[e];
+							if (t !== undefined)
+							{
+								if (t === "L_PAREN" || t === "R_PAREN")
+								{
+									return {
+										type: "PAREN",
+										value: t,
+										pos: this.pos++
+									}
+								}
+								else
+								{
+									return {
+										type: "OPERATOR",
+										value: t,
+										pos: this.pos++
+									}
+								}
+							}
+							else
+							{
+								if (n._isalpha(e))
+								{
+									return this._process_identifier()
+								}
+								else if (n._isdigit(e))
+								{
+									return this._process_number()
+								}
+								else
+								{
+									throw new SyntaxError("Token error at character " + e + " at position " + this.pos)
+								}
+							}
+						};
+						n._isdigit = function (e)
+						{
+							return e >= "0" && e <= "9"
+						};
+						n._isalpha = function (e)
+						{
+							return e >= "a" && e <= "z" || e >= "A" && e <= "Z"
+						};
+						n._isalphanum = function (e)
+						{
+							return e >= "a" && e <= "z" || e >= "A" && e <= "Z" || e >= "0" && e <= "9"
+						};
+						n.prototype._process_digits = function (e)
+						{
+							var t = e;
+							while (t < this.buflen && n._isdigit(this.buf.charAt(t)))
+							{
+								t++
+							}
+							return t
+						};
+						n.prototype._process_number = function ()
+						{
+							var e = this._process_digits(this.pos);
+							if (this.buf.charAt(e) === ".")
+							{
+								e = this._process_digits(e + 1)
+							}
+							if (this.buf.charAt(e - 1) === ".")
+							{
+								throw new SyntaxError("Decimal point without decimal digits at position " + (e - 1))
+							}
+							var t = {
+								type: "NUMBER",
+								value: this.buf.substring(this.pos, e),
+								pos: this.pos
+							};
+							this.pos = e;
+							return t
+						};
+						n.prototype._process_identifier = function ()
+						{
+							var e = this.pos + 1;
+							while (e < this.buflen && n._isalphanum(this.buf.charAt(e)))
+							{
+								e++
+							}
+							var t = {
+								type: "IDENTIFIER",
+								value: this.buf.substring(this.pos, e),
+								pos: this.pos
+							};
+							this.pos = e;
+							return t
+						};
+						n.prototype._skipnontokens = function ()
+						{
+							while (this.pos < this.buflen)
+							{
+								var e = this.buf.charAt(this.pos);
+								if (e == " " || e == "	" || e == "\r" || e == "\n")
+								{
+									this.pos++
+								}
+								else
+								{
+									break
+								}
+							}
+						};
+						t.exports = n
+					},
+					{}
+				],
+				7: [
+					function (e, t, r)
+					{
+						"use strict";
+						var n = e("./lexer"),
+							i = e("./expressions").Expression,
+							s = e("./fractions"),
+							o = e("./equations");
+						var a = function ()
+						{
+							this.lexer = new n;
+							this.current_token = null
+						};
+						a.prototype.update = function ()
+						{
+							this.current_token = this.lexer.token()
+						};
+						a.prototype.match = function (e)
+						{
+							if (this.current_token === null) return e === "epsilon";
+							switch (e)
+							{
+								case "plus":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "PLUS";
+								case "minus":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "MINUS";
+								case "multiply":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "MULTIPLY";
+								case "power":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "POWER";
+								case "divide":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "DIVIDE";
+								case "equal":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "EQUALS";
+								case "lparen":
+									return this.current_token.type === "PAREN" && this.current_token.value === "L_PAREN";
+								case "rparen":
+									return this.current_token.type === "PAREN" && this.current_token.value === "R_PAREN";
+								case "num":
+									return this.current_token.type === "NUMBER";
+								case "id":
+									return this.current_token.type === "IDENTIFIER";
+								default:
+									return false
+							}
+						};
+						a.prototype.parse = function (e)
+						{
+							this.lexer.input(e);
+							this.update();
+							return this.parseEqn()
+						};
+						a.prototype.parseEqn = function ()
+						{
+							var e = this.parseExpr();
+							if (this.match("equal"))
+							{
+								this.update();
+								var t = this.parseExpr();
+								return new o(e, t)
+							}
+							else if (this.match("epsilon"))
+							{
+								return e
+							}
+							else
+							{
+								throw new SyntaxError("Unbalanced Parenthesis")
+							}
+						};
+						a.prototype.parseExpr = function ()
+						{
+							var e = this.parseTerm();
+							return this.parseExprRest(e)
+						};
+						a.prototype.parseExprRest = function (e)
+						{
+							if (this.match("plus"))
+							{
+								this.update();
+								var t = this.parseTerm();
+								if (e === undefined || t === undefined) throw new SyntaxError("Missing operand");
+								return this.parseExprRest(e.add(t))
+							}
+							else if (this.match("minus"))
+							{
+								this.update();
+								var r = this.parseTerm();
+								if (e === undefined)
+								{
+									return this.parseExprRest(r.multiply(-1))
+								}
+								else
+								{
+									return this.parseExprRest(e.subtract(r))
+								}
+							}
+							else
+							{
+								return e
+							}
+						};
+						a.prototype.parseTerm = function ()
+						{
+							var e = this.parseFactor();
+							return this.parseTermRest(e)
+						};
+						a.prototype.parseTermRest = function (e)
+						{
+							if (this.match("multiply"))
+							{
+								this.update();
+								var t = this.parseFactor();
+								return e.multiply(this.parseTermRest(t))
+							}
+							else if (this.match("power"))
+							{
+								this.update();
+								var r = this.parseFactor();
+								return this.parseTermRest(e.pow(parseInt(r.toString())))
+							}
+							else if (this.match("divide"))
+							{
+								this.update();
+								var n = this.parseFactor();
+								return this.parseTermRest(e.divide(this.convertToFraction(n)))
+							}
+							else if (this.match("epsilon"))
+							{
+								return e
+							}
+							else
+							{
+								var i = this.parseFactor();
+								if (i === undefined)
+								{
+									return e
+								}
+								else
+								{
+									return e.multiply(this.parseTermRest(i))
+								}
+							}
+						};
+						a.prototype.convertToFraction = function (e)
+						{
+							if (e.terms.length > 0)
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Divisor must be of type Integer or Fraction.")
+							}
+							else
+							{
+								var t = e.constants[0];
+								return new s(t.numer, t.denom)
+							}
+						};
+						a.prototype.parseFactor = function ()
+						{
+							if (this.match("num"))
+							{
+								var e = this.parseNumber();
+								this.update();
+								return e
+							}
+							else if (this.match("id"))
+							{
+								var t = new i(this.current_token.value);
+								this.update();
+								return t
+							}
+							else if (this.match("lparen"))
+							{
+								this.update();
+								var r = this.parseExpr();
+								if (this.match("rparen"))
+								{
+									this.update();
+									return r
+								}
+								else
+								{
+									throw new SyntaxError("Unbalanced Parenthesis")
+								}
+							}
+							else
+							{
+								return undefined
+							}
+						};
+						a.prototype.parseNumber = function ()
+						{
+							if (parseInt(this.current_token.value) == this.current_token.value)
+							{
+								return new i(parseInt(this.current_token.value))
+							}
+							else
+							{
+								var e = this.current_token.value.split(".");
+								var t = e[1].length;
+								var r = Math.pow(10, t);
+								var n = parseFloat(this.current_token.value);
+								return new i(parseInt(n * r)).divide(r)
+							}
+						};
+						t.exports = a
+					},
+					{
+						"./equations": 2,
+						"./expressions": 3,
+						"./fractions": 4,
+						"./lexer": 6
+					}
+				]
+			},
+			{}, [1])(1)
+		});
+		//-----------;
+		var Fraction = algebra.Fraction;
+		var Expression = algebra.Expression;
+		var Equation = algebra.Equation;
+		//-----------;
+		/*var Fraction = algebra.Fraction;
+		var Expression = algebra.Expression;
+		var Equation = algebra.Equation;
+		var a = new Expression("x").pow(2);
+		var b = new Expression("x").multiply(new Fraction(5, 4));
+		var c = new Fraction(-21, 4);
+		var expr = a.add(b).add(c);
+		var quad = new Equation(expr, 0);
+		katex.render(algebra.toTex(quad), myEquation);
+		
+		var answers = quad.solveFor("x");
+		katex.render("x = " + algebra.toTex(answers), mySolution);*/
+		//--------;
+		function obeb(a, b)
+		{
+			var t;
+			var a = Math.abs(a)
+			var b = Math.abs(b)
+			while (b != 0)
+			{
+				t = b;
+				b = a % b;
+				a = t;
+			}
+			return a;
+		} //end of function
+		function fracSadele(a, b)
+		{
+			var bol = obeb(a, b);
+			a = a / bol;
+			b = b / bol;
+			return [a, b];
+		} //end of function
+		function denkSadele(a, b, c)
+		{
+			var bol = obeb(obeb(a, b), c);
+			if (a < 0)
+			{
+				a = -a / bol;
+				b = -b / bol;
+				c = -c / bol;
+			}
+			else
+			{
+				a = a / bol;
+				b = b / bol;
+				c = c / bol;
+			}
+			return [a, b, c];
+		} //end of function
+		function kokSadele(n)
+		{
+			var i, k;
+			var m = Math.floor(Math.sqrt(n));
+			var arr = [];
+			for (i = m; i > 1; i--)
+			{
+				k = i * i;
+				if (n % k == 0)
+				{
+					arr[0] = i;
+					arr[1] = n / k;
+					return arr;
+				}
+			}
+			//---;
+			if (arr.length == 0)
+			{
+				arr[0] = 1;
+				arr[1] = n;
+			}
+			return arr;
+		}//end of function
+		function doLatexKok(_a,_b)
+		{
+			var arrF = fracSadele(_a,_b);
+			var a = arrF[0];
+			var b = arrF[1];
+			var arrK = kokSadele(a*b);
+			var kok = arrK[1];
+			var pay = arrK[0];
+			var payda = b;
+			var arrFrac = fracSadele(pay,payda);
+			pay = arrFrac[0];
+			payda = arrFrac[1];
+			var str = "";
+			if (payda == 1)
+			{
+				if (kok == 1)
+				{
+					str = pay.toString();
+				}
+				else
+				{
+					if (pay == 1)
+					{
+						str = "\\sqrt{" + kok.toString() + "}";
+					}
+					else
+					{
+						str = pay.toString() + "\\sqrt{" + kok.toString() + "}";
+					}
+				}
+			}
+			else
+			{
+				if (kok == 1)
+				{
+					str = "\\frac{" + pay.toString() + "}{" + payda.toString() + "}";
+				}
+				else
+				{
+					str = "\\frac{" + pay.toString() + "}{" + payda.toString() + "}" + "\\sqrt{" + kok.toString() + "}";
+				}
+			}
+			return str;
+		} //end of function
+		var rootMC = this;
+		//---;
+		var butSound = this.butSound;
+		var butFS = this.butFS;
+		//---;
+		var soundEnabled = true;
+		//--------------------------------------------------------------;
+		var ratio = window.devicePixelRatio;
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		//--------------------------------------------------------------;
+		//--------------------------------------------------------------;
+		var sfx1 = new Howl(
+		{
+			src: ["sounds/click.mp3"]
+		});
+		
+		var sfx2 = new Howl(
+		{
+			src: ["sounds/warn.mp3"]
+		});
+		
+		var sfx3 = new Howl(
+		{
+			src: ["sounds/pop.mp3"]
+		});
+		
+		var sfx4 = new Howl(
+		{
+			src: ["sounds/correct.mp3"]
+		});
+		
+		var sfx5 = new Howl(
+		{
+			src: ["sounds/music.mp3"],
+			volume:0.1,
+			loop:true
+		});
+		
+		var sfx6 = new Howl(
+		{
+			src: ["sounds/powerup.mp3"]
+		});
+		//--------------------------------------------;
+		function doSound(sound)
+		{
+			if (soundEnabled)
+			{
+				sound.play();
+			}
+		} //end of function
+		//--------------------------------------------;
+		
+		//--------------------------------------------;
+		function doCheckElementSame(_arr, _a)
+		{
+			var arr = [];
+			for (var i = 0; i < _arr.length; i++)
+			{
+				if (_a == _arr[i])
+				{
+					arr.push(_arr[i]);
+				}
+			}
+			return arr.length;
+		} //end of function
+		//--------------------------;
+		//--------------------------;
+		function doShuffle(a)
+		{
+			for (var i = a.length - 1; i > 0; i--)
+			{
+				var j = Math.floor(Math.random() * (i + 1));
+				[a[i], a[j]] = [a[j], a[i]];
+			}
+			return a;
+		}
+		//--------------------------;
+		function doAnimatePop(_mc)
+		{
+			_mc.animate(
+			{
+				props:
+				{
+					scale: 1.1
+				},
+				time: .2,
+				rewind: true
+			});
+		}
+		//--------------------------;
+		function doAnimateEmoji()
+		{
+			emoji.alp(0).sca(1).top();
+			emoji.animate(
+			{
+				props:
+				{
+					alpha: 1,
+					scale: 1.2
+				},
+				time: .3,
+				ease: "backOut"
+			});
+		}
+		//--------------------------;
+		
+		//----------------------------------------------------;
+		butSound.on("click", function ()
+		{
+			if (soundEnabled)
+			{
+				doSound(sfx1);
+				soundEnabled = false;
+				butSound.gotoAndStop(1);
+				sfx5.pause();
+			}
+			else
+			{
+				doSound(sfx1);
+				soundEnabled = true;
+				butSound.gotoAndStop(0);
+				sfx5.play();
+			}
+		}) //end of function
+		//----------------------------------------------------;
+		//butHome.on("click", function ()
+		//{
+		//	doSound(sfx1);
+		//	mcMenu.visible = true;
+		//	//drawCanvas();
+		//});
+		//----------------------------------------------------;
+		
+		//--------------------------------------------;
+		//--------------------------------------------;
+		
+		//--------------------------------------------;
+		//--------------------------------------------;
+		
+		var fullScreenEnabled = true;
+		var elem = document.documentElement;
+		function openFullscreen()
+		{
+			if (elem.requestFullscreen)
+			{
+				elem.requestFullscreen();
+			}
+			else if (elem.mozRequestFullScreen)
+			{ /* Firefox */
+				elem.mozRequestFullScreen();
+			}
+			else if (elem.webkitRequestFullscreen)
+			{ /* Chrome, Safari and Opera */
+				elem.webkitRequestFullscreen();
+			}
+			else if (elem.msRequestFullscreen)
+			{ /* IE/Edge */
+				elem.msRequestFullscreen();
+			}
+		}
+		/* Close fullscreen */
+		function closeFullscreen()
+		{
+			if (document.exitFullscreen)
+			{
+				document.exitFullscreen();
+			}
+			else if (document.mozCancelFullScreen)
+			{ /* Firefox */
+				document.mozCancelFullScreen();
+			}
+			else if (document.webkitExitFullscreen)
+			{ /* Chrome, Safari and Opera */
+				document.webkitExitFullscreen();
+			}
+			else if (document.msExitFullscreen)
+			{ /* IE/Edge */
+				document.msExitFullscreen();
+			}
+		}
+		//----;
+		//butFS.addEventListener("mousedown", fFS);
+		function fFS(evt)
+		{
+			if (fullScreenEnabled)
+			{
+				fullScreenEnabled = false;
+				//butFS.gotoAndStop(1);
+				openFullscreen();
+			}
+			else
+			{
+				fullScreenEnabled = true;
+				butFS.gotoAndStop(0);
+				closeFullscreen();
+			}
+		}
+		//----------------------------------------------;
+		var dataOBJ = {
+			score: 0
+		};
+		var bestScore = 0;
+		//--------------------------------------------;
+		function loadData()
+		{
+			if (window.localStorage && window.localStorage.mathQuestGC1)
+			{
+				dataOBJ = JSON.parse(window.localStorage.getItem("mathQuestGC1"));
+				bestScore = dataOBJ.score;
+				scoreLabel.text = bestScore;
+			}
+			else
+			{
+				dataOBJ = {
+					score: 0
+				};
+				window.localStorage.setItem("mathQuestGC1", JSON.stringify(dataOBJ));
+			}
+		} //end of function
+		function saveData()
+		{
+			dataOBJ = {
+				score: bestScore
+			};
+			window.localStorage.setItem("mathQuestGC1", JSON.stringify(dataOBJ));
+		} //end of function
+		//----------------------------------------------;
+		var thisMC = this;
+		
+		var mc0 = this.mc0;
+		var mc1 = this.mc1;
+		var mc2 = this.mc2;
+		var mc3 = this.mc3;
+		var mc4 = this.mc4;
+		var cont = zimify(this.cont);
+		var userAnswer = -1;
+		var questNUM = 0;
+		var wrongNUM = 0;
+		//--------------------------------------------------------;
+		var mcClock = this.mcClock;
+		var clock = new Timer(
+		{
+			time: 180,
+			colon: true,
+			down: true,
+			font: "Lilita One",
+			size: 36,
+			color: "#333333",
+			align: "center",
+			backgroundColor: false
+		}).center(mcClock);
+		clock.stop();
+		//clock.visible = false;
+		////-------------------------;
+		clock.on("complete", function (e)
+		{
+			doFinishGame();
+		});
+		//--------------------------------------------------------;
+		//--------------------------------------------------------;
+		var rect = new Rectangle(
+		{
+			width: 360,
+			height: 120,
+			color: "#FFFFFF",
+			borderColor: "#777777",
+			borderWidth: 2.5,
+			corner: 7
+		});
+		var tile = new Tile(rect.clone(), 2, 2, 15, 15).centerReg(cont).mov(0, 60).noMouse();
+		//--------------------------------------------------------;
+		for (var i = 0; i < tile.items.length; i++)
+		{
+			tile.items[i].deg = i + 1;
+			tile.items[i].on("mousedown", function (e)
+			{
+				//doSound(sfx1);
+				userAnswer = e.currentTarget.deg;
+				if (userAnswer == 4)
+				{
+					butChange.vis(false);
+					butShowAnswer.vis(false);
+					doSound(sfx4);
+					e.currentTarget.color = "#00CC99";
+					e.currentTarget.borderColor = "#00CC99";
+					tile.noMouse();
+					//---;
+					questNUM++;
+					bestScore++;
+					scoreLabel.text = bestScore;
+					saveData();
+					timeout(1, function ()
+					{
+						doNextQuestion();
+					});
+		
+				}
+				else
+				{
+					doSound(sfx2);
+					e.currentTarget.color = "#EC0C8A";
+					e.currentTarget.borderColor = "#EC0C8A";
+		
+					wrongNUM++;
+					tile.noMouse();
+					tile.items[0].alp(.1);
+					tile.items[1].alp(.1);
+					tile.items[2].alp(.1);
+					tile.items[3].color = "#00CC99";
+					tile.items[3].borderColor = "#00A078";
+					//doAnimateEmoji();			
+					butChange.vis(true);
+				}
+			})
+		}
+		//----------------------------------------------------;
+		function doNextQuestion()
+		{
+			doSound(sfx1);
+			butChange.vis(false);
+			//butShowAnswer.vis(false);
+			tile.mouse();
+			drawCanvas();
+		}
+		//----------------------------------------------------;
+		function doFinishGame()
+		{
+			if (questNUM > wrongNUM)
+			{
+				winLabel.gotoAndStop(1);
+			}
+			else
+			{
+				winLabel.gotoAndStop(0);
+			}
+			//---;
+			timeout(.4, function ()
+			{
+				stopAnimate();
+				doSound(sfx6);
+				soruContainer.vis(false);
+				tile.vis(false);
+				winner.vis(true);
+				scoreLabel.text = "SCORE: " + questNUM.toString() + "/" + (questNUM + wrongNUM).toString();
+			}) //timeout
+		}
+		//----------------------------------------------------;
+		function doStart()
+		{
+			doSound(sfx5);
+			doSound(sfx3);
+			//---;
+			F.fullscreen();
+			//---;
+			dotResetColors();
+			questNUM = 0;
+			wrongNUM = 0;
+			soruContainer.vis(true);
+			tile.vis(true);
+			tile.mouse();
+			clock.start(180);
+			drawCanvas();
+		};
+		//----------------------------------------------------;
+		function dotResetColors()
+		{
+			for (var i = 0; i < tile.items.length; i++)
+			{
+				tile.items[i].alp(1);
+				tile.items[i].color = "#FFFFFF";
+				tile.items[i].borderColor = "#777777"
+			}
+		}
+		//----------------------------------------------------;
+		function doSwapCircles()
+		{
+			for (var i = 0; i < 4; i++)
+			{
+				var index = Math.floor(Math.random() * 4);
+				if (i != index)
+				{
+					var x0 = tile.items[index].x;
+					var y0 = tile.items[index].y;
+					tile.items[index].x = tile.items[i].x;
+					tile.items[index].y = tile.items[i].y;
+					tile.items[i].x = x0;
+					tile.items[i].y = y0;
+				}
+			}
+		}
+		doSwapCircles();
+		//----------------------------------------------------;
+		
+		//----------------------------------------------------;
+		
+		//----------------------------------------------------;
+		var drm, drmLast;
+		var aStr;
+		var arrSNC = [];
+		var options = {
+			displayMode: true,
+			debugBounds: false,
+			strict: false
+		};
+		var expA1;
+		var expA2;
+		var expA3;
+		var expB1;
+		var expB2;
+		var expB3;
+		var expC1;
+		var expC2;
+		var expC3;
+		var expC4;
+		var expA;
+		var expB;
+		var expC;
+		var numA;
+		var numB;
+		var numC;
+		var obj = {};
+		//----------------------------------------------------;
+		var soruContainer = new Container().center(cont).mov(0, -216);
+		var eqA = new Container(100, 100).center(tile.items[0]);
+		var eqB = new Container(100, 100).center(tile.items[1]);
+		var eqC = new Container(100, 100).center(tile.items[2]);
+		var eqD = new Container(100, 100).center(tile.items[3]);
+		//----------------------------------------------------;
+		function drawCanvas()
+		{
+			userAnswer = -1;
+			doSwapCircles();
+			dotResetColors();
+			//---;
+			drm = Math.floor(Math.random() * 4 + 1);
+			drm = 1;
+			//---;
+			if (drm == 1)
+			{
+				arrA = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+				arrB = [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+				shuffle(arrA);
+				shuffle(arrB);
+				//---;
+				var x0 = Math.floor(Math.random() * 100 + 1);
+				var a = arrA[0];
+				var b = arrB[0];
+				var c = a * x0 + b;
+				numC = x0;
+				//---;
+				var variables = shuffle(["x", "y", "z", "a", "b", "c"]);
+				expA1 = new Expression(variables[0]).multiply(a).add(b) + " = " + c.toString();
+				expA = "\\mathsf{If  } \\mathsf{\\ " + expA1 + "}\\textsf{,  what is " + variables[0] + "?}";
+				//---;
+				var tA = shuffle([-10, -5, -3, -2, -1, 1, 2, 3, 4, 5, 10]);
+				//---;
+				expC1 = decimals(numC + tA[0]);
+				expC2 = decimals(numC + tA[1]);
+				expC3 = decimals(numC + tA[2]);
+				expC4 = decimals(numC);
+			}
+		
+			//--------------------;
+			if (expC1 < 0 || expC2 < 0 || expC3 < 0 || c > 500)
+			{
+				zog("alert_01");
+				drawCanvas();
+				return;
+			}
+			//--------------------;
+			if (expC1 == expC2 || expC1 == expC3 || expC1 == expC4 || expC2 == expC3 || expC2 == expC4 || expC3 == expC4)
+			{
+				zog("alert_02");
+				drawCanvas();
+				return;
+			}
+		
+			//--------------------;
+			soruContainer.removeAllChildren();
+			eqA.removeAllChildren();
+			eqB.removeAllChildren();
+			eqC.removeAllChildren();
+			eqD.removeAllChildren();
+			//--------------------;
+			var question = new CanvasLatex.
+			default (expA.toString(), options);
+			zimify(question);
+			question.centerReg(soruContainer).sca(1.2);
+		
+			//--------------------;
+			var equationA = new CanvasLatex.
+			default ("\\mathsf{" + expC1.toString() + "}", options);
+			zimify(equationA);
+			equationA.centerReg(eqA).sca(1);
+			//---------------------------;
+			var equationB = new CanvasLatex.
+			default ("\\mathsf{" + expC2.toString() + "}", options);
+			zimify(equationB);
+			equationB.centerReg(eqB).sca(1);
+			//---------------------------;
+			var equationC = new CanvasLatex.
+			default ("\\mathsf{" + expC3.toString() + "}", options);
+			zimify(equationC);
+			equationC.centerReg(eqC).sca(1);;
+			//---------------------------;
+			var equationD = new CanvasLatex.
+			default ("\\mathsf{" + expC4.toString() + "}", options);
+			zimify(equationD);
+			equationD.centerReg(eqD).sca(1);;
+			//---------------------------;
+		
+			//---------------------------;
+			aStr = expC4.toString();
+			if (doCheckElementSame(arrSNC, aStr))
+			{
+				drawCanvas();
+				zog("alert");
+				return;
+			}
+			else
+			{
+				//zog(arrSNC);
+				drmLast = aStr;
+				arrSNC.push(aStr);
+				if (arrSNC.length > 10)
+				{
+					arrSNC.shift();
+					//console.log(arrSNC);
+				}
+			}
+		} //end of function
+		//--------------------------;
+		drawCanvas();
+		this.drawCanvas = drawCanvas;
+		createjs.Tween.get(this).wait(100).call(function ()
+		{
+			drawCanvas();
+		});
+		//--------------------------;
+		
+		//--------------------------;
+		var that = this;
+		//----------------------------;
+		//var emoji = zimify(new lib.emoji()).center(that).alp(0).mov(0, 0);
+		////----------------------------;
+		//emoji.on("click", function ()
+		//{
+		//	emoji.alp(0);
+		//});
+		//------------------------;
+		var winner = zimify(this.win).vis(false);
+		var butReplay = zimify(winner.butReplay);
+		var butHomeMenu = zimify(winner.butHomeMenu);
+		var winLabel = zimify(winner.winLabel);
+		var mcScore = zimify(winner.mcScore);
+		var scoreLabel = new Label(
+		{
+			text: "",
+			color: "#333333",
+			font: "Lilita One",
+			size: 40,
+			align: "center"
+		}).center(mcScore);
+		//------------------------;
+		butReplay.on("click", function ()
+		{
+			Howler.stop();
+			winner.vis(false);
+			doStart();
+		});
+		//------------------------;
+		butHomeMenu.on("click", function ()
+		{
+			clock.stop();
+			window.menu();
+		});
+		//------------------------;
+		var butHome = this.butHome;
+		butHome.on("click", function ()
+		{
+			clock.stop();
+			window.menu();
+		});
+		//------------------------;
+		var butChange = zimify(this.butChange).vis(false);
+		butChange.on("click", function ()
+		{
+			//butShowAnswer.vis(true);
+			
+			//emoji.alp(0);
+			tile.items[0].alp(1);
+			tile.items[1].alp(1);
+			tile.items[2].alp(1);
+			tile.items[3].color = "#FFFFFF";
+			tile.items[3].borderColor = "#339933";
+			doNextQuestion();
+		}); //------------------------;
+		var butShowAnswer = zimify(this.butShowAnswer).vis(false);
+		butShowAnswer.on("click", function ()
+		{
+			doSound(sfx3);
+			butShowAnswer.vis(false);
+			//emoji.alp(0);
+			tile.noMouse();
+			tile.items[0].alp(.1);
+			tile.items[1].alp(.1);
+			tile.items[2].alp(.1);
+			tile.items[3].color = "#00CC99";
+			tile.items[3].borderColor = "#00CC99";
+		});
+		//----------------------------;
+		timeout(.3, function ()
+		{
+			loadData();
+		});
+		//----------------------------;
+		
+		doStart();
+		//----------------------------;
+		//----------------------------;
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// win
+	this.win = new lib.mc_winners();
+	this.win.name = "win";
+
+	this.timeline.addTween(cjs.Tween.get(this.win).wait(1));
+
+	// but
+	this.butChange = new lib.mc_but_change_question();
+	this.butChange.name = "butChange";
+	this.butChange.setTransform(0,287.55);
+
+	this.butShowAnswer = new lib.mc_but_showAnswer();
+	this.butShowAnswer.name = "butShowAnswer";
+	this.butShowAnswer.setTransform(0,287.55);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.butShowAnswer},{t:this.butChange}]}).wait(1));
+
+	// clock
+	this.mcClock = new lib.mc_clock();
+	this.mcClock.name = "mcClock";
+	this.mcClock.setTransform(44.1,295);
+
+	this.timeline.addTween(cjs.Tween.get(this.mcClock).wait(1));
+
+	// cont
+	this.instance = new lib.mc_math_title();
+	this.instance.setTransform(0,-336.15,0.7328,0.7325);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#666666").ss(1,1,1,3,true).p("Av8AAIf5AA");
+	this.shape.setTransform(0,-303.75,0.9393,1);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#333333").s().p("AgZAqQgHgIAAgNQAAgOAKgHQAKgJAPAAIAMAAIAAgKQAAgIgEgEQgEgDgHAAQgGAAgFAEQgEAEAAAGIgPAAQAAgHAEgHQAEgGAHgEQAIgDAHAAQAPAAAHAGQAIAIAAAOIAAAuQAAAKADAIIAAACIgQAAIgCgKQgIALgMAAQgNAAgHgGgAgKAHQgHAEAAAIQAAAJAEADQADAEAIAAQAEAAAFgEQAFgDADgEIAAgXIgJAAQgKAAgGAGg");
+	this.shape_1.setTransform(36.575,-292.1);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#333333").s().p("AgSAwIAAhdIAPAAIAAAJQAFgLALAAIAGABIAAAPIgGAAQgMAAgEANIAABCg");
+	this.shape_2.setTransform(24.475,-292.175);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#333333").s().p("AgSA3IgBALIgOAAIAAiEIAQAAIAAAxQAHgMANAAQAQAAAHALQAIALAAAVIAAAJQAAAWgIALQgIALgPAAQgOAAgHgMgAgRgCIAAArQAFANAMAAQAKAAAEgHQAEgIAAgPIAAgJQAAgQgEgHQgEgHgKAAQgMAAgFANg");
+	this.shape_3.setTransform(11.65,-293.975);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#333333").s().p("AgXAmQgJgKgBgUIAAgKQAAgVAKgMQAJgMAPAAQAQgBAJALQAIALAAAVIAAAJIgzAAIAAADQAAAPAFAHQAGAGAKABQAGgBAGgCQAFgCAEgGIAIAKQgKANgUAAQgRAAgJgKgAgMgcQgFAHAAANIAkAAIAAgBQgBgOgEgFQgEgHgJABQgJAAgEAGg");
+	this.shape_4.setTransform(-2.475,-292.1);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#333333").s().p("AgOA/QgJgEgEgFIAGgKQAJAJAMAAQASAAABgVIAAgMQgIALgNAAQgOAAgIgLQgIgLgBgUIAAgKQAAgWAIgLQAIgLAPAAQAOAAAHAMIABgLIAOAAIAABeQAAASgJAJQgJAJgQAAQgGAAgIgDgAgNgsQgEAHAAAPIAAAKQAAAPAEAHQAFAHAJAAQAMAAAGgLIAAguQgGgMgLAAQgKAAgFAIg");
+	this.shape_5.setTransform(-16.725,-290.325);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#333333").s().p("AgHBDIAAiEIAPAAIAACEg");
+	this.shape_6.setTransform(-28.525,-294.05);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#333333").s().p("AAfA/IgKghIgpAAIgKAhIgRAAIAph9IANAAIApB9gAARARIgRg5IgQA5IAhAAg");
+	this.shape_7.setTransform(-41.225,-293.725);
+
+	this.butHome = new lib.mc_but_home();
+	this.butHome.name = "butHome";
+	this.butHome.setTransform(-457.2,-332.75,0.8184,0.8184,0,0,0,0.1,0.1);
+
+	this.cont = new lib.mc_empty();
+	this.cont.name = "cont";
+
+	this.butSound = new lib.mc_but_sound();
+	this.butSound.name = "butSound";
+	this.butSound.setTransform(458.65,-333.7,0.9002,0.9,0,0,0,-0.6,-0.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.butSound},{t:this.cont},{t:this.butHome},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.instance}]}).wait(1));
+
+	// zem
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("rgba(255,0,0,0.208)").s().p("EhH5A6jQikAAh1h1Qh1h0AAilMAAAhopQAAilB1h1QB1h0CkAAMCPzAAAQCkAAB1B0QB1B1AAClMAAABopQAAClh1B0Qh1B1ikAAg");
+	this.shape_8.setTransform(0,0.0094,1,1.0007);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_8).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.gameC, new cjs.Rectangle(-500.5,-375.5,1001,751), null);
+
+
+(lib.gameB = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		(function (e)
+		{
+			if (typeof exports === "object" && typeof module !== "undefined")
+			{
+				module.exports = e()
+			}
+			else if (typeof define === "function" && define.amd)
+			{
+				define([], e)
+			}
+			else
+			{
+				var t;
+				if (typeof window !== "undefined")
+				{
+					t = window
+				}
+				else if (typeof global !== "undefined")
+				{
+					t = global
+				}
+				else if (typeof self !== "undefined")
+				{
+					t = self
+				}
+				else
+				{
+					t = this
+				}
+				t.algebra = e()
+			}
+		})(function ()
+		{
+			var e, t, r;
+			return function n(e, t, r)
+			{
+				function i(o, a)
+				{
+					if (!t[o])
+					{
+						if (!e[o])
+						{
+							var u = typeof require == "function" && require;
+							if (!a && u) return u(o, !0);
+							if (s) return s(o, !0);
+							var f = new Error("Cannot find module '" + o + "'");
+							throw f.code = "MODULE_NOT_FOUND", f
+						}
+						var l = t[o] = {
+							exports:
+							{}
+						};
+						e[o][0].call(l.exports, function (t)
+						{
+							var r = e[o][1][t];
+							return i(r ? r : t)
+						}, l, l.exports, n, e, t, r)
+					}
+					return t[o].exports
+				}
+				var s = typeof require == "function" && require;
+				for (var o = 0; o < r.length; o++) i(r[o]);
+				return i
+			}(
+			{
+				1: [
+					function (e, t, r)
+					{
+						var n = e("./src/fractions");
+						var i = e("./src/expressions").Expression;
+						var s = e("./src/equations");
+						var o = e("./src/parser");
+						var a = function (e)
+						{
+							var t = new o;
+							var r = t.parse(e);
+							return r
+						};
+						var u = function (e)
+						{
+							if (e instanceof n || e instanceof i || e instanceof s)
+							{
+								return e.toTex()
+							}
+							else if (e instanceof Array)
+							{
+								return e.map(function (e)
+								{
+									if (e instanceof n)
+									{
+										return e.toTex()
+									}
+									else
+									{
+										return e.toString()
+									}
+								}).join()
+							}
+							else
+							{
+								return e.toString()
+							}
+						};
+						t.exports = {
+							Fraction: n,
+							Expression: i,
+							Equation: s,
+							parse: a,
+							toTex: u
+						}
+					},
+					{
+						"./src/equations": 2,
+						"./src/expressions": 3,
+						"./src/fractions": 4,
+						"./src/parser": 7
+					}
+				],
+				2: [
+					function (e, t, r)
+					{
+						var n = e("./expressions").Expression;
+						var i = e("./expressions").Variable;
+						var s = e("./expressions").Term;
+						var o = e("./fractions");
+						var a = e("./helper").isInt;
+						var u = function (e, t)
+						{
+							if (e instanceof n)
+							{
+								this.lhs = e;
+								if (t instanceof n)
+								{
+									this.rhs = t
+								}
+								else if (t instanceof o || a(t))
+								{
+									this.rhs = new n(t)
+								}
+								else
+								{
+									throw new TypeError("Invalid Argument (" + t.toString() + "): Right-hand side must be of type Expression, Fraction or Integer.")
+								}
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Left-hand side must be of type Expression.")
+							}
+						};
+						u.prototype.solveFor = function (e)
+						{
+							if (!this.lhs._hasVariable(e) && !this.rhs._hasVariable(e))
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Variable does not exist in the equation.")
+							}
+							if (this._isLinear() || this._variableCanBeIsolated(e))
+							{
+								var t = new s(new i(e));
+								var r = new n;
+								var a = new n;
+								for (var u = 0; u < this.rhs.terms.length; u++)
+								{
+									var f = this.rhs.terms[u];
+									if (f.canBeCombinedWith(t))
+									{
+										r = r.subtract(f)
+									}
+									else
+									{
+										a = a.add(f)
+									}
+								}
+								for (var u = 0; u < this.lhs.terms.length; u++)
+								{
+									var f = this.lhs.terms[u];
+									if (f.canBeCombinedWith(t))
+									{
+										r = r.add(f)
+									}
+									else
+									{
+										a = a.subtract(f)
+									}
+								}
+								a = a.subtract(this.lhs.constant());
+								a = a.add(this.rhs.constant());
+								if (r.terms.length === 0)
+								{
+									if (r.constant().equalTo(a.constant()))
+									{
+										return new o(1, 1)
+									}
+									else
+									{
+										throw new EvalError("No Solution")
+									}
+								}
+								a = a.divide(r.terms[0].coefficient());
+								if (a.terms.length === 0)
+								{
+									return a.constant().reduce()
+								}
+								a._sort();
+								return a
+							}
+							else
+							{
+								var r = this.lhs.copy();
+								r = r.subtract(this.rhs);
+								if (r.terms.length === 0)
+								{
+									if (r.constant().valueOf() === 0)
+									{
+										return [new o(1, 1)]
+									}
+									else
+									{
+										throw new EvalError("No Solution")
+									}
+								}
+								else if (this._isQuadratic(e))
+								{
+									var l = r._quadraticCoefficients();
+									var c = l.a;
+									var p = l.b;
+									var h = l.c;
+									var v = p.pow(2).subtract(c.multiply(h).multiply(4));
+									if (v.valueOf() >= 0)
+									{
+										if (v.valueOf() === 0)
+										{
+											return [p.multiply(-1).divide(c.multiply(2)).reduce()]
+										}
+										else
+										{
+											var m;
+											if (v._squareRootIsRational())
+											{
+												m = v.pow(.5);
+												var d = p.multiply(-1).subtract(m).divide(c.multiply(2));
+												var y = p.multiply(-1).add(m).divide(c.multiply(2));
+												return [d.reduce(), y.reduce()]
+											}
+											else
+											{
+												m = Math.sqrt(v.valueOf());
+												c = c.valueOf();
+												p = p.valueOf();
+												var d = (-p - m) / (2 * c);
+												var y = (-p + m) / (2 * c);
+												return [d, y]
+											}
+										}
+									}
+									else
+									{
+										return []
+									}
+								}
+								else if (this._isCubic(e))
+								{
+									var l = r._cubicCoefficients();
+									var c = l.a;
+									var p = l.b;
+									var h = l.c;
+									var g = l.d;
+									var b = c.multiply(p).multiply(h).multiply(g).multiply(18);
+									b = b.subtract(p.pow(3).multiply(g).multiply(4));
+									b = b.add(p.pow(2).multiply(h.pow(2)));
+									b = b.subtract(c.multiply(h.pow(3)).multiply(4));
+									b = b.subtract(c.pow(2).multiply(g.pow(2)).multiply(27));
+									var w = p.pow(2).subtract(c.multiply(h).multiply(3));
+									if (b.valueOf() === 0)
+									{
+										if (w.valueOf() === 0)
+										{
+											var d = p.multiply(-1).divide(c.multiply(3));
+											return [d.reduce()]
+										}
+										else
+										{
+											var d = c.multiply(p).multiply(h).multiply(4);
+											d = d.subtract(c.pow(2).multiply(g).multiply(9));
+											d = d.subtract(p.pow(3));
+											d = d.divide(c.multiply(w));
+											var y = c.multiply(g).multiply(9).subtract(p.multiply(h)).divide(w.multiply(2));
+											return [d.reduce(), y.reduce()]
+										}
+									}
+									else
+									{
+										var _ = (3 * (h / c) - Math.pow(p, 2) / Math.pow(c, 2)) / 3;
+										var T = 2 * Math.pow(p, 3) / Math.pow(c, 3);
+										T = T - 9 * p * h / Math.pow(c, 2);
+										T = T + 27 * g / c;
+										T = T / 27;
+										var E = Math.pow(T, 2) / 4 + Math.pow(_, 3) / 27;
+										if (E > 0)
+										{
+											var x = -(T / 2) + Math.sqrt(E);
+											var S = Math.cbrt(x);
+											var I = -(T / 2) - Math.sqrt(E);
+											var M = Math.cbrt(I);
+											var d = S + M - p / (3 * c);
+											if (d < 0)
+											{
+												var R = Math.floor(d);
+												if (d - R < 1e-15) d = R
+											}
+											else if (d > 0)
+											{
+												var R = Math.ceil(d);
+												if (R - d < 1e-15) d = R
+											}
+											return [d]
+										}
+										else
+										{
+											var u = Math.sqrt(Math.pow(T, 2) / 4 - E);
+											var A = Math.cbrt(u);
+											var O = Math.acos(-(T / (2 * u)));
+											var D = -A;
+											var k = Math.cos(O / 3);
+											var P = Math.sqrt(3) * Math.sin(O / 3);
+											var V = -(p / (3 * c));
+											var d = 2 * A * Math.cos(O / 3) - p / (3 * c);
+											var y = D * (k + P) + V;
+											var C = D * (k - P) + V;
+											if (d < 0)
+											{
+												var R = Math.floor(d);
+												if (d - R < 1e-15) d = R
+											}
+											else if (d > 0)
+											{
+												var R = Math.ceil(d);
+												if (R - d < 1e-15) d = R
+											}
+											if (y < 0)
+											{
+												var F = Math.floor(y);
+												if (y - F < 1e-15) y = F
+											}
+											else if (y > 0)
+											{
+												var F = Math.ceil(y);
+												if (F - y < 1e-15) y = F
+											}
+											if (d < 0)
+											{
+												var q = Math.floor(C);
+												if (C - q < 1e-15) C = q
+											}
+											else if (C > 0)
+											{
+												var q = Math.ceil(C);
+												if (q - C < 1e-15) C = q
+											}
+											var N = [d, y, C];
+											N.sort(function (e, t)
+											{
+												return e - t
+											});
+											return [N[0], N[1], N[2]]
+										}
+									}
+								}
+							}
+						};
+						u.prototype.eval = function (e)
+						{
+							return new u(this.lhs.eval(e), this.rhs.eval(e))
+						};
+						u.prototype.toString = function ()
+						{
+							return this.lhs.toString() + " = " + this.rhs.toString()
+						};
+						u.prototype.toTex = function ()
+						{
+							return this.lhs.toTex() + " = " + this.rhs.toTex()
+						};
+						u.prototype._maxDegree = function ()
+						{
+							var e = this.lhs._maxDegree();
+							var t = this.rhs._maxDegree();
+							return Math.max(e, t)
+						};
+						u.prototype._maxDegreeOfVariable = function (e)
+						{
+							return Math.max(this.lhs._maxDegreeOfVariable(e), this.rhs._maxDegreeOfVariable(e))
+						};
+						u.prototype._variableCanBeIsolated = function (e)
+						{
+							return this._maxDegreeOfVariable(e) === 1 && this._noCrossProductsWithVariable(e)
+						};
+						u.prototype._noCrossProductsWithVariable = function (e)
+						{
+							return this.lhs._noCrossProductsWithVariable(e) && this.rhs._noCrossProductsWithVariable(e)
+						};
+						u.prototype._noCrossProducts = function ()
+						{
+							return this.lhs._noCrossProducts() && this.rhs._noCrossProducts()
+						};
+						u.prototype._onlyHasVariable = function (e)
+						{
+							return this.lhs._onlyHasVariable(e) && this.rhs._onlyHasVariable(e)
+						};
+						u.prototype._isLinear = function ()
+						{
+							return this._maxDegree() === 1 && this._noCrossProducts()
+						};
+						u.prototype._isQuadratic = function (e)
+						{
+							return this._maxDegree() === 2 && this._onlyHasVariable(e)
+						};
+						u.prototype._isCubic = function (e)
+						{
+							return this._maxDegree() === 3 && this._onlyHasVariable(e)
+						};
+						t.exports = u
+					},
+					{
+						"./expressions": 3,
+						"./fractions": 4,
+						"./helper": 5
+					}
+				],
+				3: [
+					function (e, t, r)
+					{
+						var n = e("./fractions");
+						var i = e("./helper").isInt;
+						var s = e("./helper").GREEK_LETTERS;
+						var o = function (e)
+						{
+							this.constants = [];
+							if (typeof e === "string")
+							{
+								var t = new a(e);
+								var r = new Term(t);
+								this.terms = [r]
+							}
+							else if (i(e))
+							{
+								this.constants = [new n(e, 1)];
+								this.terms = []
+							}
+							else if (e instanceof n)
+							{
+								this.constants = [e];
+								this.terms = []
+							}
+							else if (e instanceof Term)
+							{
+								this.terms = [e]
+							}
+							else if (typeof e === "undefined")
+							{
+								this.terms = []
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Argument must be of type String, Integer, Fraction or Term.")
+							}
+						};
+						o.prototype.constant = function ()
+						{
+							return this.constants.reduce(function (e, t)
+							{
+								return e.add(t)
+							}, new n(0, 1))
+						};
+						o.prototype.simplify = function ()
+						{
+							var e = this.copy();
+							e.terms = e.terms.map(function (e)
+							{
+								return e.simplify()
+							});
+							e._sort();
+							e._combineLikeTerms();
+							e._moveTermsWithDegreeZeroToConstants();
+							e._removeTermsWithCoefficientZero();
+							e.constants = e.constant().valueOf() === 0 ? [] : [e.constant()];
+							return e
+						};
+						o.prototype.copy = function ()
+						{
+							var e = new o;
+							e.constants = this.constants.map(function (e)
+							{
+								return e.copy()
+							});
+							e.terms = this.terms.map(function (e)
+							{
+								return e.copy()
+							});
+							return e
+						};
+						o.prototype.add = function (e, t)
+						{
+							var r = this.copy();
+							if (typeof e === "string" || e instanceof Term || i(e) || e instanceof n)
+							{
+								var s = new o(e);
+								return r.add(s, t)
+							}
+							else if (e instanceof o)
+							{
+								var a = e.copy().terms;
+								r.terms = r.terms.concat(a);
+								r.constants = r.constants.concat(e.constants);
+								r._sort()
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Summand must be of type String, Expression, Term, Fraction or Integer.")
+							}
+							return t || t === undefined ? r.simplify() : r
+						};
+						o.prototype.subtract = function (e, t)
+						{
+							var r = e instanceof o ? e.multiply(-1) : new o(e).multiply(-1);
+							return this.add(r, t)
+						};
+						o.prototype.multiply = function (e, t)
+						{
+							var r = this.copy();
+							if (typeof e === "string" || e instanceof Term || i(e) || e instanceof n)
+							{
+								var s = new o(e);
+								return r.multiply(s, t)
+							}
+							else if (e instanceof o)
+							{
+								var a = e.copy();
+								var u = [];
+								for (var f = 0; f < r.terms.length; f++)
+								{
+									var l = r.terms[f];
+									for (var c = 0; c < a.terms.length; c++)
+									{
+										var p = a.terms[c];
+										u.push(l.multiply(p, t))
+									}
+									for (var c = 0; c < a.constants.length; c++)
+									{
+										u.push(l.multiply(a.constants[c], t))
+									}
+								}
+								for (var f = 0; f < a.terms.length; f++)
+								{
+									var p = a.terms[f];
+									for (var c = 0; c < r.constants.length; c++)
+									{
+										u.push(p.multiply(r.constants[c], t))
+									}
+								}
+								var h = [];
+								for (var f = 0; f < r.constants.length; f++)
+								{
+									var v = r.constants[f];
+									for (var c = 0; c < a.constants.length; c++)
+									{
+										var m = a.constants[c];
+										var d = new Term;
+										d = d.multiply(m, false);
+										d = d.multiply(v, false);
+										u.push(d)
+									}
+								}
+								r.constants = h;
+								r.terms = u;
+								r._sort()
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Multiplicand must be of type String, Expression, Term, Fraction or Integer.")
+							}
+							return t || t === undefined ? r.simplify() : r
+						};
+						o.prototype.divide = function (e, t)
+						{
+							if (e instanceof n || i(e))
+							{
+								if (e.valueOf() === 0)
+								{
+									throw new EvalError("Divide By Zero")
+								}
+								var r = this.copy();
+								for (var s = 0; s < r.terms.length; s++)
+								{
+									var o = r.terms[s];
+									for (var a = 0; a < o.coefficients.length; a++)
+									{
+										o.coefficients[a] = o.coefficients[a].divide(e, t)
+									}
+								}
+								r.constants = r.constants.map(function (r)
+								{
+									return r.divide(e, t)
+								});
+								return r
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Divisor must be of type Fraction or Integer.")
+							}
+						};
+						o.prototype.pow = function (e, t)
+						{
+							if (i(e))
+							{
+								var r = this.copy();
+								if (e === 0)
+								{
+									return (new o).add(1)
+								}
+								else
+								{
+									for (var n = 1; n < e; n++)
+									{
+										r = r.multiply(this, t)
+									}
+									r._sort()
+								}
+								return t || t === undefined ? r.simplify() : r
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Exponent must be of type Integer.")
+							}
+						};
+						o.prototype.eval = function (e, t)
+						{
+							var r = new o;
+							r.constants = t ? [this.constant()] : this.constants.slice();
+							r = this.terms.reduce(function (r, n)
+							{
+								return r.add(n.eval(e, t), t)
+							}, r);
+							return r
+						};
+						o.prototype.summation = function (e, t, r, n)
+						{
+							var i = this.copy();
+							var s = new o;
+							for (var a = t; a < r + 1; a++)
+							{
+								var u = {};
+								u[e] = a;
+								s = s.add(i.eval(u, n), n)
+							}
+							return s
+						};
+						o.prototype.toString = function ()
+						{
+							var e = "";
+							for (var t = 0; t < this.terms.length; t++)
+							{
+								var r = this.terms[t];
+								e += (r.coefficients[0].valueOf() < 0 ? " - " : " + ") + r.toString()
+							}
+							for (var t = 0; t < this.constants.length; t++)
+							{
+								var n = this.constants[t];
+								e += (n.valueOf() < 0 ? " - " : " + ") + n.abs().toString()
+							}
+							if (e.substring(0, 3) === " - ")
+							{
+								return "-" + e.substring(3, e.length)
+							}
+							else if (e.substring(0, 3) === " + ")
+							{
+								return e.substring(3, e.length)
+							}
+							else
+							{
+								return "0"
+							}
+						};
+						o.prototype.toTex = function (e)
+						{
+							var t = "";
+							for (var r = 0; r < this.terms.length; r++)
+							{
+								var n = this.terms[r];
+								t += (n.coefficients[0].valueOf() < 0 ? " - " : " + ") + n.toTex(e)
+							}
+							for (var r = 0; r < this.constants.length; r++)
+							{
+								var i = this.constants[r];
+								t += (i.valueOf() < 0 ? " - " : " + ") + i.abs().toTex()
+							}
+							if (t.substring(0, 3) === " - ")
+							{
+								return "-" + t.substring(3, t.length)
+							}
+							else if (t.substring(0, 3) === " + ")
+							{
+								return t.substring(3, t.length)
+							}
+							else
+							{
+								return "0"
+							}
+						};
+						o.prototype._removeTermsWithCoefficientZero = function ()
+						{
+							this.terms = this.terms.filter(function (e)
+							{
+								return e.coefficient().reduce().numer !== 0
+							});
+							return this
+						};
+						o.prototype._combineLikeTerms = function ()
+						{
+							function e(e, t)
+							{
+								for (var r = 0; r < t.length; r++)
+								{
+									if (e.canBeCombinedWith(t[r]))
+									{
+										return true
+									}
+								}
+								return false
+							}
+							var t = [];
+							var r = [];
+							for (var n = 0; n < this.terms.length; n++)
+							{
+								var i = this.terms[n];
+								if (e(i, r))
+								{
+									continue
+								}
+								else
+								{
+									for (var s = n + 1; s < this.terms.length; s++)
+									{
+										var o = this.terms[s];
+										if (i.canBeCombinedWith(o))
+										{
+											i = i.add(o)
+										}
+									}
+									t.push(i);
+									r.push(i)
+								}
+							}
+							this.terms = t;
+							return this
+						};
+						o.prototype._moveTermsWithDegreeZeroToConstants = function ()
+						{
+							var e = [];
+							var t = new n(0, 1);
+							for (var r = 0; r < this.terms.length; r++)
+							{
+								var i = this.terms[r];
+								if (i.variables.length === 0)
+								{
+									t = t.add(i.coefficient())
+								}
+								else
+								{
+									e.push(i)
+								}
+							}
+							this.constants.push(t);
+							this.terms = e;
+							return this
+						};
+						o.prototype._sort = function ()
+						{
+							function e(e, t)
+							{
+								var r = e.maxDegree();
+								var n = t.maxDegree();
+								if (r === n)
+								{
+									var i = e.variables.length;
+									var s = t.variables.length;
+									return s - i
+								}
+								else
+								{
+									return n - r
+								}
+							}
+							this.terms = this.terms.sort(e);
+							return this
+						};
+						o.prototype._hasVariable = function (e)
+						{
+							for (var t = 0; t < this.terms.length; t++)
+							{
+								if (this.terms[t].hasVariable(e))
+								{
+									return true
+								}
+							}
+							return false
+						};
+						o.prototype._onlyHasVariable = function (e)
+						{
+							for (var t = 0; t < this.terms.length; t++)
+							{
+								if (!this.terms[t].onlyHasVariable(e))
+								{
+									return false
+								}
+							}
+							return true
+						};
+						o.prototype._noCrossProductsWithVariable = function (e)
+						{
+							for (var t = 0; t < this.terms.length; t++)
+							{
+								var r = this.terms[t];
+								if (r.hasVariable(e) && !r.onlyHasVariable(e))
+								{
+									return false
+								}
+							}
+							return true
+						};
+						o.prototype._noCrossProducts = function ()
+						{
+							for (var e = 0; e < this.terms.length; e++)
+							{
+								var t = this.terms[e];
+								if (t.variables.length > 1)
+								{
+									return false
+								}
+							}
+							return true
+						};
+						o.prototype._maxDegree = function ()
+						{
+							return this.terms.reduce(function (e, t)
+							{
+								return Math.max(e, t.maxDegree())
+							}, 1)
+						};
+						o.prototype._maxDegreeOfVariable = function (e)
+						{
+							return this.terms.reduce(function (t, r)
+							{
+								return Math.max(t, r.maxDegreeOfVariable(e))
+							}, 1)
+						};
+						o.prototype._quadraticCoefficients = function ()
+						{
+							var e;
+							var t = new n(0, 1);
+							for (var r = 0; r < this.terms.length; r++)
+							{
+								var i = this.terms[r];
+								e = i.maxDegree() === 2 ? i.coefficient().copy() : e;
+								t = i.maxDegree() === 1 ? i.coefficient().copy() : t
+							}
+							var s = this.constant();
+							return {
+								a: e,
+								b: t,
+								c: s
+							}
+						};
+						o.prototype._cubicCoefficients = function ()
+						{
+							var e;
+							var t = new n(0, 1);
+							var r = new n(0, 1);
+							for (var i = 0; i < this.terms.length; i++)
+							{
+								var s = this.terms[i];
+								e = s.maxDegree() === 3 ? s.coefficient().copy() : e;
+								t = s.maxDegree() === 2 ? s.coefficient().copy() : t;
+								r = s.maxDegree() === 1 ? s.coefficient().copy() : r
+							}
+							var o = this.constant();
+							return {
+								a: e,
+								b: t,
+								c: r,
+								d: o
+							}
+						};
+						Term = function (e)
+						{
+							if (e instanceof a)
+							{
+								this.variables = [e.copy()]
+							}
+							else if (typeof e === "undefined")
+							{
+								this.variables = []
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Term initializer must be of type Variable.")
+							}
+							this.coefficients = [new n(1, 1)]
+						};
+						Term.prototype.coefficient = function ()
+						{
+							return this.coefficients.reduce(function (e, t)
+							{
+								return e.multiply(t)
+							}, new n(1, 1))
+						};
+						Term.prototype.simplify = function ()
+						{
+							var e = this.copy();
+							e.coefficients = [this.coefficient()];
+							e.combineVars();
+							return e.sort()
+						};
+						Term.prototype.combineVars = function ()
+						{
+							var e = {};
+							for (var t = 0; t < this.variables.length; t++)
+							{
+								var r = this.variables[t];
+								if (r.variable in e)
+								{
+									e[r.variable] += r.degree
+								}
+								else
+								{
+									e[r.variable] = r.degree
+								}
+							}
+							var n = [];
+							for (var i in e)
+							{
+								var s = new a(i);
+								s.degree = e[i];
+								n.push(s)
+							}
+							this.variables = n;
+							return this
+						};
+						Term.prototype.copy = function ()
+						{
+							var e = new Term;
+							e.coefficients = this.coefficients.map(function (e)
+							{
+								return e.copy()
+							});
+							e.variables = this.variables.map(function (e)
+							{
+								return e.copy()
+							});
+							return e
+						};
+						Term.prototype.add = function (e)
+						{
+							if (e instanceof Term && this.canBeCombinedWith(e))
+							{
+								var t = this.copy();
+								t.coefficients = [t.coefficient().add(e.coefficient())];
+								return t
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Summand must be of type String, Expression, Term, Fraction or Integer.")
+							}
+						};
+						Term.prototype.subtract = function (e)
+						{
+							if (e instanceof Term && this.canBeCombinedWith(e))
+							{
+								var t = this.copy();
+								t.coefficients = [t.coefficient().subtract(e.coefficient())];
+								return t
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Subtrahend must be of type String, Expression, Term, Fraction or Integer.")
+							}
+						};
+						Term.prototype.multiply = function (e, t)
+						{
+							var r = this.copy();
+							if (e instanceof Term)
+							{
+								r.variables = r.variables.concat(e.variables);
+								r.coefficients = e.coefficients.concat(r.coefficients)
+							}
+							else if (i(e) || e instanceof n)
+							{
+								var s = i(e) ? new n(e, 1) : e;
+								if (r.variables.length === 0)
+								{
+									r.coefficients.push(s)
+								}
+								else
+								{
+									r.coefficients.unshift(s)
+								}
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Multiplicand must be of type String, Expression, Term, Fraction or Integer.")
+							}
+							return t || t === undefined ? r.simplify() : r
+						};
+						Term.prototype.divide = function (e, t)
+						{
+							if (i(e) || e instanceof n)
+							{
+								var r = this.copy();
+								r.coefficients = r.coefficients.map(function (r)
+								{
+									return r.divide(e, t)
+								});
+								return r
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Argument must be of type Fraction or Integer.")
+							}
+						};
+						Term.prototype.eval = function (e, t)
+						{
+							var r = this.copy();
+							var s = Object.keys(e);
+							var a = r.coefficients.reduce(function (e, r)
+							{
+								return e.multiply(r, t)
+							}, new o(1));
+							for (var u = 0; u < r.variables.length; u++)
+							{
+								var f = r.variables[u];
+								var l;
+								if (f.variable in e)
+								{
+									var c = e[f.variable];
+									if (c instanceof n || c instanceof o)
+									{
+										l = c.pow(f.degree)
+									}
+									else if (i(c))
+									{
+										l = Math.pow(c, f.degree)
+									}
+									else
+									{
+										throw new TypeError("Invalid Argument (" + c + "): Can only evaluate Expressions or Fractions.")
+									}
+								}
+								else
+								{
+									l = new o(f.variable).pow(f.degree)
+								}
+								a = a.multiply(l, t)
+							}
+							return a
+						};
+						Term.prototype.hasVariable = function (e)
+						{
+							for (var t = 0; t < this.variables.length; t++)
+							{
+								if (this.variables[t].variable === e)
+								{
+									return true
+								}
+							}
+							return false
+						};
+						Term.prototype.maxDegree = function ()
+						{
+							return this.variables.reduce(function (e, t)
+							{
+								return Math.max(e, t.degree)
+							}, 1)
+						};
+						Term.prototype.maxDegreeOfVariable = function (e)
+						{
+							return this.variables.reduce(function (t, r)
+							{
+								return r.variable === e ? Math.max(t, r.degree) : t
+							}, 1)
+						};
+						Term.prototype.canBeCombinedWith = function (e)
+						{
+							var t = this.variables;
+							var r = e.variables;
+							if (t.length != r.length)
+							{
+								return false
+							}
+							var n = 0;
+							for (var i = 0; i < t.length; i++)
+							{
+								for (var s = 0; s < r.length; s++)
+								{
+									if (t[i].variable === r[s].variable && t[i].degree === r[s].degree)
+									{
+										n += 1
+									}
+								}
+							}
+							return n === t.length
+						};
+						Term.prototype.onlyHasVariable = function (e)
+						{
+							for (var t = 0; t < this.variables.length; t++)
+							{
+								if (this.variables[t].variable != e)
+								{
+									return false
+								}
+							}
+							return true
+						};
+						Term.prototype.sort = function ()
+						{
+							function e(e, t)
+							{
+								return t.degree - e.degree
+							}
+							this.variables = this.variables.sort(e);
+							return this
+						};
+						Term.prototype.toString = function ()
+						{
+							var e = "";
+							for (var t = 0; t < this.coefficients.length; t++)
+							{
+								var r = this.coefficients[t];
+								if (r.abs().numer !== 1 || r.abs().denom !== 1)
+								{
+									e += " * " + r.toString()
+								}
+							}
+							e = this.variables.reduce(function (e, t)
+							{
+								return e.concat(t.toString())
+							}, e);
+							e = e.substring(0, 3) === " * " ? e.substring(3, e.length) : e;
+							e = e.substring(0, 1) === "-" ? e.substring(1, e.length) : e;
+							return e
+						};
+						Term.prototype.toTex = function (e)
+						{
+							var e = e === undefined ?
+							{} : e;
+							e.multiplication = !("multiplication" in e) ? "cdot" : e.multiplication;
+							var t = " \\" + e.multiplication + " ";
+							var r = "";
+							for (var n = 0; n < this.coefficients.length; n++)
+							{
+								var i = this.coefficients[n];
+								if (i.abs().numer !== 1 || i.abs().denom !== 1)
+								{
+									r += t + i.toTex()
+								}
+							}
+							r = this.variables.reduce(function (e, t)
+							{
+								return e.concat(t.toTex())
+							}, r);
+							r = r.substring(0, t.length) === t ? r.substring(t.length, r.length) : r;
+							r = r.substring(0, 1) === "-" ? r.substring(1, r.length) : r;
+							r = r.substring(0, 7) === "\\frac{-" ? "\\frac{" + r.substring(7, r.length) : r;
+							return r
+						};
+						var a = function (e)
+						{
+							if (typeof e === "string")
+							{
+								this.variable = e;
+								this.degree = 1
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Variable initalizer must be of type String.")
+							}
+						};
+						a.prototype.copy = function ()
+						{
+							var e = new a(this.variable);
+							e.degree = this.degree;
+							return e
+						};
+						a.prototype.toString = function ()
+						{
+							var e = this.degree;
+							var t = this.variable;
+							if (e === 0)
+							{
+								return ""
+							}
+							else if (e === 1)
+							{
+								return t
+							}
+							else
+							{
+								return t + "^" + e
+							}
+						};
+						a.prototype.toTex = function ()
+						{
+							var e = this.degree;
+							var t = this.variable;
+							if (s.indexOf(t) > -1)
+							{
+								t = "\\" + t
+							}
+							if (e === 0)
+							{
+								return ""
+							}
+							else if (e === 1)
+							{
+								return t
+							}
+							else
+							{
+								return t + "^{" + e + "}"
+							}
+						};
+						t.exports = {
+							Expression: o,
+							Term: Term,
+							Variable: a
+						}
+					},
+					{
+						"./fractions": 4,
+						"./helper": 5
+					}
+				],
+				4: [
+					function (e, t, r)
+					{
+						var n = e("./helper").isInt;
+						var i = e("./helper").gcd;
+						var s = e("./helper").lcm;
+						var o = function (e, t)
+						{
+							if (t === 0)
+							{
+								throw new EvalError("Divide By Zero")
+							}
+							else if (n(e) && n(t))
+							{
+								this.numer = e;
+								this.denom = t
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "," + t.toString() + "): Divisor and dividend must be of type Integer.")
+							}
+						};
+						o.prototype.copy = function ()
+						{
+							return new o(this.numer, this.denom)
+						};
+						o.prototype.reduce = function ()
+						{
+							var e = this.copy();
+							var t = i(e.numer, e.denom);
+							e.numer = e.numer / t;
+							e.denom = e.denom / t;
+							if (Math.sign(e.denom) == -1 && Math.sign(e.numer) == 1)
+							{
+								e.numer *= -1;
+								e.denom *= -1
+							}
+							return e
+						};
+						o.prototype.equalTo = function (e)
+						{
+							if (e instanceof o)
+							{
+								var t = this.reduce();
+								var r = e.reduce();
+								return t.numer === r.numer && t.denom === r.denom
+							}
+							else
+							{
+								return false
+							}
+						};
+						o.prototype.add = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							var r, i;
+							if (e instanceof o)
+							{
+								r = e.numer;
+								i = e.denom
+							}
+							else if (n(e))
+							{
+								r = e;
+								i = 1
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Summand must be of type Fraction or Integer.")
+							}
+							var a = this.copy();
+							if (this.denom == i)
+							{
+								a.numer += r
+							}
+							else
+							{
+								var u = s(a.denom, i);
+								var f = u / a.denom;
+								var l = u / i;
+								a.numer *= f;
+								a.denom *= f;
+								r *= l;
+								a.numer += r
+							}
+							return t ? a.reduce() : a
+						};
+						o.prototype.subtract = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							var r = this.copy();
+							if (e instanceof o)
+							{
+								return r.add(new o(-e.numer, e.denom), t)
+							}
+							else if (n(e))
+							{
+								return r.add(new o(-e, 1), t)
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Subtrahend must be of type Fraction or Integer.")
+							}
+						};
+						o.prototype.multiply = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							var r, i;
+							if (e instanceof o)
+							{
+								r = e.numer;
+								i = e.denom
+							}
+							else if (n(e) && e)
+							{
+								r = e;
+								i = 1
+							}
+							else if (e === 0)
+							{
+								r = 0;
+								i = 1
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Multiplicand must be of type Fraction or Integer.")
+							}
+							var s = this.copy();
+							s.numer *= r;
+							s.denom *= i;
+							return t ? s.reduce() : s
+						};
+						o.prototype.divide = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							if (e.valueOf() === 0)
+							{
+								throw new EvalError("Divide By Zero")
+							}
+							var r = this.copy();
+							if (e instanceof o)
+							{
+								return r.multiply(new o(e.denom, e.numer), t)
+							}
+							else if (n(e))
+							{
+								return r.multiply(new o(1, e), t)
+							}
+							else
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Divisor must be of type Fraction or Integer.")
+							}
+						};
+						o.prototype.pow = function (e, t)
+						{
+							t = t === undefined ? true : t;
+							var r = this.copy();
+							r.numer = Math.pow(r.numer, e);
+							r.denom = Math.pow(r.denom, e);
+							return t ? r.reduce() : r
+						};
+						o.prototype.abs = function ()
+						{
+							var e = this.copy();
+							e.numer = Math.abs(e.numer);
+							e.denom = Math.abs(e.denom);
+							return e
+						};
+						o.prototype.valueOf = function ()
+						{
+							return this.numer / this.denom
+						};
+						o.prototype.toString = function ()
+						{
+							if (this.numer === 0)
+							{
+								return "0"
+							}
+							else if (this.denom === 1)
+							{
+								return this.numer.toString()
+							}
+							else if (this.denom === -1)
+							{
+								return (-this.numer).toString()
+							}
+							else
+							{
+								return this.numer + "/" + this.denom
+							}
+						};
+						o.prototype.toTex = function ()
+						{
+							if (this.numer === 0)
+							{
+								return "0"
+							}
+							else if (this.denom === 1)
+							{
+								return this.numer.toString()
+							}
+							else if (this.denom === -1)
+							{
+								return (-this.numer).toString()
+							}
+							else
+							{
+								return "\\frac{" + this.numer + "}{" + this.denom + "}"
+							}
+						};
+						o.prototype._squareRootIsRational = function ()
+						{
+							if (this.valueOf() === 0)
+							{
+								return true
+							}
+							var e = Math.sqrt(this.numer);
+							var t = Math.sqrt(this.denom);
+							return n(e) && n(t)
+						};
+						o.prototype._cubeRootIsRational = function ()
+						{
+							if (this.valueOf() === 0)
+							{
+								return true
+							}
+							var e = Math.cbrt(this.numer);
+							var t = Math.cbrt(this.denom);
+							return n(e) && n(t)
+						};
+						t.exports = o
+					},
+					{
+						"./helper": 5
+					}
+				],
+				5: [
+					function (e, t, r)
+					{
+						function n(e, t)
+						{
+							while (t)
+							{
+								var r = e;
+								e = t;
+								t = r % t
+							}
+							return e
+						}
+						function i(e, t)
+						{
+							return e * t / n(e, t)
+						}
+						function s(e)
+						{
+							return typeof e == "number" && e % 1 === 0
+						}
+						function o(e, t)
+						{
+							t = typeof t === "undefined" ? 2 : t;
+							var r = Math.pow(10, t);
+							return Math.round(parseFloat(e) * r) / r
+						}
+						var a = ["alpha", "beta", "gamma", "Gamma", "delta", "Delta", "epsilon", "varepsilon", "zeta", "eta", "theta", "vartheta", "Theta", "iota", "kappa", "lambda", "Lambda", "mu", "nu", "xi", "Xi", "pi", "Pi", "rho", "varrho", "sigma", "Sigma", "tau", "upsilon", "Upsilon", "phi", "varphi", "Phi", "chi", "psi", "Psi", "omega", "Omega"];
+						r.gcd = n;
+						r.lcm = i;
+						r.isInt = s;
+						r.round = o;
+						r.GREEK_LETTERS = a
+					},
+					{}
+				],
+				6: [
+					function (e, t, r)
+					{
+						"use strict";
+						var n = function ()
+						{
+							this.pos = 0;
+							this.buf = null;
+							this.buflen = 0;
+							this.optable = {
+								"+": "PLUS",
+								"-": "MINUS",
+								"*": "MULTIPLY",
+								"/": "DIVIDE",
+								"^": "POWER",
+								"(": "L_PAREN",
+								")": "R_PAREN",
+								"=": "EQUALS"
+							}
+						};
+						n.prototype.input = function (e)
+						{
+							this.pos = 0;
+							this.buf = e;
+							this.buflen = e.length
+						};
+						n.prototype.token = function ()
+						{
+							this._skipnontokens();
+							if (this.pos >= this.buflen)
+							{
+								return null
+							}
+							var e = this.buf.charAt(this.pos);
+							var t = this.optable[e];
+							if (t !== undefined)
+							{
+								if (t === "L_PAREN" || t === "R_PAREN")
+								{
+									return {
+										type: "PAREN",
+										value: t,
+										pos: this.pos++
+									}
+								}
+								else
+								{
+									return {
+										type: "OPERATOR",
+										value: t,
+										pos: this.pos++
+									}
+								}
+							}
+							else
+							{
+								if (n._isalpha(e))
+								{
+									return this._process_identifier()
+								}
+								else if (n._isdigit(e))
+								{
+									return this._process_number()
+								}
+								else
+								{
+									throw new SyntaxError("Token error at character " + e + " at position " + this.pos)
+								}
+							}
+						};
+						n._isdigit = function (e)
+						{
+							return e >= "0" && e <= "9"
+						};
+						n._isalpha = function (e)
+						{
+							return e >= "a" && e <= "z" || e >= "A" && e <= "Z"
+						};
+						n._isalphanum = function (e)
+						{
+							return e >= "a" && e <= "z" || e >= "A" && e <= "Z" || e >= "0" && e <= "9"
+						};
+						n.prototype._process_digits = function (e)
+						{
+							var t = e;
+							while (t < this.buflen && n._isdigit(this.buf.charAt(t)))
+							{
+								t++
+							}
+							return t
+						};
+						n.prototype._process_number = function ()
+						{
+							var e = this._process_digits(this.pos);
+							if (this.buf.charAt(e) === ".")
+							{
+								e = this._process_digits(e + 1)
+							}
+							if (this.buf.charAt(e - 1) === ".")
+							{
+								throw new SyntaxError("Decimal point without decimal digits at position " + (e - 1))
+							}
+							var t = {
+								type: "NUMBER",
+								value: this.buf.substring(this.pos, e),
+								pos: this.pos
+							};
+							this.pos = e;
+							return t
+						};
+						n.prototype._process_identifier = function ()
+						{
+							var e = this.pos + 1;
+							while (e < this.buflen && n._isalphanum(this.buf.charAt(e)))
+							{
+								e++
+							}
+							var t = {
+								type: "IDENTIFIER",
+								value: this.buf.substring(this.pos, e),
+								pos: this.pos
+							};
+							this.pos = e;
+							return t
+						};
+						n.prototype._skipnontokens = function ()
+						{
+							while (this.pos < this.buflen)
+							{
+								var e = this.buf.charAt(this.pos);
+								if (e == " " || e == "	" || e == "\r" || e == "\n")
+								{
+									this.pos++
+								}
+								else
+								{
+									break
+								}
+							}
+						};
+						t.exports = n
+					},
+					{}
+				],
+				7: [
+					function (e, t, r)
+					{
+						"use strict";
+						var n = e("./lexer"),
+							i = e("./expressions").Expression,
+							s = e("./fractions"),
+							o = e("./equations");
+						var a = function ()
+						{
+							this.lexer = new n;
+							this.current_token = null
+						};
+						a.prototype.update = function ()
+						{
+							this.current_token = this.lexer.token()
+						};
+						a.prototype.match = function (e)
+						{
+							if (this.current_token === null) return e === "epsilon";
+							switch (e)
+							{
+								case "plus":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "PLUS";
+								case "minus":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "MINUS";
+								case "multiply":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "MULTIPLY";
+								case "power":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "POWER";
+								case "divide":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "DIVIDE";
+								case "equal":
+									return this.current_token.type === "OPERATOR" && this.current_token.value === "EQUALS";
+								case "lparen":
+									return this.current_token.type === "PAREN" && this.current_token.value === "L_PAREN";
+								case "rparen":
+									return this.current_token.type === "PAREN" && this.current_token.value === "R_PAREN";
+								case "num":
+									return this.current_token.type === "NUMBER";
+								case "id":
+									return this.current_token.type === "IDENTIFIER";
+								default:
+									return false
+							}
+						};
+						a.prototype.parse = function (e)
+						{
+							this.lexer.input(e);
+							this.update();
+							return this.parseEqn()
+						};
+						a.prototype.parseEqn = function ()
+						{
+							var e = this.parseExpr();
+							if (this.match("equal"))
+							{
+								this.update();
+								var t = this.parseExpr();
+								return new o(e, t)
+							}
+							else if (this.match("epsilon"))
+							{
+								return e
+							}
+							else
+							{
+								throw new SyntaxError("Unbalanced Parenthesis")
+							}
+						};
+						a.prototype.parseExpr = function ()
+						{
+							var e = this.parseTerm();
+							return this.parseExprRest(e)
+						};
+						a.prototype.parseExprRest = function (e)
+						{
+							if (this.match("plus"))
+							{
+								this.update();
+								var t = this.parseTerm();
+								if (e === undefined || t === undefined) throw new SyntaxError("Missing operand");
+								return this.parseExprRest(e.add(t))
+							}
+							else if (this.match("minus"))
+							{
+								this.update();
+								var r = this.parseTerm();
+								if (e === undefined)
+								{
+									return this.parseExprRest(r.multiply(-1))
+								}
+								else
+								{
+									return this.parseExprRest(e.subtract(r))
+								}
+							}
+							else
+							{
+								return e
+							}
+						};
+						a.prototype.parseTerm = function ()
+						{
+							var e = this.parseFactor();
+							return this.parseTermRest(e)
+						};
+						a.prototype.parseTermRest = function (e)
+						{
+							if (this.match("multiply"))
+							{
+								this.update();
+								var t = this.parseFactor();
+								return e.multiply(this.parseTermRest(t))
+							}
+							else if (this.match("power"))
+							{
+								this.update();
+								var r = this.parseFactor();
+								return this.parseTermRest(e.pow(parseInt(r.toString())))
+							}
+							else if (this.match("divide"))
+							{
+								this.update();
+								var n = this.parseFactor();
+								return this.parseTermRest(e.divide(this.convertToFraction(n)))
+							}
+							else if (this.match("epsilon"))
+							{
+								return e
+							}
+							else
+							{
+								var i = this.parseFactor();
+								if (i === undefined)
+								{
+									return e
+								}
+								else
+								{
+									return e.multiply(this.parseTermRest(i))
+								}
+							}
+						};
+						a.prototype.convertToFraction = function (e)
+						{
+							if (e.terms.length > 0)
+							{
+								throw new TypeError("Invalid Argument (" + e.toString() + "): Divisor must be of type Integer or Fraction.")
+							}
+							else
+							{
+								var t = e.constants[0];
+								return new s(t.numer, t.denom)
+							}
+						};
+						a.prototype.parseFactor = function ()
+						{
+							if (this.match("num"))
+							{
+								var e = this.parseNumber();
+								this.update();
+								return e
+							}
+							else if (this.match("id"))
+							{
+								var t = new i(this.current_token.value);
+								this.update();
+								return t
+							}
+							else if (this.match("lparen"))
+							{
+								this.update();
+								var r = this.parseExpr();
+								if (this.match("rparen"))
+								{
+									this.update();
+									return r
+								}
+								else
+								{
+									throw new SyntaxError("Unbalanced Parenthesis")
+								}
+							}
+							else
+							{
+								return undefined
+							}
+						};
+						a.prototype.parseNumber = function ()
+						{
+							if (parseInt(this.current_token.value) == this.current_token.value)
+							{
+								return new i(parseInt(this.current_token.value))
+							}
+							else
+							{
+								var e = this.current_token.value.split(".");
+								var t = e[1].length;
+								var r = Math.pow(10, t);
+								var n = parseFloat(this.current_token.value);
+								return new i(parseInt(n * r)).divide(r)
+							}
+						};
+						t.exports = a
+					},
+					{
+						"./equations": 2,
+						"./expressions": 3,
+						"./fractions": 4,
+						"./lexer": 6
+					}
+				]
+			},
+			{}, [1])(1)
+		});
+		//-----------;
+		var Fraction = algebra.Fraction;
+		var Expression = algebra.Expression;
+		var Equation = algebra.Equation;
+		//-----------;
+		/*var Fraction = algebra.Fraction;
+		var Expression = algebra.Expression;
+		var Equation = algebra.Equation;
+		var a = new Expression("x").pow(2);
+		var b = new Expression("x").multiply(new Fraction(5, 4));
+		var c = new Fraction(-21, 4);
+		var expr = a.add(b).add(c);
+		var quad = new Equation(expr, 0);
+		katex.render(algebra.toTex(quad), myEquation);
+		
+		var answers = quad.solveFor("x");
+		katex.render("x = " + algebra.toTex(answers), mySolution);*/
+		//--------;
+		function obeb(a, b)
+		{
+			var t;
+			var a = Math.abs(a)
+			var b = Math.abs(b)
+			while (b != 0)
+			{
+				t = b;
+				b = a % b;
+				a = t;
+			}
+			return a;
+		} //end of function
+		function fracSadele(a, b)
+		{
+			var bol = obeb(a, b);
+			a = a / bol;
+			b = b / bol;
+			return [a, b];
+		} //end of function
+		function denkSadele(a, b, c)
+		{
+			var bol = obeb(obeb(a, b), c);
+			if (a < 0)
+			{
+				a = -a / bol;
+				b = -b / bol;
+				c = -c / bol;
+			}
+			else
+			{
+				a = a / bol;
+				b = b / bol;
+				c = c / bol;
+			}
+			return [a, b, c];
+		} //end of function
+		function kokSadele(n)
+		{
+			var i, k;
+			var m = Math.floor(Math.sqrt(n));
+			var arr = [];
+			for (i = m; i > 1; i--)
+			{
+				k = i * i;
+				if (n % k == 0)
+				{
+					arr[0] = i;
+					arr[1] = n / k;
+					return arr;
+				}
+			}
+			//---;
+			if (arr.length == 0)
+			{
+				arr[0] = 1;
+				arr[1] = n;
+			}
+			return arr;
+		}//end of function
+		function doLatexKok(_a,_b)
+		{
+			var arrF = fracSadele(_a,_b);
+			var a = arrF[0];
+			var b = arrF[1];
+			var arrK = kokSadele(a*b);
+			var kok = arrK[1];
+			var pay = arrK[0];
+			var payda = b;
+			var arrFrac = fracSadele(pay,payda);
+			pay = arrFrac[0];
+			payda = arrFrac[1];
+			var str = "";
+			if (payda == 1)
+			{
+				if (kok == 1)
+				{
+					str = pay.toString();
+				}
+				else
+				{
+					if (pay == 1)
+					{
+						str = "\\sqrt{" + kok.toString() + "}";
+					}
+					else
+					{
+						str = pay.toString() + "\\sqrt{" + kok.toString() + "}";
+					}
+				}
+			}
+			else
+			{
+				if (kok == 1)
+				{
+					str = "\\frac{" + pay.toString() + "}{" + payda.toString() + "}";
+				}
+				else
+				{
+					str = "\\frac{" + pay.toString() + "}{" + payda.toString() + "}" + "\\sqrt{" + kok.toString() + "}";
+				}
+			}
+			return str;
+		} //end of function
+		var rootMC = this;
+		//---;
+		var butSound = this.butSound;
+		var butFS = this.butFS;
+		//---;
+		var soundEnabled = true;
+		//--------------------------------------------------------------;
+		var ratio = window.devicePixelRatio;
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		//--------------------------------------------------------------;
+		//--------------------------------------------------------------;
+		var sfx1 = new Howl(
+		{
+			src: ["sounds/click.mp3"]
+		});
+		
+		var sfx2 = new Howl(
+		{
+			src: ["sounds/warn.mp3"]
+		});
+		
+		var sfx3 = new Howl(
+		{
+			src: ["sounds/pop.mp3"]
+		});
+		
+		var sfx4 = new Howl(
+		{
+			src: ["sounds/correct.mp3"]
+		});
+		
+		var sfx5 = new Howl(
+		{
+			src: ["sounds/music.mp3"],
+			volume:0.1,
+			loop:true
+		});
+		var sfx6 = new Howl(
+		{
+			src: ["sounds/powerup.mp3"]
+		});
+		
+		//--------------------------------------------;
+		function doSound(sound)
+		{
+			if (soundEnabled)
+			{
+				sound.play();
+			}
+		} //end of function
+		//--------------------------------------------;
+		
+		//--------------------------------------------;
+		function doCheckElementSame(_arr, _a)
+		{
+			var arr = [];
+			for (var i = 0; i < _arr.length; i++)
+			{
+				if (_a == _arr[i])
+				{
+					arr.push(_arr[i]);
+				}
+			}
+			return arr.length;
+		} //end of function
+		//--------------------------;
+		//--------------------------;
+		function doShuffle(a)
+		{
+			for (var i = a.length - 1; i > 0; i--)
+			{
+				var j = Math.floor(Math.random() * (i + 1));
+				[a[i], a[j]] = [a[j], a[i]];
+			}
+			return a;
+		}
+		//--------------------------;
+		function doAnimatePop(_mc)
+		{
+			_mc.animate(
+			{
+				props:
+				{
+					scale: 1.1
+				},
+				time: .2,
+				rewind: true
+			});
+		}
+		//--------------------------;
+		function doAnimateEmoji()
+		{
+			emoji.alp(0).sca(1).top();
+			emoji.animate(
+			{
+				props:
+				{
+					alpha: 1,
+					scale: 1.2
+				},
+				time: .3,
+				ease: "backOut"
+			});
+		}
+		//--------------------------;
+		
+		//----------------------------------------------------;
+		butSound.on("click", function ()
+		{
+			if (soundEnabled)
+			{
+				doSound(sfx1);
+				soundEnabled = false;
+				butSound.gotoAndStop(1);
+				sfx5.pause();
+			}
+			else
+			{
+				doSound(sfx1);
+				soundEnabled = true;
+				butSound.gotoAndStop(0);
+				sfx5.play();
+			}
+		}) //end of function
+		//----------------------------------------------------;
+		//butHome.on("click", function ()
+		//{
+		//	doSound(sfx1);
+		//	mcMenu.visible = true;
+		//	//drawCanvas();
+		//});
+		//----------------------------------------------------;
+		
+		//--------------------------------------------;
+		//--------------------------------------------;
+		
+		//--------------------------------------------;
+		//--------------------------------------------;
+		
+		var fullScreenEnabled = true;
+		var elem = document.documentElement;
+		function openFullscreen()
+		{
+			if (elem.requestFullscreen)
+			{
+				elem.requestFullscreen();
+			}
+			else if (elem.mozRequestFullScreen)
+			{ /* Firefox */
+				elem.mozRequestFullScreen();
+			}
+			else if (elem.webkitRequestFullscreen)
+			{ /* Chrome, Safari and Opera */
+				elem.webkitRequestFullscreen();
+			}
+			else if (elem.msRequestFullscreen)
+			{ /* IE/Edge */
+				elem.msRequestFullscreen();
+			}
+		}
+		/* Close fullscreen */
+		function closeFullscreen()
+		{
+			if (document.exitFullscreen)
+			{
+				document.exitFullscreen();
+			}
+			else if (document.mozCancelFullScreen)
+			{ /* Firefox */
+				document.mozCancelFullScreen();
+			}
+			else if (document.webkitExitFullscreen)
+			{ /* Chrome, Safari and Opera */
+				document.webkitExitFullscreen();
+			}
+			else if (document.msExitFullscreen)
+			{ /* IE/Edge */
+				document.msExitFullscreen();
+			}
+		}
+		//----;
+		//butFS.addEventListener("mousedown", fFS);
+		function fFS(evt)
+		{
+			if (fullScreenEnabled)
+			{
+				fullScreenEnabled = false;
+				//butFS.gotoAndStop(1);
+				openFullscreen();
+			}
+			else
+			{
+				fullScreenEnabled = true;
+				butFS.gotoAndStop(0);
+				closeFullscreen();
+			}
+		}
+		//----------------------------------------------;
+		var dataOBJ = {
+			score: 0
+		};
+		var bestScore = 0;
+		//--------------------------------------------;
+		function loadData()
+		{
+			if (window.localStorage && window.localStorage.mathQuestGB1)
+			{
+				dataOBJ = JSON.parse(window.localStorage.getItem("mathQuestGB1"));
+				bestScore = dataOBJ.score;
+				scoreLabel.text = bestScore;
+			}
+			else
+			{
+				dataOBJ = {
+					score: 0
+				};
+				window.localStorage.setItem("mathQuestGB1", JSON.stringify(dataOBJ));
+			}
+		} //end of function
+		function saveData()
+		{
+			dataOBJ = {
+				score: bestScore
+			};
+			window.localStorage.setItem("mathQuestGB1", JSON.stringify(dataOBJ));
+		} //end of function
+		//----------------------------------------------;
+		var thisMC = this;
+		
+		var mc0 = this.mc0;
+		var mc1 = this.mc1;
+		var mc2 = this.mc2;
+		var mc3 = this.mc3;
+		var mc4 = this.mc4;
+		var cont = zimify(this.cont);
+		var userAnswer = -1;
+		var questNUM = 0;
+		var wrongNUM = 0;
+		//--------------------------------------------------------;
+		var mcClock = this.mcClock;
+		var clock = new Timer(
+		{
+			time: 180,
+			colon: true,
+			down: true,
+			font: "Lilita One",
+			size: 36,
+			color: "#333333",
+			align: "center",
+			backgroundColor: false
+		}).center(mcClock);
+		clock.stop();
+		//clock.visible = false;
+		////-------------------------;
+		clock.on("complete", function (e)
+		{
+			doFinishGame();
+		});
+		//--------------------------------------------------------;
+		//--------------------------------------------------------;
+		var rect = new Rectangle(
+		{
+			width: 360,
+			height: 120,
+			color: "#FFFFFF",
+			borderColor: "#777777",
+			borderWidth: 2.5,
+			corner: 7
+		});
+		var tile = new Tile(rect.clone(), 2, 2, 15, 15).centerReg(cont).mov(0, 60).noMouse();
+		//--------------------------------------------------------;
+		for (var i = 0; i < tile.items.length; i++)
+		{
+			tile.items[i].deg = i + 1;
+			tile.items[i].on("mousedown", function (e)
+			{
+				//doSound(sfx1);
+				userAnswer = e.currentTarget.deg;
+				if (userAnswer == 4)
+				{
+					butChange.vis(false);
+					butShowAnswer.vis(false);
+					doSound(sfx4);
+					e.currentTarget.color = "#00CC99";
+					e.currentTarget.borderColor = "#00CC99";
+					tile.noMouse();
+					//---;
+					questNUM++;
+					bestScore++;
+					scoreLabel.text = bestScore;
+					saveData();
+					timeout(1, function ()
+					{
+						doNextQuestion();
+					});
+		
+				}
+				else
+				{
+					doSound(sfx2);
+					e.currentTarget.color = "#EC0C8A";
+					e.currentTarget.borderColor = "#EC0C8A";
+		
+					wrongNUM++;
+					tile.noMouse();
+					tile.items[0].alp(.1);
+					tile.items[1].alp(.1);
+					tile.items[2].alp(.1);
+					tile.items[3].color = "#00CC99";
+					tile.items[3].borderColor = "#00A078";
+					//doAnimateEmoji();			
+					butChange.vis(true);
+				}
+			})
+		}
+		//----------------------------------------------------;
+		function doNextQuestion()
+		{
+			doSound(sfx1);
+			butChange.vis(false);
+			//butShowAnswer.vis(false);
+			tile.mouse();
+			drawCanvas();
+		}
+		//----------------------------------------------------;
+		function doFinishGame()
+		{
+			if (questNUM > wrongNUM)
+			{
+				winLabel.gotoAndStop(1);
+			}
+			else
+			{
+				winLabel.gotoAndStop(0);
+			}
+			//---;
+			timeout(.4, function ()
+			{
+				stopAnimate();
+				doSound(sfx6);
+				soruContainer.vis(false);
+				tile.vis(false);
+				winner.vis(true);
+				scoreLabel.text = "SCORE: " + questNUM.toString() + "/" + (questNUM + wrongNUM).toString();
+			}) //timeout
+		}
+		//----------------------------------------------------;
+		function doStart()
+		{
+			doSound(sfx5);
+			doSound(sfx3);
+			//---;
+			F.fullscreen();
+			//---;
+			dotResetColors();
+			questNUM = 0;
+			wrongNUM = 0;
+			soruContainer.vis(true);
+			tile.vis(true);
+			tile.mouse();
+			clock.start(180);
+			drawCanvas();
+		};
+		//----------------------------------------------------;
+		function dotResetColors()
+		{
+			for (var i = 0; i < tile.items.length; i++)
+			{
+				tile.items[i].alp(1);
+				tile.items[i].color = "#FFFFFF";
+				tile.items[i].borderColor = "#777777"
+			}
+		}
+		//----------------------------------------------------;
+		function doSwapCircles()
+		{
+			for (var i = 0; i < 4; i++)
+			{
+				var index = Math.floor(Math.random() * 4);
+				if (i != index)
+				{
+					var x0 = tile.items[index].x;
+					var y0 = tile.items[index].y;
+					tile.items[index].x = tile.items[i].x;
+					tile.items[index].y = tile.items[i].y;
+					tile.items[i].x = x0;
+					tile.items[i].y = y0;
+				}
+			}
+		}
+		doSwapCircles();
+		//----------------------------------------------------;
+		
+		//----------------------------------------------------;
+		
+		//----------------------------------------------------;
+		var drm, drmLast;
+		var aStr;
+		var arrSNC = [];
+		var options = {
+			displayMode: true,
+			debugBounds: false,
+			strict: false
+		};
+		var expA1;
+		var expA2;
+		var expA3;
+		var expB1;
+		var expB2;
+		var expB3;
+		var expC1;
+		var expC2;
+		var expC3;
+		var expC4;
+		var expA;
+		var expB;
+		var expC;
+		var numA;
+		var numB;
+		var numC;
+		var obj = {};
+		//----------------------------------------------------;
+		var soruContainer = new Container().center(cont).mov(0, -216);
+		var eqA = new Container(100, 100).center(tile.items[0]);
+		var eqB = new Container(100, 100).center(tile.items[1]);
+		var eqC = new Container(100, 100).center(tile.items[2]);
+		var eqD = new Container(100, 100).center(tile.items[3]);
+		//----------------------------------------------------;
+		function drawCanvas()
+		{
+			userAnswer = -1;
+			doSwapCircles();
+			dotResetColors();
+			//---;
+			drm = Math.floor(Math.random() * 4 + 1);
+			//drm = 4;
+			//---;
+			if (drm == 1 || drm == 2)
+			{
+				arrA = [7, 8, 9, 10, 11, 12, 13];
+				arrB = [7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+				shuffle(arrA);
+				shuffle(arrB);
+				//---;
+				var a = 2 * Math.floor(Math.random() * 49 + 1);
+				var b = 5 * Math.floor(Math.random() * 19 + 1);
+				var c = a * b / 100;
+				numC = c;
+				//---;
+				var arrFrac = fracSadele(b,100);
+				expA = "\\textsf{ What is } \\frac{"+arrFrac[0]+"}{"+arrFrac[1]+"} \\textsf{ of " + a.toString() + "?}";
+				//---;
+				var tA = shuffle([-5, -5, -3, -2, -1, 1, 2, 3, 4, 5]);
+				//---;
+				expC1 = decimals(numC + tA[0]);
+				expC2 = decimals(numC + tA[1]);
+				expC3 = decimals(numC + tA[2]);
+				expC4 = decimals(numC);
+			}
+			else if (drm == 3 )
+			{
+				arrA = [7, 8, 9, 10, 11, 12, 13];
+				arrB = [7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+				shuffle(arrA);
+				shuffle(arrB);
+				//---;
+				var a = 5 * Math.floor(Math.random() * 20 + 1);
+				var b = 2 * Math.floor(Math.random() * 48 + 1);
+				var c = a * b / 100;
+				numC = c;
+				//---;
+				var arrFrac = fracSadele(b,100);
+				expA = "\\textsf{ What is } \\frac{"+arrFrac[0]+"}{"+arrFrac[1]+"} \\textsf{ of " + a.toString() + "?}";
+				//---;
+				var tA = shuffle([-5, -5, -3, -2, -1, 1, 2, 3, 4, 5]);
+				//---;
+				expC1 = decimals(numC + tA[0]);
+				expC2 = decimals(numC + tA[1]);
+				expC3 = decimals(numC + tA[2]);
+				expC4 = decimals(numC);
+			}
+			else
+			{
+				arrA = [7, 8, 9, 10, 11, 12, 13];
+				arrB = [7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+				shuffle(arrA);
+				shuffle(arrB);
+				//---;
+				var a = Math.floor(Math.random() * 90 + 10);
+				var b = 10 * Math.floor(Math.random() * 9 + 1);
+				var c = a * b / 100;
+				numC = c;
+				//---;
+				var arrFrac = fracSadele(b,100);
+				expA = "\\textsf{ What is } \\frac{"+arrFrac[0]+"}{"+arrFrac[1]+"} \\textsf{ of " + a.toString() + "?}";
+				//---;
+				var tA = shuffle([-3, -2, -1, 1, 2, 3]);
+				//---;
+				expC1 = decimals(numC + tA[0]);
+				expC2 = decimals(numC + tA[1]);
+				expC3 = decimals(numC + tA[2]);
+				expC4 = decimals(numC);
+			}
+			//--------------------;
+			if (expC1 < 0 || expC2 < 0 || expC3 < 0)
+			{
+				zog("alert_01");
+				drawCanvas();
+				return;
+			}
+			//--------------------;
+			if (expC1 == expC2 || expC1 == expC3 || expC1 == expC4 || expC2 == expC3 || expC2 == expC4 || expC3 == expC4)
+			{
+				zog("alert_02");
+				drawCanvas();
+				return;
+			}
+		
+			//--------------------;
+			soruContainer.removeAllChildren();
+			eqA.removeAllChildren();
+			eqB.removeAllChildren();
+			eqC.removeAllChildren();
+			eqD.removeAllChildren();
+			//--------------------;
+			var question = new CanvasLatex.
+			default (expA.toString(), options);
+			zimify(question);
+			question.centerReg(soruContainer).sca(1.2);
+		
+			//--------------------;
+			var equationA = new CanvasLatex.
+			default ("\\mathsf{" + expC1.toString() + "}", options);
+			zimify(equationA);
+			equationA.centerReg(eqA).sca(1);
+			//---------------------------;
+			var equationB = new CanvasLatex.
+			default ("\\mathsf{" + expC2.toString() + "}", options);
+			zimify(equationB);
+			equationB.centerReg(eqB).sca(1);
+			//---------------------------;
+			var equationC = new CanvasLatex.
+			default ("\\mathsf{" + expC3.toString() + "}", options);
+			zimify(equationC);
+			equationC.centerReg(eqC).sca(1);;
+			//---------------------------;
+			var equationD = new CanvasLatex.
+			default ("\\mathsf{" + expC4.toString() + "}", options);
+			zimify(equationD);
+			equationD.centerReg(eqD).sca(1);;
+			//---------------------------;
+		
+			//---------------------------;
+			aStr = expC4.toString();
+			if (doCheckElementSame(arrSNC, aStr))
+			{
+				drawCanvas();
+				zog("alert");
+				return;
+			}
+			else
+			{
+				//zog(arrSNC);
+				drmLast = aStr;
+				arrSNC.push(aStr);
+				if (arrSNC.length > 10)
+				{
+					arrSNC.shift();
+					//console.log(arrSNC);
+				}
+			}
+		} //end of function
+		//--------------------------;
+		drawCanvas();
+		this.drawCanvas = drawCanvas;
+		createjs.Tween.get(this).wait(100).call(function ()
+		{
+			drawCanvas();
+		});
+		//--------------------------;
+		
+		//--------------------------;
+		var that = this;
+		//----------------------------;
+		//var emoji = zimify(new lib.emoji()).center(that).alp(0).mov(0, 0);
+		////----------------------------;
+		//emoji.on("click", function ()
+		//{
+		//	emoji.alp(0);
+		//});
+		//------------------------;
+		var winner = zimify(this.win).vis(false);
+		var butReplay = zimify(winner.butReplay);
+		var butHomeMenu = zimify(winner.butHomeMenu);
+		var winLabel = zimify(winner.winLabel);
+		var mcScore = zimify(winner.mcScore);
+		var scoreLabel = new Label(
+		{
+			text: "",
+			color: "#333333",
+			font: "Lilita One",
+			size: 40,
+			align: "center"
+		}).center(mcScore);
+		//------------------------;
+		butReplay.on("click", function ()
+		{
+			Howler.stop();
+			winner.vis(false);
+			doStart();
+		});
+		//------------------------;
+		butHomeMenu.on("click", function ()
+		{
+			clock.stop();
+			window.menu();
+		});
+		//------------------------;
+		var butHome = this.butHome;
+		butHome.on("click", function ()
+		{
+			clock.stop();
+			window.menu();
+		});
+		//------------------------;
+		var butChange = zimify(this.butChange).vis(false);
+		butChange.on("click", function ()
+		{
+			//butShowAnswer.vis(true);
+			
+			//emoji.alp(0);
+			tile.items[0].alp(1);
+			tile.items[1].alp(1);
+			tile.items[2].alp(1);
+			tile.items[3].color = "#FFFFFF";
+			tile.items[3].borderColor = "#339933";
+			doNextQuestion();
+		}); //------------------------;
+		var butShowAnswer = zimify(this.butShowAnswer).vis(false);
+		butShowAnswer.on("click", function ()
+		{
+			doSound(sfx3);
+			butShowAnswer.vis(false);
+			//emoji.alp(0);
+			tile.noMouse();
+			tile.items[0].alp(.1);
+			tile.items[1].alp(.1);
+			tile.items[2].alp(.1);
+			tile.items[3].color = "#00CC99";
+			tile.items[3].borderColor = "#00CC99";
+		});
+		//----------------------------;
+		timeout(.3, function ()
+		{
+			loadData();
+		});
+		//----------------------------;
+		
+		doStart();
+		//----------------------------;
+		//----------------------------;
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// win
+	this.win = new lib.mc_winners();
+	this.win.name = "win";
+
+	this.timeline.addTween(cjs.Tween.get(this.win).wait(1));
+
+	// but
+	this.butChange = new lib.mc_but_change_question();
+	this.butChange.name = "butChange";
+	this.butChange.setTransform(0,287.55);
+
+	this.butShowAnswer = new lib.mc_but_showAnswer();
+	this.butShowAnswer.name = "butShowAnswer";
+	this.butShowAnswer.setTransform(0,287.55);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.butShowAnswer},{t:this.butChange}]}).wait(1));
+
+	// clock
+	this.mcClock = new lib.mc_clock();
+	this.mcClock.name = "mcClock";
+	this.mcClock.setTransform(44.1,295);
+
+	this.timeline.addTween(cjs.Tween.get(this.mcClock).wait(1));
+
+	// cont
+	this.instance = new lib.mc_math_title();
+	this.instance.setTransform(0,-336.15,0.7328,0.7325);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#666666").ss(1,1,1,3,true).p("Av8AAIf5AA");
+	this.shape.setTransform(0,-303.75,0.9393,1);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#333333").s().p("AgWAoQgJgIAAgNIAQAAQAAAIAEAEQAFAEAHABQAHAAAFgDQADgEAAgGQABgFgEgDQgEgEgKgFQgMgFgFgCQgFgEgDgFQgCgFAAgGQAAgMAIgHQAJgIALABQAOAAAJAHQAIAIAAANIgQAAQAAgGgDgFQgFgEgHAAQgFAAgEADQgEADAAAGQAAAFADADQADADAKAEQAQAHAHAGQAGAGAAAKQAAAMgIAIQgJAGgOAAQgNAAgKgIg");
+	this.shape_1.setTransform(48.05,-292.1);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#333333").s().p("AAQAwIAAg9QAAgLgEgFQgDgEgIAAQgEAAgFAEQgFADgCAHIAABDIgPAAIAAhdIAOAAIAAAKQAKgMAMAAQAZAAABAhIAAA+g");
+	this.shape_2.setTransform(34.25,-292.175);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#333333").s().p("AgZAlQgKgLgBgUIAAgJQAAgVAKgLQAKgMAQAAQAQAAAKALQAKAMAAATIAAAJQABAVgLAMQgKALgQAAQgPAAgKgLgAgOgaQgGAIAAAOIAAAIQAAAPAGAIQAFAJAJAAQAUAAABgdIAAgKQAAgOgGgJQgGgIgJAAQgJAAgFAIg");
+	this.shape_3.setTransform(19.95,-292.1);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#333333").s().p("AgHBAIAAhdIAPAAIAABdgAgGgvQgBgDAAgEQAAgEABgDQACgCAEAAQAEAAADADQACADAAADQAAAEgCADQgDACgEAAQgEAAgCgCg");
+	this.shape_4.setTransform(7.95,-293.8);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#333333").s().p("AgCA0QgFgGAAgMIAAg5IgOAAIAAgNIAOAAIAAgWIAOAAIAAAWIAPAAIAAANIgPAAIAAA5QAAAGACADQACACAEAAIAHgBIAAAOQgGABgFAAQgJAAgEgHg");
+	this.shape_5.setTransform(-2.45,-293.15);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#333333").s().p("AgYAmQgJgLAAgWIAAgJQAAgVAJgLQAJgLARAAQAOAAAJAJQAIAIABAQIgPAAQAAgKgFgFQgEgFgIAAQgKgBgEAIQgFAGgBAPIAAAMQAAAQAFAHQAFAGAKABQAHgBAFgEQAFgFAAgIIAPAAQgBANgJAJQgJAJgNgBQgRAAgJgKg");
+	this.shape_6.setTransform(-14.375,-292.1);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#333333").s().p("AgZAqQgHgIAAgNQAAgOAKgHQAKgJAPAAIAMAAIAAgKQAAgIgEgEQgEgDgHAAQgGAAgFAEQgEAEAAAGIgPAAQAAgHAEgHQAEgGAHgEQAIgDAHAAQAPAAAHAGQAIAIAAAOIAAAuQAAAKADAIIAAACIgQAAIgCgKQgIALgMAAQgNAAgHgGgAgKAHQgHAEAAAIQAAAJAEADQADAEAIAAQAEAAAFgEQAFgDADgEIAAgXIgJAAQgKAAgGAGg");
+	this.shape_7.setTransform(-28.325,-292.1);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#333333").s().p("AgSAwIAAhdIAPAAIAAAJQAFgLALAAIAGABIAAAPIgGAAQgMAAgEANIAABCg");
+	this.shape_8.setTransform(-40.475,-292.175);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#333333").s().p("AggA/IAAh9IBBAAIAAAOIgxAAIAAArIApAAIAAAMIgpAAIAAA4g");
+	this.shape_9.setTransform(-52.95,-293.725);
+
+	this.butHome = new lib.mc_but_home();
+	this.butHome.name = "butHome";
+	this.butHome.setTransform(-457.2,-332.75,0.8184,0.8184,0,0,0,0.1,0.1);
+
+	this.cont = new lib.mc_empty();
+	this.cont.name = "cont";
+
+	this.butSound = new lib.mc_but_sound();
+	this.butSound.name = "butSound";
+	this.butSound.setTransform(458.65,-333.7,0.9002,0.9,0,0,0,-0.6,-0.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.butSound},{t:this.cont},{t:this.butHome},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.instance}]}).wait(1));
+
+	// zem
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("rgba(255,153,0,0.188)").s().p("EhH5A6jQikAAh1h1Qh1h0AAilMAAAhopQAAilB1h1QB1h0CkAAMCPzAAAQCkAAB1B0QB1B1AAClMAAABopQAAClh1B0Qh1B1ikAAg");
+	this.shape_10.setTransform(0,0.0094,1,1.0007);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_10).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.gameB, new cjs.Rectangle(-500.5,-375.5,1001,751), null);
+
+
+(lib.gameA = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		var rootMC = this;
+		//---;
+		var butSound = this.butSound;
+		var butFS = this.butFS;
+		//---;
+		var soundEnabled = true;
+		//--------------------------------------------------------------;
+		var ratio = window.devicePixelRatio;
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		//--------------------------------------------------------------;
+		//--------------------------------------------------------------;
+		var sfx1 = new Howl(
+		{
+			src: ["sounds/click.mp3"]
+		});
+		
+		var sfx2 = new Howl(
+		{
+			src: ["sounds/warn.mp3"]
+		});
+		
+		var sfx3 = new Howl(
+		{
+			src: ["sounds/pop.mp3"]
+		});
+		
+		var sfx4 = new Howl(
+		{
+			src: ["sounds/correct.mp3"]
+		});
+		
+		var sfx5 = new Howl(
+		{
+			src: ["sounds/music.mp3"],
+			volume:0.1,
+			loop:true
+		});
+		var sfx6 = new Howl(
+		{
+			src: ["sounds/powerup.mp3"]
+		});
+		
+		//--------------------------------------------;
+		function doSound(sound)
+		{
+			if (soundEnabled)
+			{
+				sound.play();
+			}
+		} //end of function
+		//--------------------------------------------;
+		
+		//--------------------------------------------;
+		function doCheckElementSame(_arr, _a)
+		{
+			var arr = [];
+			for (var i = 0; i < _arr.length; i++)
+			{
+				if (_a == _arr[i])
+				{
+					arr.push(_arr[i]);
+				}
+			}
+			return arr.length;
+		} //end of function
+		//--------------------------;
+		//--------------------------;
+		function doShuffle(a)
+		{
+			for (var i = a.length - 1; i > 0; i--)
+			{
+				var j = Math.floor(Math.random() * (i + 1));
+				[a[i], a[j]] = [a[j], a[i]];
+			}
+			return a;
+		}
+		//--------------------------;
+		function doAnimatePop(_mc)
+		{
+			_mc.animate(
+			{
+				props:
+				{
+					scale: 1.1
+				},
+				time: .2,
+				rewind: true
+			});
+		}
+		//--------------------------;
+		function doAnimateEmoji()
+		{
+			emoji.alp(0).sca(1).top();
+			emoji.animate(
+			{
+				props:
+				{
+					alpha: 1,
+					scale: 1.2
+				},
+				time: .3,
+				ease: "backOut"
+			});
+		}
+		//--------------------------;
+		
+		//----------------------------------------------------;
+		butSound.on("click", function ()
+		{
+			if (soundEnabled)
+			{
+				doSound(sfx1);
+				soundEnabled = false;
+				butSound.gotoAndStop(1);
+				sfx5.pause();
+			}
+			else
+			{
+				doSound(sfx1);
+				soundEnabled = true;
+				butSound.gotoAndStop(0);
+				sfx5.play();
+			}
+		}) //end of function
+		//----------------------------------------------------;
+		//butHome.on("click", function ()
+		//{
+		//	doSound(sfx1);
+		//	mcMenu.visible = true;
+		//	//drawCanvas();
+		//});
+		//----------------------------------------------------;
+		
+		//--------------------------------------------;
+		//--------------------------------------------;
+		
+		//--------------------------------------------;
+		//--------------------------------------------;
+		
+		var fullScreenEnabled = true;
+		var elem = document.documentElement;
+		function openFullscreen()
+		{
+			if (elem.requestFullscreen)
+			{
+				elem.requestFullscreen();
+			}
+			else if (elem.mozRequestFullScreen)
+			{ /* Firefox */
+				elem.mozRequestFullScreen();
+			}
+			else if (elem.webkitRequestFullscreen)
+			{ /* Chrome, Safari and Opera */
+				elem.webkitRequestFullscreen();
+			}
+			else if (elem.msRequestFullscreen)
+			{ /* IE/Edge */
+				elem.msRequestFullscreen();
+			}
+		}
+		/* Close fullscreen */
+		function closeFullscreen()
+		{
+			if (document.exitFullscreen)
+			{
+				document.exitFullscreen();
+			}
+			else if (document.mozCancelFullScreen)
+			{ /* Firefox */
+				document.mozCancelFullScreen();
+			}
+			else if (document.webkitExitFullscreen)
+			{ /* Chrome, Safari and Opera */
+				document.webkitExitFullscreen();
+			}
+			else if (document.msExitFullscreen)
+			{ /* IE/Edge */
+				document.msExitFullscreen();
+			}
+		}
+		//----;
+		//butFS.addEventListener("mousedown", fFS);
+		function fFS(evt)
+		{
+			if (fullScreenEnabled)
+			{
+				fullScreenEnabled = false;
+				//butFS.gotoAndStop(1);
+				openFullscreen();
+			}
+			else
+			{
+				fullScreenEnabled = true;
+				butFS.gotoAndStop(0);
+				closeFullscreen();
+			}
+		}
+		//----------------------------------------------;
+		var dataOBJ = {
+			score: 0
+		};
+		var bestScore = 0;
+		//--------------------------------------------;
+		function loadData()
+		{
+			if (window.localStorage && window.localStorage.mathQuestGA1)
+			{
+				dataOBJ = JSON.parse(window.localStorage.getItem("mathQuestGA1"));
+				bestScore = dataOBJ.score;
+				scoreLabel.text = bestScore;
+			}
+			else
+			{
+				dataOBJ = {
+					score: 0
+				};
+				window.localStorage.setItem("mathQuestGA1", JSON.stringify(dataOBJ));
+			}
+		} //end of function
+		function saveData()
+		{
+			dataOBJ = {
+				score: bestScore
+			};
+			window.localStorage.setItem("mathQuestGA1", JSON.stringify(dataOBJ));
+		} //end of function
+		//----------------------------------------------;
+		var thisMC = this;
+		
+		var mc0 = this.mc0;
+		var mc1 = this.mc1;
+		var mc2 = this.mc2;
+		var mc3 = this.mc3;
+		var mc4 = this.mc4;
+		var cont = zimify(this.cont);
+		var userAnswer = -1;
+		var questNUM = 0;
+		var wrongNUM = 0;
+		//--------------------------------------------------------;
+		var mcClock = this.mcClock;
+		var clock = new Timer(
+		{
+			time: 180,
+			colon: true,
+			down: true,
+			font: "Lilita One",
+			size: 36,
+			color: "#333333",
+			align: "center",
+			backgroundColor: false
+		}).center(mcClock);
+		clock.stop();
+		//clock.visible = false;
+		////-------------------------;
+		clock.on("complete", function (e)
+		{
+			doFinishGame();
+		});
+		//--------------------------------------------------------;
+		//--------------------------------------------------------;
+		var rect = new Rectangle(
+		{
+			width: 360,
+			height: 120,
+			color: "#FFFFFF",
+			borderColor: "#777777",
+			borderWidth: 2.5,
+			corner: 7
+		});
+		var tile = new Tile(rect.clone(), 2, 2, 15, 15).centerReg(cont).mov(0, 60).noMouse();
+		//--------------------------------------------------------;
+		for (var i = 0; i < tile.items.length; i++)
+		{
+			tile.items[i].deg = i + 1;
+			tile.items[i].on("mousedown", function (e)
+			{
+				//doSound(sfx1);
+				userAnswer = e.currentTarget.deg;
+				if (userAnswer == 4)
+				{
+					butChange.vis(false);
+					butShowAnswer.vis(false);
+					doSound(sfx4);
+					e.currentTarget.color = "#00CC99";
+					e.currentTarget.borderColor = "#00CC99";
+					tile.noMouse();
+					//---;
+					questNUM++;
+					bestScore++;
+					scoreLabel.text = bestScore;
+					saveData();
+					timeout(1, function ()
+					{
+						doNextQuestion();
+					});
+		
+				}
+				else
+				{
+					doSound(sfx2);
+					e.currentTarget.color = "#EC0C8A";
+					e.currentTarget.borderColor = "#EC0C8A";
+		
+					wrongNUM++;
+					tile.noMouse();
+					tile.items[0].alp(.1);
+					tile.items[1].alp(.1);
+					tile.items[2].alp(.1);
+					tile.items[3].color = "#00CC99";
+					tile.items[3].borderColor = "#00A078";
+					//doAnimateEmoji();			
+					butChange.vis(true);
+				}
+			})
+		}
+		//----------------------------------------------------;
+		function doNextQuestion()
+		{
+			doSound(sfx1);
+			butChange.vis(false);
+			//butShowAnswer.vis(false);
+			tile.mouse();
+			drawCanvas();
+		}
+		//----------------------------------------------------;
+		function doFinishGame()
+		{
+			if (questNUM > wrongNUM)
+			{
+				winLabel.gotoAndStop(1);
+			}
+			else
+			{
+				winLabel.gotoAndStop(0);
+			}
+			//---;
+			timeout(.4, function ()
+			{
+				stopAnimate();
+				doSound(sfx6);
+				soruContainer.vis(false);
+				tile.vis(false);
+				winner.vis(true);
+				scoreLabel.text = "SCORE: " + questNUM.toString() + "/" + (questNUM + wrongNUM).toString();
+			}) //timeout
+		}
+		//----------------------------------------------------;
+		function doStart()
+		{
+			doSound(sfx5);
+			doSound(sfx3);
+			//---;
+			F.fullscreen();
+			//---;
+			dotResetColors();
+			questNUM = 0;
+			wrongNUM = 0;
+			soruContainer.vis(true);
+			tile.vis(true);
+			tile.mouse();
+			clock.start(180);
+			drawCanvas();
+		};
+		//----------------------------------------------------;
+		function dotResetColors()
+		{
+			for (var i = 0; i < tile.items.length; i++)
+			{
+				tile.items[i].alp(1);
+				tile.items[i].color = "#FFFFFF";
+				tile.items[i].borderColor = "#777777"
+			}
+		}
+		//----------------------------------------------------;
+		function doSwapCircles()
+		{
+			for (var i = 0; i < 4; i++)
+			{
+				var index = Math.floor(Math.random() * 4);
+				if (i != index)
+				{
+					var x0 = tile.items[index].x;
+					var y0 = tile.items[index].y;
+					tile.items[index].x = tile.items[i].x;
+					tile.items[index].y = tile.items[i].y;
+					tile.items[i].x = x0;
+					tile.items[i].y = y0;
+				}
+			}
+		}
+		doSwapCircles();
+		//----------------------------------------------------;
+		
+		//----------------------------------------------------;
+		
+		//----------------------------------------------------;
+		var drm, drmLast;
+		var aStr;
+		var arrSNC = [];
+		var options = {
+			displayMode: true,
+			debugBounds: false,
+			strict: false
+		};
+		var expA1;
+		var expA2;
+		var expA3;
+		var expB1;
+		var expB2;
+		var expB3;
+		var expC1;
+		var expC2;
+		var expC3;
+		var expC4;
+		var expA;
+		var expB;
+		var expC;
+		var numA;
+		var numB;
+		var numC;
+		var obj = {};
+		//----------------------------------------------------;
+		var soruContainer = new Container().center(cont).mov(0, -200);
+		var eqA = new Container(100, 100).center(tile.items[0]);
+		var eqB = new Container(100, 100).center(tile.items[1]);
+		var eqC = new Container(100, 100).center(tile.items[2]);
+		var eqD = new Container(100, 100).center(tile.items[3]);
+		//----------------------------------------------------;
+		function drawCanvas()
+		{
+			userAnswer = -1;
+			doSwapCircles();
+			dotResetColors();
+			//---;
+			drm = Math.floor(Math.random() * 5 + 1);
+			//drm = 3;
+			//---;
+			if (drm == 1 || drm == 2)
+			{
+				arrA = [7, 8, 9, 10, 11, 12, 13];
+				arrB = [7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+				shuffle(arrA);
+				shuffle(arrB);
+				//---;
+				var a = 2 * Math.floor(Math.random() * 49 + 1);
+				var b = 5 * Math.floor(Math.random() * 20 + 1);
+				var c = a * b / 100;
+				numC = c;
+				//---;
+				expA = "\\textsf{ What is " + b.toString() + "\\% of " + a.toString() + "?}";
+				//---;
+				var tA = shuffle([-5, -5, -3, -2, -1, 1, 2, 3, 4, 5]);
+				//---;
+				expC1 = decimals(numC + tA[0]);
+				expC2 = decimals(numC + tA[1]);
+				expC3 = decimals(numC + tA[2]);
+				expC4 = decimals(numC);
+			}
+			else if (drm == 3 || drm == 4)
+			{
+				arrA = [7, 8, 9, 10, 11, 12, 13];
+				arrB = [7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+				shuffle(arrA);
+				shuffle(arrB);
+				//---;
+				var a = 5 * Math.floor(Math.random() * 20 + 1);
+				var b = 2 * Math.floor(Math.random() * 48 + 1);
+				var c = a * b / 100;
+				numC = c;
+				//---;
+				expA = "\\textsf{ What is " + b.toString() + "\\% of " + a.toString() + "?}";
+				//---;
+				var tA = shuffle([-5, -5, -3, -2, -1, 1, 2, 3, 4, 5]);
+				//---;
+				expC1 = decimals(numC + tA[0]);
+				expC2 = decimals(numC + tA[1]);
+				expC3 = decimals(numC + tA[2]);
+				expC4 = decimals(numC);
+			}
+			else
+			{
+				arrA = [7, 8, 9, 10, 11, 12, 13];
+				arrB = [7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+				shuffle(arrA);
+				shuffle(arrB);
+				//---;
+				var a = Math.floor(Math.random() * 90 + 10);
+				var b = 10 * Math.floor(Math.random() * 10 + 1);
+				var c = a * b / 100;
+				numC = c;
+				//---;
+				expA = "\\textsf{ What is " + b.toString() + "\\% of " + a.toString() + "?}";
+				//---;
+				var tA = shuffle([-3, -2, -1, 1, 2, 3]);
+				//---;
+				expC1 = decimals(numC + tA[0]);
+				expC2 = decimals(numC + tA[1]);
+				expC3 = decimals(numC + tA[2]);
+				expC4 = decimals(numC);
+			}
+			//--------------------;
+			if (expC1 < 0 || expC2 < 0 || expC3 < 0)
+			{
+				zog("alert_01");
+				drawCanvas();
+				return;
+			}
+			//--------------------;
+			if (expC1 == expC2 || expC1 == expC3 || expC1 == expC4 || expC2 == expC3 || expC2 == expC4 || expC3 == expC4)
+			{
+				zog("alert_02");
+				drawCanvas();
+				return;
+			}
+		
+			//--------------------;
+			soruContainer.removeAllChildren();
+			eqA.removeAllChildren();
+			eqB.removeAllChildren();
+			eqC.removeAllChildren();
+			eqD.removeAllChildren();
+			//--------------------;
+			var question = new CanvasLatex.
+			default (expA.toString(), options);
+			zimify(question);
+			question.centerReg(soruContainer).sca(1.2);
+		
+			//--------------------;
+			var equationA = new CanvasLatex.
+			default ("\\mathsf{" + expC1.toString() + "}", options);
+			zimify(equationA);
+			equationA.centerReg(eqA).sca(1);
+			//---------------------------;
+			var equationB = new CanvasLatex.
+			default ("\\mathsf{" + expC2.toString() + "}", options);
+			zimify(equationB);
+			equationB.centerReg(eqB).sca(1);
+			//---------------------------;
+			var equationC = new CanvasLatex.
+			default ("\\mathsf{" + expC3.toString() + "}", options);
+			zimify(equationC);
+			equationC.centerReg(eqC).sca(1);;
+			//---------------------------;
+			var equationD = new CanvasLatex.
+			default ("\\mathsf{" + expC4.toString() + "}", options);
+			zimify(equationD);
+			equationD.centerReg(eqD).sca(1);;
+			//---------------------------;
+		
+			//---------------------------;
+			aStr = expC4.toString();
+			if (doCheckElementSame(arrSNC, aStr))
+			{
+				drawCanvas();
+				zog("alert");
+				return;
+			}
+			else
+			{
+				//zog(arrSNC);
+				drmLast = aStr;
+				arrSNC.push(aStr);
+				if (arrSNC.length > 10)
+				{
+					arrSNC.shift();
+					//console.log(arrSNC);
+				}
+			}
+		} //end of function
+		//--------------------------;
+		drawCanvas();
+		this.drawCanvas = drawCanvas;
+		createjs.Tween.get(this).wait(100).call(function ()
+		{
+			drawCanvas();
+		});
+		//--------------------------;
+		
+		//--------------------------;
+		var that = this;
+		//----------------------------;
+		//var emoji = zimify(new lib.emoji()).center(that).alp(0).mov(0, 0);
+		////----------------------------;
+		//emoji.on("click", function ()
+		//{
+		//	emoji.alp(0);
+		//});
+		//------------------------;
+		var winner = zimify(this.win).vis(false);
+		var butReplay = zimify(winner.butReplay);
+		var butHomeMenu = zimify(winner.butHomeMenu);
+		var winLabel = zimify(winner.winLabel);
+		var mcScore = zimify(winner.mcScore);
+		var scoreLabel = new Label(
+		{
+			text: "",
+			color: "#333333",
+			font: "Lilita One",
+			size: 40,
+			align: "center"
+		}).center(mcScore);
+		//------------------------;
+		butReplay.on("click", function ()
+		{
+			Howler.stop();
+			winner.vis(false);
+			doStart();
+		});
+		//------------------------;
+		butHomeMenu.on("click", function ()
+		{
+			clock.stop();
+			window.menu();
+		});
+		//------------------------;
+		var butHome = this.butHome;
+		butHome.on("click", function ()
+		{
+			clock.stop();
+			window.menu();
+		});
+		//------------------------;
+		var butChange = zimify(this.butChange).vis(false);
+		butChange.on("click", function ()
+		{
+			//butShowAnswer.vis(true);
+			
+			//emoji.alp(0);
+			tile.items[0].alp(1);
+			tile.items[1].alp(1);
+			tile.items[2].alp(1);
+			tile.items[3].color = "#FFFFFF";
+			tile.items[3].borderColor = "#339933";
+			doNextQuestion();
+		}); //------------------------;
+		var butShowAnswer = zimify(this.butShowAnswer).vis(false);
+		butShowAnswer.on("click", function ()
+		{
+			doSound(sfx3);
+			butShowAnswer.vis(false);
+			//emoji.alp(0);
+			tile.noMouse();
+			tile.items[0].alp(.1);
+			tile.items[1].alp(.1);
+			tile.items[2].alp(.1);
+			tile.items[3].color = "#00CC99";
+			tile.items[3].borderColor = "#00CC99";
+		});
+		//----------------------------;
+		timeout(.3, function ()
+		{
+			loadData();
+		});
+		//----------------------------;
+		
+		doStart();
+		//----------------------------;
+		//----------------------------;
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// win
+	this.win = new lib.mc_winners();
+	this.win.name = "win";
+
+	this.timeline.addTween(cjs.Tween.get(this.win).wait(1));
+
+	// but
+	this.butChange = new lib.mc_but_change_question();
+	this.butChange.name = "butChange";
+	this.butChange.setTransform(0,287.55);
+
+	this.butShowAnswer = new lib.mc_but_showAnswer();
+	this.butShowAnswer.name = "butShowAnswer";
+	this.butShowAnswer.setTransform(0,287.55);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.butShowAnswer},{t:this.butChange}]}).wait(1));
+
+	// clock
+	this.mcClock = new lib.mc_clock();
+	this.mcClock.name = "mcClock";
+	this.mcClock.setTransform(44.1,295);
+
+	this.timeline.addTween(cjs.Tween.get(this.mcClock).wait(1));
+
+	// cont
+	this.instance = new lib.mc_math_title();
+	this.instance.setTransform(0,-336.15,0.7328,0.7325);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#333333").ss(1,1,1,3,true).p("Au+AAId9AA");
+	this.shape.setTransform(0,-303.75);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#333333").s().p("AgWAoQgJgIAAgNIAQAAQAAAIAEAEQAFAEAHABQAIAAADgDQAEgEABgGQAAgFgEgDQgEgEgJgFQgNgFgFgCQgFgEgCgFQgDgFAAgGQAAgMAIgHQAJgIAMABQAOAAAHAHQAJAIAAANIgQAAQAAgGgDgFQgFgEgGAAQgGAAgEADQgEADAAAGQAAAFADADQADADAKAEQARAHAGAGQAGAGAAAKQAAAMgJAIQgIAGgOAAQgOAAgJgIg");
+	this.shape_1.setTransform(64.55,-292.1);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#333333").s().p("AgXAmQgJgKgBgUIAAgKQAAgVAKgMQAJgMAPAAQAQgBAJALQAIALAAAVIAAAJIgzAAIAAADQAAAPAFAHQAGAGAKABQAGgBAGgCQAFgCAEgGIAIAKQgKANgUAAQgRAAgJgKgAgMgcQgFAHAAANIAkAAIAAgBQgBgOgEgFQgEgHgJABQgJAAgEAGg");
+	this.shape_2.setTransform(50.925,-292.1);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#333333").s().p("AgOA/QgJgEgEgFIAGgKQAJAJAMAAQASAAABgVIAAgMQgIALgNAAQgOAAgIgLQgIgLgBgUIAAgKQAAgWAIgLQAIgLAPAAQAOAAAHAMIABgLIAOAAIAABeQAAASgJAJQgJAJgQAAQgGAAgIgDgAgNgsQgEAHAAAPIAAAKQAAAPAEAHQAFAHAJAAQAMAAAGgLIAAguQgGgMgLAAQgKAAgFAIg");
+	this.shape_3.setTransform(36.625,-290.325);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#333333").s().p("AgZAqQgHgIAAgNQAAgOAKgHQAKgJAPAAIAMAAIAAgKQAAgIgEgEQgEgDgHAAQgGAAgFAEQgEAEAAAGIgPAAQAAgHAEgHQAEgGAHgEQAIgDAHAAQAPAAAHAGQAIAIAAAOIAAAuQAAAKADAIIAAACIgQAAIgCgKQgIALgMAAQgNAAgHgGgAgKAHQgHAEAAAIQAAAJAEADQADAEAIAAQAEAAAFgEQAFgDADgEIAAgXIgJAAQgKAAgGAGg");
+	this.shape_4.setTransform(22.675,-292.1);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#333333").s().p("AgCA0QgFgGABgMIAAg5IgPAAIAAgNIAPAAIAAgWIANAAIAAAWIAPAAIAAANIgPAAIAAA5QABAGACADQABACAEAAIAHgBIAAAOQgFABgGAAQgJAAgEgHg");
+	this.shape_5.setTransform(10,-293.15);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#333333").s().p("AAQAwIAAg9QAAgLgEgFQgDgEgIAAQgEAAgFAEQgFADgCAHIAABDIgPAAIAAhdIAOAAIAAAKQAKgMAMAAQAZAAABAhIAAA+g");
+	this.shape_6.setTransform(-2.2,-292.175);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#333333").s().p("AgXAmQgJgKgBgUIAAgKQAAgVAKgMQAJgMAPAAQAQgBAJALQAIALAAAVIAAAJIgzAAIAAADQAAAPAFAHQAGAGAKABQAGgBAGgCQAFgCAEgGIAIAKQgKANgUAAQgRAAgJgKgAgMgcQgFAHAAANIAkAAIAAgBQgBgOgEgFQgEgHgJABQgJAAgEAGg");
+	this.shape_7.setTransform(-16.075,-292.1);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#333333").s().p("AgYAmQgJgLAAgWIAAgJQAAgVAJgLQAJgLARAAQAOAAAJAJQAIAIABAQIgPAAQAAgKgFgFQgEgFgIAAQgKgBgEAIQgFAGgBAPIAAAMQAAAQAFAHQAFAGAKABQAHgBAFgEQAFgFAAgIIAPAAQgBANgJAJQgJAJgNgBQgRAAgJgKg");
+	this.shape_8.setTransform(-29.775,-292.1);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#333333").s().p("AgSAwIAAhdIAPAAIAAAJQAFgLALAAIAGABIAAAPIgGAAQgMAAgEANIAABCg");
+	this.shape_9.setTransform(-41.875,-292.175);
+
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#333333").s().p("AgXAmQgJgKgBgUIAAgKQAAgVAKgMQAJgMAPAAQAQgBAJALQAIALAAAVIAAAJIgzAAIAAADQAAAPAFAHQAGAGAKABQAGgBAGgCQAFgCAEgGIAIAKQgKANgUAAQgRAAgJgKgAgMgcQgFAHAAANIAkAAIAAgBQgBgOgEgFQgEgHgJABQgJAAgEAGg");
+	this.shape_10.setTransform(-54.525,-292.1);
+
+	this.shape_11 = new cjs.Shape();
+	this.shape_11.graphics.f("#333333").s().p("AgmA/IAAh9IAnAAQASAAAKALQAKAKAAASQAAASgKAJQgJAJgSABIgYAAIAAAxgAgWAAIAXAAQALAAAGgFQAFgGAAgMQAAgMgFgHQgHgGgKAAIgXAAg");
+	this.shape_11.setTransform(-68.9,-293.725);
+
+	this.butHome = new lib.mc_but_home();
+	this.butHome.name = "butHome";
+	this.butHome.setTransform(-457.2,-332.75,0.8184,0.8184,0,0,0,0.1,0.1);
+
+	this.cont = new lib.mc_empty();
+	this.cont.name = "cont";
+
+	this.butSound = new lib.mc_but_sound();
+	this.butSound.name = "butSound";
+	this.butSound.setTransform(458.65,-333.7,0.9002,0.9,0,0,0,-0.6,-0.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.butSound},{t:this.cont},{t:this.butHome},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.instance}]}).wait(1));
+
+	// zem
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f("rgba(153,204,0,0.188)").s().p("EhH5A6jQikAAh1h1Qh1h0AAilMAAAhopQAAilB1h1QB1h0CkAAMCPzAAAQCkAAB1B0QB1B1AAClMAAABopQAAClh1B0Qh1B1ikAAg");
+	this.shape_12.setTransform(0,0.0094,1,1.0007);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_12).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.gameA, new cjs.Rectangle(-500.5,-375.5,1001,751), null);
+
+
+// stage content:
+(lib.index = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.actionFrames = [0];
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		//---------------------------------;
+		var gameContainer = this.gameContainer;
+		//---------------------------------;
+		//---------------------------------;
+		var mcMenu = zimify(this.mcMenu);
+		var butStartA = mcMenu.butA;
+		var butStartB = mcMenu.butB;
+		var butStartC = mcMenu.butC;
+		//-------------------------------;
+		butStartA.on("click", function ()
+		{
+			mcMenu.vis(false);
+			gameContainer.removeAllChildren();
+			timeout(.2, function ()
+			{
+				zimify(new lib.gameA()).addTo(gameContainer).center();
+			});
+		});
+		//-------------------------------;
+		butStartB.on("click", function ()
+		{
+			mcMenu.vis(false);
+			gameContainer.removeAllChildren();
+			zimify(new lib.gameB()).addTo(gameContainer).center();
+			//gameContainer.top();
+		});
+		//-------------------------------;
+		butStartC.on("click", function ()
+		{
+			mcMenu.vis(false);
+			gameContainer.removeAllChildren();
+			zimify(new lib.gameC()).addTo(gameContainer).center();
+			//gameContainer.top();
+		});
+		//-------------------------------;
+		window.menu = function ()
+		{
+			Howler.stop();
+			gameContainer.removeAllChildren();
+			//gameContainer.bot();
+			mcMenu.alp(0).sca(1.2).vis(true).top();
+			mcMenu.animate(
+			{
+				props:
+				{
+					alpha: 1,
+					scale: 1
+				},
+				time: .3
+			})
+		}
+		//-------------------------------;
+		//-------------------------------;
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// Layer_1
+	this.mcMenu = new lib.mcStart();
+	this.mcMenu.name = "mcMenu";
+	this.mcMenu.setTransform(512,384);
+
+	this.timeline.addTween(cjs.Tween.get(this.mcMenu).wait(1));
+
+	// Layer_2
+	this.gameContainer = new lib.mc_empty();
+	this.gameContainer.name = "gameContainer";
+	this.gameContainer.setTransform(512,384);
+
+	this.timeline.addTween(cjs.Tween.get(this.gameContainer).wait(1));
+
+	// stageBackground
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1,3,true).p("EhRjg9jMCjHAAAMAAAB7HMijHAAAg");
+	this.shape.setTransform(512,384);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("EhRjA9kMAAAh7HMCjHAAAMAAAB7Hg");
+	this.shape_1.setTransform(512,384);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new lib.AnMovieClip();
+p.nominalBounds = new cjs.Rectangle(512,384,512,384);
+// library properties:
+lib.properties = {
+	id: 'D1C8CE1919874BEDAA9565410A10F9F9',
+	width: 1024,
+	height: 768,
+	fps: 30,
+	color: "#FFFFFF",
+	opacity: 1.00,
+	manifest: [
+		{src:"images/Bitmap1.png?1712480205016", id:"Bitmap1"}
+	],
+	preloads: []
+};
+
+
+
+// bootstrap callback support:
+
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+
+an.compositions = an.compositions || {};
+an.compositions['D1C8CE1919874BEDAA9565410A10F9F9'] = {
+	getStage: function() { return exportRoot.stage; },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+
+
+an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers) {		
+	var lastW, lastH, lastS=1;		
+	window.addEventListener('resize', resizeCanvas);		
+	resizeCanvas();		
+	function resizeCanvas() {			
+		var w = lib.properties.width, h = lib.properties.height;			
+		var iw = window.innerWidth, ih=window.innerHeight;			
+		var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+		if(isResp) {                
+			if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+				sRatio = lastS;                
+			}				
+			else if(!isScale) {					
+				if(iw<w || ih<h)						
+					sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==1) {					
+				sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==2) {					
+				sRatio = Math.max(xRatio, yRatio);				
+			}			
+		}
+		domContainers[0].width = w * pRatio * sRatio;			
+		domContainers[0].height = h * pRatio * sRatio;
+		domContainers.forEach(function(container) {				
+			container.style.width = w * sRatio + 'px';				
+			container.style.height = h * sRatio + 'px';			
+		});
+		stage.scaleX = pRatio*sRatio;			
+		stage.scaleY = pRatio*sRatio;
+		lastW = iw; lastH = ih; lastS = sRatio;            
+		stage.tickOnUpdate = false;            
+		stage.update();            
+		stage.tickOnUpdate = true;		
+	}
+}
+an.handleSoundStreamOnTick = function(event) {
+	if(!event.paused){
+		var stageChild = stage.getChildAt(0);
+		if(!stageChild.paused || stageChild.ignorePause){
+			stageChild.syncStreamSounds();
+		}
+	}
+}
+an.handleFilterCache = function(event) {
+	if(!event.paused){
+		var target = event.target;
+		if(target){
+			if(target.filterCacheList){
+				for(var index = 0; index < target.filterCacheList.length ; index++){
+					var cacheInst = target.filterCacheList[index];
+					if((cacheInst.startFrame <= target.currentFrame) && (target.currentFrame <= cacheInst.endFrame)){
+						cacheInst.instance.cache(cacheInst.x, cacheInst.y, cacheInst.w, cacheInst.h);
+					}
+				}
+			}
+		}
+	}
+}
+
+
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;
